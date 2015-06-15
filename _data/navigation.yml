@@ -1,0 +1,21 @@
+# Site navigation links
+
+- title: Materiais
+  url: /materiais/
+  excerpt: Material usado nas aulas.
+  image: materiais.jpg
+
+- title: Apresentações
+  url: /apresentacoes/
+  excerpt: Slides de palestras.
+  image: apresentacoes.jpg
+
+- title: Vídeos
+  url: /videos/
+  excerpt: Vídeos para complementar os materiais ou de apresentações.
+  image: videos.jpg
+
+- title: Professores
+  url: /professores/
+  excerpt: Sobre nós.
+#  image:
