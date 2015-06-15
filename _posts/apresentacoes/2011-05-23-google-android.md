@@ -10,7 +10,7 @@ excerpt: Minicurso desenvolvimento na plataforma Google Android apresentado no e
 comments: true
 image:
   teaser: 2011-05-23-teaser-google-android.png
-ads: false
+ads: true
 ---
 
 Minicurso desenvolvimento na plataforma Google Android apresentado no evento SESTINFO 2011 da Universidade Metodista de São Paulo.

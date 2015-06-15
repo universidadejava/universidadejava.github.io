@@ -10,7 +10,7 @@ excerpt: Exemplo de como criar um componente simples com EJB 3.0, a sua publica�
 comments: true
 image:
   teaser: 2013-10-04-teaser-helloworld-ejb.png
-ads: false
+ads: true
 ---
 
 Exemplo de como criar um componente simples com EJB 3.0, a sua publicação no GlassFish e a criação de um cliente console para acessar o componente.

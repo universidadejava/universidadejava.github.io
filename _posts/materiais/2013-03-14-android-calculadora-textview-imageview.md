@@ -10,7 +10,7 @@ excerpt: Vamos criar uma aplicação de Calculadora para o Android.
 comments: true
 image:
   teaser: 2013-03-14-teaser-android-calculadora-textview-imageview.png
-ads: false
+ads: true
 ---
 
 Vamos criar uma aplicação de Calculadora para o Android. Nesse exercício será abordado a criação de uma aplicação Android, utilizando uma Activity e os componentes TextView e ImageView. A aplicação ficará conforme a imagem a seguir:

@@ -10,7 +10,7 @@ excerpt: Usando chave primaria composta no JPA.
 comments: true
 image:
   teaser: 2011-11-28-teaser-jpa-chave-primaria-composta.png
-ads: false
+ads: true
 ---
 
 A chave composta define que vários atributos serão utilizados para definir a chave de uma entidade, com isso, acabamos tendo uma restrição onde os atributos da chave composta não podem ser repetidos.

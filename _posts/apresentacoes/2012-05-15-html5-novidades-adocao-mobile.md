@@ -10,7 +10,7 @@ excerpt: Palestra apresentada no SESTINFO 2012, na Universidade Metodista de Sã
 comments: true
 image:
   teaser: 2012-05-15-teaser-html5-novidades-adocao-mobile.png
-ads: false
+ads: true
 ---
 
 Palestra apresentada no SESTINFO 2012, na Universidade Metodista de São Paulo.

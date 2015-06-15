@@ -4,7 +4,7 @@ title: Universidade Java
 description: Material das aulas, palestras e vídeos sobre desenvolvimento de software.
 logo: logo.jpg
 teaser: teaser.jpg
-locale:
+locale: pt_BR
 url: http://universidadejava.github.io
 #url: http://localhost:4000
 
@@ -27,10 +27,11 @@ owner:
   email: rafasakurai@gmail.com
   twitter:
   google:
-    ad-client:
-    ad-slot:
+    ad-client: ca-pub-5328676972596543
+    ad-slot: 7245725712
+    analytics: UA-21532697-1
   bio:
   avatar: bio-photo.jpg # 160x160 px image for author byline
-disqus-shortname: rafaelsakurai
+  disqus-shortname: rafaelsakurai
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

@@ -10,7 +10,7 @@ excerpt: Apresentação realizada na SESTINFO 2013 da Universidade Metodista de 
 comments: true
 image:
   teaser: 2013-05-14-teaser-introducao-arduino.png
-ads: false
+ads: true
 ---
 
 Apresentação realizada na SESTINFO 2013 da Universidade Metodista de São Paulo.

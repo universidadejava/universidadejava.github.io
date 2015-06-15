@@ -10,7 +10,7 @@ excerpt: Exemplo demonstrando como chamar um componente EJB através de uma clas
 comments: true
 image:
   teaser: 2013-11-04-teaser-chamando-ejb-do-managedbean.png
-ads: false
+ads: true
 ---
 
 Exemplo demonstrando como chamar um componente EJB através de uma classe Managed Bean.

@@ -10,7 +10,7 @@ excerpt: Vamos criar uma aplicação inicial (Olá Mundo!!!) para o Android que 
 comments: true
 image:
   teaser: 2013-03-13-teaser-android-helloworld-textview-imageview-toast.png
-ads: false
+ads: true
 ---
 
 Vamos criar uma aplicação inicial (Olá Mundo!!!) para o Android que utiliza uma Activity e os componentes TextView e ImageView. A aplicação ficará conforme a imagem a seguir:

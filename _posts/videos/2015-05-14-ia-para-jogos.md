@@ -11,7 +11,7 @@ comments: true
 image:
   teaser: 2015-05-14-teaser-ia-para-jogos.png
   feature: 2015-05-14-ia-para-jogos.png
-ads: false
+ads: true
 ---
 
 Nessa palestra será abordado uma breve introdução sobre inteligência artificial e como ela pode ser aplicada para diversos tipos de jogos.

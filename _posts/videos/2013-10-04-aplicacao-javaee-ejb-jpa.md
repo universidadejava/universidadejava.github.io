@@ -10,7 +10,7 @@ excerpt: Aplicação apresenta um CRUD criado com JPA e EJB e sua publicação n
 comments: true
 image:
   teaser: 2013-10-04-teaser-aplicacao-javaee-ejb-jpa.png
-ads: false
+ads: true
 ---
 
 Aplicação apresenta um CRUD criado com JPA e EJB e sua publicação no GlassFish.
