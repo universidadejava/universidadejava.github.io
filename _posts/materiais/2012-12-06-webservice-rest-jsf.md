@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Chamando um web service REST com JSF"
+title: "Web Service REST - Chamando um web service REST com JSF"
 categories: materiais
 author: sakurai
 date: 2012-12-06 09:07:00
