@@ -9,7 +9,7 @@ published: true
 excerpt: Usando chave primaria composta no JPA.
 comments: true
 image:
-  teaser: 2011-11-28-teaser-jpa-chave-primaria-composta.png
+  teaser: teaser-jpa.png
 ads: true
 ---
 
