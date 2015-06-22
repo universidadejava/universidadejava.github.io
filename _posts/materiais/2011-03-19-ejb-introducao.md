@@ -38,6 +38,7 @@ Quando nossa aplicação utiliza o container EJB, este disponibiliza diversos se
 ## Tipos de EJB
 
 Existe três tipos de EJB que podemos utilizar, cada um com sua finalidade:
-Session Beans – Utilizado para guardar a lógica de negocio da aplicação.
-Message-Driven Bean – Utilizado para troca de mensagens.
-Entity Bean (até versão EJB 2.x) – Utilizado para representar as tabelas do banco de dados.
+
+* Session Beans – Utilizado para guardar a lógica de negocio da aplicação.
+* Message-Driven Bean – Utilizado para troca de mensagens.
+* Entity Bean (até versão EJB 2.x) – Utilizado para representar as tabelas do banco de dados.
