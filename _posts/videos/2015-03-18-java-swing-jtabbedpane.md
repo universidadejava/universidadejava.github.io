@@ -4,7 +4,7 @@ title: "Java Swing - JTabbedPane"
 categories: videos
 author: sakurai
 date: 2015-03-18 01:05:00
-tags: [java, swing, jtable]
+tags: [java, swing, jtabbedpane]
 published: true
 excerpt: Nesse vídeo apresento como usar o JTabbedPane para criar uma tela com abas para distribuir e organizar conteúdos.
 comments: true
