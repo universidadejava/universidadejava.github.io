@@ -3,13 +3,13 @@ layout: media
 title: "JPA - Relacionamento @OneToMany e @ManyToOne"
 categories: videos
 author: sakurai
-date: 2014-07-26 23:50:00
+date: 2014-09-26 23:50:00
 tags: [jpa, onetomany, manytoone]
 published: true
 excerpt: Relacionamento @OneToMany e @ManyToOne entre entidades do JPA.
 comments: true
 image:
-  teaser: 2014-07-26-teaser-jpa-um-para-muitos.png
+  teaser: 2014-09-26-teaser-jpa-um-para-muitos.png
 ads: true
 ---
 
