@@ -13,8 +13,6 @@ image:
 ads: true
 ---
 
-## Definindo comentários no código Java
-
 Java possui algumas palavras chaves que são da linguagem e não podem ser usados como nome de variáveis, métodos e classes.
 
 | abstract | assert | boolean | break | byte |
