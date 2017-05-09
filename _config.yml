@@ -5,7 +5,7 @@ description: Material das aulas, palestras e vídeos sobre desenvolvimento de so
 logo: logo.jpg
 teaser: teaser.jpg
 locale: pt_BR
-url: 
+url: http://www.universidadejava.com.br
 
 # Jekyll configuration
 
@@ -27,7 +27,7 @@ owner:
   twitter:
   google:
     ad-client: ca-pub-5328676972596543
-    ad-slot: 9892131312
+    ad-slot: 5489886919
     analytics: UA-21532697-1
   bio:
   avatar: bio-photo.jpg # 160x160 px image for author byline
