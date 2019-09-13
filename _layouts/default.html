@@ -21,7 +21,6 @@
     <meta http-equiv="cleartype" content="on">
 
     <link rel="stylesheet" href="{{ site.url }}/css/main.css">
-    <script defer type="application/javascript" src="https://tags.cmp.tail.digital/e42441d2-de74-4505-934b-ffadea0de955.js" data-config="tailcmpConfig" data-style-prefix="tailcmp"></script>
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
       <script src="{{ site.url }}/js/vendor/html5shiv.min.js"></script>
@@ -54,13 +53,8 @@
       _gaq.push(['_trackPageview']);
 
       (function() {
-        var ga = document.createElement('script'); ga.async = true;
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        
-        ga.setAttribute('type', 'opt-in');
-        ga.setAttribute('data-name', 'analytics');
-        ga.setAttribute('data-type', 'text/javascript');
-
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
