@@ -41,10 +41,12 @@
 
     <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="{{ site.url }}/js/main.js"></script>
+    
+    <script defer type="application/javascript" src="https://tags.cmp.tail.digital/e42441d2-de74-4505-934b-ffadea0de955.js" data-config="tailcmpConfig" data-style-prefix="tailcmp"></script>
 
     {% if site.owner.google.analytics %}
     <!-- Asynchronous Google Analytics snippet -->
-    <script>
+    <script type="opt-in" data-type="application/javascript" data-name="analytics">
       var _gaq = _gaq || [];
       var pluginUrl =
      '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
