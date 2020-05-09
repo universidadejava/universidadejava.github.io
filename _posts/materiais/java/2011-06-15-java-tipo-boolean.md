@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Java - Tipo primitivo boolean"
-categories: materiais
+categories: java
 author: sakurai
 date: 2011-06-15 15:24:00
 tags: [java]

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Java - Declarando constantes"
-categories: materiais
+categories: java
 author: sakurai
 date: 2011-06-16 17:34:00
 tags: [java]

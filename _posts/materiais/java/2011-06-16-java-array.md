@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Java - Arrays"
-categories: materiais
+categories: java
 author: sakurai
 date: 2011-06-16 22:00:00
 tags: [java]

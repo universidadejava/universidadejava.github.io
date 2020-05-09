@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Java - Palavras chave"
-categories: materiais
+categories: java
 author: sakurai
 date: 2011-06-15 15:13:00
 tags: [java]

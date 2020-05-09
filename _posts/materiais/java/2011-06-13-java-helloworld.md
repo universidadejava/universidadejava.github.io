@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Java - Hello World"
-categories: materiais
+categories: java
 author: sakurai
 date: 2011-06-13 18:23:00
 tags: [java]

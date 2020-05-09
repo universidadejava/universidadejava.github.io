@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Java - Operadores de atribuição"
-categories: materiais
+categories: java
 author: sakurai
 date: 2011-06-15 18:42:00
 tags: [java]

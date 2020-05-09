@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Java - Casting de tipos primitivos"
-categories: materiais
+categories: java
 author: sakurai
 date: 2011-06-15 15:48:00
 tags: [java]

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Java - Operadores unários"
-categories: materiais
+categories: java
 author: sakurai
 date: 2011-06-15 17:55:00
 tags: [java]

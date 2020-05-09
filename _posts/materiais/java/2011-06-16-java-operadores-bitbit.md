@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Java - Operadores bit a bit"
-categories: materiais
+categories: java
 author: sakurai
 date: 2011-06-16 21:40:00
 tags: [java]

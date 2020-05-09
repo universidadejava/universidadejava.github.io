@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Java - Introdução ao Java"
-categories: materiais
+categories: java
 author: sakurai
 date: 2011-06-13 18:16:00
 tags: [java]

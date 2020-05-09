@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Java - Origem e evolução da linguagem Java"
-categories: materiais
+categories: java
 author: sakurai
 date: 2011-06-13 18:05:00
 tags: [java]

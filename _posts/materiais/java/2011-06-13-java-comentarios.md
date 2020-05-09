@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Java - Comentários de código"
-categories: materiais
+categories: java
 author: sakurai
 date: 2011-06-13 18:36:00
 tags: [java]

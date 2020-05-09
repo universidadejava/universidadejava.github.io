@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Java Virtual Machine"
-categories: materiais
+categories: java
 author: sakurai
 date: 2011-06-13 18:33:00
 tags: [java]

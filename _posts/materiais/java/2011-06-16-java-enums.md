@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Java - Enums"
-categories: materiais
+categories: java
 author: sakurai
 date: 2011-06-16 22:35:00
 tags: [java]

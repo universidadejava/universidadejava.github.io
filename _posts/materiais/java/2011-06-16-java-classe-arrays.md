@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Java - Classe java.util.Arrays"
-categories: materiais
+categories: java
 author: sakurai
 date: 2011-06-16 21:34:00
 tags: [java]
