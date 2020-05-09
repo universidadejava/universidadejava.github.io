@@ -34,7 +34,7 @@ import java.util.Scanner;
 public class ExemploDoWhile {
   public static void main(String[] args) {
     Scanner entrada = new Scanner(System.in);
-
+    
     int opcao = 0;
 
     do {

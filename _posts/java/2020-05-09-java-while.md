@@ -21,7 +21,7 @@ As estruturas de repetição permitem especificar um bloco de instruções que s
 
 A estrutura while executa um bloco de instruções enquanto uma determinada condição for *verdadeira* (true).
 
-{% highlight java %}
+{% highlight %}
 while(condição)  {
 		< instruções >
 }
@@ -31,7 +31,7 @@ Exemplo:
 
 {% highlight java %}
 /**
- * Exemplo de estrutura de repetição WHILE.
+ * Exemplo de estrutura de repetição while.
  */
 public class ExemploWhile {
   public static void main(String[] args) {
