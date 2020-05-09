@@ -17,7 +17,7 @@ ads: true
 
 Muitas vezes o **for** é utilizado para percorrer um array ou uma coleção de objetos, para facilitar seu uso foi adicionado na versão 5 do Java o **enhanced for**.
 
-{% highlight %}
+{% highlight java %}
 for(<Tipo> <identificador> : <expressão>) {
 		<instruções>
 }
@@ -56,7 +56,7 @@ Neste caso, o primeiro **enhanced for** vai percorrer um array de Strings e impr
 
 Depois ira percorrer uma lista de inteiros imprimindo os valores 100, 322 e 57.
 
-{% highlight %}
+{% highlight java %}
 C:\>javac ExemploForEach.java
 C:\>java ExemploForEach
 Altrano

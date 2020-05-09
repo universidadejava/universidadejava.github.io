@@ -44,7 +44,7 @@ public class ExemploBreak {
 
 Observe que, segundo o condicional da linha 13, caso um número inválido seja digitado o laço **for** iniciado na linha 12 será interrompido imediatamente devido a instrução break existente na linha 15. Uma vez executado o código acima, a seguinte saída será projetada caso o usuário digite o número 5:
 
-{% highlight %}
+{% highlight java %}
 C:\>javac ExemploBreak.java
 C:\>java ExemploBreak
 Digite um numero de 1 a 9 exceto o 5 :

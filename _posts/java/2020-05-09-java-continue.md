@@ -42,7 +42,7 @@ public class ExemploContinue {
 
 Note que o código acima é bem semelhante ao anterior, porém observe que desta vez, ao invés de interromper o laço caso o usuário digite o número 5 ele irá contar de 1 até o número digitado pelo usuário. Caso ele passe pelo número 5, conforme o condicional da linha 13, ele irá imprimir em tela a mensagem da linha 14 e saltará o restante do código e retornará ao início do laço na linha 12. 
 
-{% highlight %}
+{% highlight java %}
 C:\>javac ExemploContinue.java
 C:\>java ExemploContinue
 Digite um numero de 1 a 9: (desta vez saltaremos o 5)

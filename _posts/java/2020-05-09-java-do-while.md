@@ -17,7 +17,7 @@ ads: true
 
 A estrutura **do / while** tem seu bloco de instruções executados pelo menos uma vez, então se a condição ao final das instruções for **true**, o bloco de instruções é executado novamente.
 
-{% highlight %}
+{% highlight java %}
 do {
 		< instruções >
 } while(condição);

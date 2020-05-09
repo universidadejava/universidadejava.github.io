@@ -21,7 +21,7 @@ Na linguagem Java, esta estrutura pode ser utilizada de diversas maneiras, confo
 
 - Com execução de um bloco de instruções, apenas caso a condição seja atendida:
 
-{% highlight %}
+{% highlight java %}
 if(condição) {
   // Comandos executados caso a condição verdadeira
 }
@@ -29,7 +29,7 @@ if(condição) {
 
 - Com execução de um bloco de instruções, caso a condição seja atendida, e com um fluxo alternativo para os casos de condição não atendida:
 
-{% highlight %}
+{% highlight java %}
 if(condição) {
   // Comandos executados caso a condição verdadeira.
 } else {
@@ -39,7 +39,7 @@ if(condição) {
 
 - Com múltiplas condições:
 
-{% highlight %}
+{% highlight java %}
 if(condição 1) {
   // Comandos executados caso a condição 1 verdadeira.
 } else if(condição 2) {
@@ -51,7 +51,7 @@ if(condição 1) {
 }
 {% endhighlight %}
 
-No exemplo a seguir, verificamos se o valor da variável **idade** é **maior ou igual a 18**, caso a condição seja *verdadeira* então entra no bloco do **if**, caso contrário entra no bloco do **else**.
+No exemplo a seguir, verificamos se o valor da variável **idade** é **maior ou igual a 18**, caso a condição seja **verdadeira** então entra no bloco do **if**, caso contrário entra no bloco do **else**.
 
 {% highlight java %}
 /**

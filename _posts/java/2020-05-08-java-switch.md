@@ -19,7 +19,7 @@ O **switch** é uma estrutura de seleção semelhante ao **if** com múltiplas s
 
 Sua utilização deve ser feita da seguinte maneira:
 
-{% highlight %}
+{% highlight java %}
 switch( variável ) {
   case <possível valor da constante> :
     < instruções>
@@ -35,7 +35,7 @@ switch( variável ) {
 }
 {% endhighlight %}
 
-Cada *case* é um caso no qual os comandos dentro dele são executados se o valor dele for o mesmo que a variável recebida no **switch**.
+Cada **case** é um caso no qual os comandos dentro dele são executados se o valor dele for o mesmo que a variável recebida no **switch**.
 
 É importante lembrar que a utilização do comando **break** é facultativa, porem indispensável caso se queira que apenas aquele bloco seja executado e não todos os demais abaixo dele.
 
@@ -69,7 +69,7 @@ public class ExemploSwitch {
 }
 {% endhighlight %}
 
-Neste caso, será impressa a mensagem **“Aluno reprovado !”**, pois nenhum dos *cases* foi atendido, então a estrutura **default** foi executada.
+Neste caso, será impressa a mensagem **“Aluno reprovado !”**, pois nenhum dos **cases** foi atendido, então a estrutura **default** foi executada.
 
 {% highlight java %}
 C:\>javac ExemploSwitch.java
