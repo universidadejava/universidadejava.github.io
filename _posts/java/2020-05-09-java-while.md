@@ -1,12 +1,12 @@
 ---
 layout: article
-title: "Java - switch"
+title: "Java - while"
 categories: java
 author: sakurai
-date: 2020-05-09 00:01:00
+date: 2020-05-09 00:06:00
 tags: [java]
 published: true
-excerpt: switch em Java.
+excerpt: while em Java.
 comments: true
 image:
   teaser: teaser-java.png
