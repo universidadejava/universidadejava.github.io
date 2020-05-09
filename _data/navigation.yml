@@ -8,12 +8,12 @@
 - title: Java EE
   url: /javaee/
   excerpt: Materiais sobre a linguagem Java Enterprise Edition.
-  image: materiais.jpg
+  image: javaee.jpg
 
 - title: Android
   url: /android/
   excerpt: Materiais sobre Android.
-  image: materiais.jpg
+  image: android.jpg
 
 - title: Outros
   url: /outros/
