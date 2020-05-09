@@ -42,29 +42,29 @@ O valor de uma String é imutável, não se pode alterar seu valor. Quando alter
 Então, quando fazemos:
 
 {% highlight java %}
-String novoNome = "Cris" + "tiano”;
+String novoNome = "Cris" + "tiano";
 {% endhighlight %}
 
 Estamos criando 3 Strings:
 {% highlight java %}
-	“Cris”
-	“tiano”
-	“Cristiano”
+	"Cris"
+	"tiano"
+	"Cristiano"
 {% endhighlight %}
 
-Alguns caracteres não podem ser simplesmente colocados dentro de uma String, como, as aspas duplas **(“)**.Este símbolo é usado para indicar o início e o fim de uma String. Por este motivo, caso tenhamos:
+Alguns caracteres não podem ser simplesmente colocados dentro de uma String, como, as aspas duplas **(")**.Este símbolo é usado para indicar o início e o fim de uma String. Por este motivo, caso tenhamos:
 
 {% highlight java %}
 String aspas = """; // Erro de compilação
 {% endhighlight %}
 
-Teremos um erro de compilação, pois estamos deixando uma aspas duplas “ fora do texto. Para os caracteres que não podem ser simplesmente adicionados dentro da String, usamos a barra invertida \ como escape de caracteres. Segue abaixo uma tabela com alguns escapes de caracteres e o que eles representam dentro da String.
+Teremos um erro de compilação, pois estamos deixando uma aspas duplas " fora do texto. Para os caracteres que não podem ser simplesmente adicionados dentro da String, usamos a barra invertida \ como escape de caracteres. Segue abaixo uma tabela com alguns escapes de caracteres e o que eles representam dentro da String.
 
 | \t | Tabulação horizontal |
 | \n | Nova linha           |
-| \” | Aspas duplas         |
-| \’ | Aspas simples        |
-| \\ | Barra invertida      |
+| \" | Aspas duplas         |
+| \' | Aspas simples        |
+| \\\\ | Barra invertida      |
 
 A classe **java.lang.String** tem alguns métodos para se trabalhar com os textos, por exemplo:
 
@@ -92,7 +92,7 @@ Este código lançará uma **NullPointerException**, pois a **String abc** está
 Para transformar qualquer tipo primitivo para **String**, basta utilizar o método:
 
 {% highlight java %}
-String.valueOf( <<informações que se tornará texto>> );
+String.valueOf( <<informacao que se convertida para texto>> );
 {% endhighlight %}
 
 Para utilizá-lo, você deve atribuir a saída do método a uma **String**, e preencher o campo interno do método com o valor desejado, por exemplo:
