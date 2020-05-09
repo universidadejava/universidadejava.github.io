@@ -5,6 +5,21 @@
   excerpt: Materiais sobre a linguagem Java.
   image: materiais.jpg
 
+- title: Java EE
+  url: /javaee/
+  excerpt: Materiais sobre a linguagem Java Enterprise Edition.
+  image: materiais.jpg
+
+- title: Android
+  url: /android/
+  excerpt: Materiais sobre Android.
+  image: materiais.jpg
+
+- title: Outros
+  url: /outros/
+  excerpt: Materiais sobre outros assuntos relacionados a desenvolvimento.
+  image: materiais.jpg
+
 - title: Apresentações
   url: /apresentacoes/
   excerpt: Slides de palestras.
