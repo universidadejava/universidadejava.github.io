@@ -3,7 +3,7 @@ layout: article
 title: "Java - java.lang.String"
 categories: java
 author: sakurai
-date: 2020-05-09 00:06:00
+date: 2020-05-09 15:41:00
 tags: [java]
 published: true
 excerpt: Usando a classe java.lang.String.
