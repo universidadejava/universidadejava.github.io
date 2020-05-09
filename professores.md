@@ -2,6 +2,7 @@
 layout: media
 permalink: /professores/
 title: Professores
+ads: true
 ---
 
 <h2>Cristiano Camilo dos Santos de Almeida</h2>
@@ -9,7 +10,7 @@ title: Professores
 	<img src="/images/cristianocamilo.png">
 </figure>
 
-Sou professor na <a href="htttp://www.metodista.br">Universidade Metodista de São Paulo</a>.
+Atualmente sou gerente na equipe de engenharia do <a href="https://www.itau.com.br/">Itau</a>.
 
 ## Educação
 * **Universidade Federal do ABC** Mestrado em Engenharia da Informação (2010 - 2013);
@@ -17,8 +18,10 @@ Sou professor na <a href="htttp://www.metodista.br">Universidade Metodista de S�
 * **Universidade Metodista de São Paulo (UMESP)** Bacharel em Ciência da Computação (2002 - 2006).
 
 ## Certificações:
-* Java Certified Programmer for the Java 2 Platform, Standard Edition 6.0, ORACLE (2011);
+* DEVOPS Essentials Professional Certificate (DEPC), CertiProf® (2019)
+* SCRUM Foundation Professional Certificate (SFPC), CertiProf® (2019)
 * ITILv3 Foundation Certified, EXIN (2012).
+* Java Certified Programmer for the Java 2 Platform, Standard Edition 6.0, ORACLE (2011);
 
 ## Áreas de interesse:
 * Sistemas inteligentes;
@@ -35,15 +38,16 @@ Sou professor na <a href="htttp://www.metodista.br">Universidade Metodista de S�
 	<img src="/images/rafaelsakurai.png">
 </figure>
 
-Sou professor na <a href="htttp://www.metodista.br">Universidade Metodista de São Paulo</a> e Editor no <a href="http://www.infoq.com/br">InfoQ Brasil</a>.
+Atualmente sou líder técnico na equipe de engenheria de Big Data da <a href="https://www.tail.digital/">Tail</a> e também editor no site <a href="http://www.infoq.com/br">InfoQ Brasil</a>.
 
 ## Educação
-* **Universidade Federal do ABC** Mestrado em Ciências da Computação (2014 - 2016);
+* **Universidade Federal do ABC** Mestrado em Ciências da Computação (2014 - 2017);
 * **Faculdade de Informática e Administração Paulista (FIAP)** MBA em Arquitetura de TI (2009 - 2010);
 * **Faculdade de Informática e Administração Paulista (FIAP)** Especialização em Engenharia de Componentes com Java Java Enterprise e Webservices (2006 - 2007);
 * **Universidade Metodista de São Paulo (UMESP)** Bacharel em Ciência da Computação (2002 - 2005).
 
 ## Certificação:
+* Professional Data Engineer, Google Cloud (2019)
 * Sun Certified Java Associate, Sun Microsystems (2009);
 * Sun Certified Specialist for NetBeans IDE, Sun Microsystems (2008);
 * Sun Certified Web Component Developer for the Java 2 Platform, Enterprise Edition 1.4, Sun Microsystems (2007);
@@ -51,7 +55,7 @@ Sou professor na <a href="htttp://www.metodista.br">Universidade Metodista de S�
 
 ## Áreas de interesse:
 * Inteligência artificial;
-* Aprendizado de maquina em jogos;
+* Aprendizado de maquina;
 * Linguagens de programação;
 * Engenharia de software;
 * Arquitetura de software.
