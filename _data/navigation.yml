@@ -1,8 +1,8 @@
 # Site navigation links
 
-- title: Materiais
-  url: /materiais/
-  excerpt: Material usado nas aulas.
+- title: Java
+  url: /java/
+  excerpt: Materiais sobre a linguagem Java.
   image: materiais.jpg
 
 - title: Apresentações
