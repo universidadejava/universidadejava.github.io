@@ -15,13 +15,13 @@ ads: true
 
 ## Estruturas de controle if / else
 
-A estrutura de controle *if* (se), é utilizada para executar alguns comandos apenas se a sua condição for true (verdadeira). O *else* (senão) pode ou não acompanhar o *if*, mas o *else* não pode ser usado sozinho, e é utilizado para executar alguns comandos caso a condição do *if* for *false* (falso).
+A estrutura de controle **if** (se), é utilizada para executar alguns comandos apenas se a sua condição for true (verdadeira). O **else** (senão) pode ou não acompanhar o **if**, mas o **else** não pode ser usado sozinho, e é utilizado para executar alguns comandos caso a condição do **if** for **false** (falso).
 
 Na linguagem Java, esta estrutura pode ser utilizada de diversas maneiras, conforme listadas abaixo.
 
 - Com execução de um bloco de instruções, apenas caso a condição seja atendida:
 
-{% highlight java %}
+{% highlight %}
 if(condição) {
   // Comandos executados caso a condição verdadeira
 }
@@ -29,7 +29,7 @@ if(condição) {
 
 - Com execução de um bloco de instruções, caso a condição seja atendida, e com um fluxo alternativo para os casos de condição não atendida:
 
-{% highlight java %}
+{% highlight %}
 if(condição) {
   // Comandos executados caso a condição verdadeira.
 } else {
@@ -39,7 +39,7 @@ if(condição) {
 
 - Com múltiplas condições:
 
-{% highlight java %}
+{% highlight %}
 if(condição 1) {
   // Comandos executados caso a condição 1 verdadeira.
 } else if(condição 2) {
@@ -51,7 +51,7 @@ if(condição 1) {
 }
 {% endhighlight %}
 
-No exemplo a seguir, verificamos se o valor da variável *idade* é *maior ou igual a 18*, caso a condição seja *verdadeira* então entra no bloco do *if*, caso contrário entra no bloco do *else*.
+No exemplo a seguir, verificamos se o valor da variável **idade** é **maior ou igual a 18**, caso a condição seja *verdadeira* então entra no bloco do **if**, caso contrário entra no bloco do **else**.
 
 {% highlight java %}
 /**
@@ -70,7 +70,7 @@ public class ExemploIf {
 }
 {% endhighlight %}
 
-Quando executarmos a classe *ExemploIf*, temos a seguinte saída no console:
+Quando executarmos a classe **ExemploIf**, temos a seguinte saída no console:
 
 {% highlight java %}
 C:\>javac ExemploIf.java
@@ -78,7 +78,7 @@ C:\>java ExemploIf
 Idade minima para dirigir eh 18 anos.
 {% endhighlight %}
 
-Dentro de um bloco *{ }* do *if / else* pode ser utilizado outras variáveis declaradas no método ou declarados dentro do bloco, mas estas variáveis podem apenas ser utilizadas dentro deste próprio bloco, por exemplo:
+Dentro de um bloco **{ }** do **if / else** pode ser utilizado outras variáveis declaradas no método ou declarados dentro do bloco, mas estas variáveis podem apenas ser utilizadas dentro deste próprio bloco, por exemplo:
 
 {% highlight java %}
 /**
@@ -99,7 +99,7 @@ public class ExemploIf2 {
 }
 {% endhighlight %}
 
-Se tentarmos compilar a classe *ExemploIf2*, teremos os seguintes erros:
+Se tentarmos compilar a classe **ExemploIf2**, teremos os seguintes erros:
 
 {% highlight java %}
 C:\>javac ExemploIf2.java
@@ -116,6 +116,6 @@ location: class ExemploIf2
 2 errors
 {% endhighlight %}
 
-Neste caso é criado uma variável chamada *xpto* dentro do bloco do *if*, então esta variável pode ser *utilizada somente dentro do if*, não pode ser usada no *else* e nem fora do bloco.
+Neste caso é criado uma variável chamada *xpto* dentro do bloco do **if**, então esta variável pode ser **utilizada somente dentro do if**, não pode ser usada no **else** e nem fora do bloco.
 
-Observação: este conceito de variáveis criadas dentro de blocos *{ }*, funciona para todos os blocos.
+Observação: este conceito de variáveis criadas dentro de blocos **{ }**, funciona para todos os blocos.

@@ -15,9 +15,9 @@ ads: true
 
 ## Estruturas de repetição do / while
 
-A estrutura *do / while* tem seu bloco de instruções executados pelo menos uma vez, então se a condição ao final das instruções for *true*, o bloco de instruções é executado novamente.
+A estrutura **do / while** tem seu bloco de instruções executados pelo menos uma vez, então se a condição ao final das instruções for **true**, o bloco de instruções é executado novamente.
 
-{% highlight java %}
+{% highlight %}
 do {
 		< instruções >
 } while(condição);
@@ -29,7 +29,7 @@ Exemplo:
 import java.util.Scanner;
 
 /**
- * Exemplo de estrutura de repetição DO / WHILE.
+ * Exemplo de estrutura de repetição do/while.
  */
 public class ExemploDoWhile {
   public static void main(String[] args) {
@@ -49,7 +49,7 @@ public class ExemploDoWhile {
 }
 {% endhighlight %}
 
-Neste caso, será pedido ao usuário digitar um número, e enquanto o número digitado for diferente de *3*, o bloco será executado novamente.
+Neste caso, será pedido ao usuário digitar um número, e enquanto o número digitado for diferente de **3**, o bloco será executado novamente.
 
 {% highlight java %}
 C:\>javac ExemploDoWhile.java

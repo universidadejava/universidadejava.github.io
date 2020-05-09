@@ -15,11 +15,11 @@ ads: true
 
 ## Estruturas de controle switch
 
-O *switch* é uma estrutura de seleção semelhante ao *if* com múltiplas seleções. É uma estrutura muito fácil de utilizar e apresenta uma ótima legibilidade, porem trabalha apenas com valores constantes dos tipos primários byte, short, int e char. É possível também enumerar n possíveis blocos de instrução.
+O **switch** é uma estrutura de seleção semelhante ao **if** com múltiplas seleções. É uma estrutura muito fácil de utilizar e apresenta uma ótima legibilidade, porem trabalha apenas com valores constantes dos tipos primários byte, short, int e char. É possível também enumerar n possíveis blocos de instrução.
 
 Sua utilização deve ser feita da seguinte maneira:
 
-{% highlight java %}
+{% highlight %}
 switch( variável ) {
   case <possível valor da constante> :
     < instruções>
@@ -35,11 +35,11 @@ switch( variável ) {
 }
 {% endhighlight %}
 
-Cada *case* é um caso no qual os comandos dentro dele são executados se o valor dele for o mesmo que a variável recebida no *switch*.
+Cada *case* é um caso no qual os comandos dentro dele são executados se o valor dele for o mesmo que a variável recebida no **switch**.
 
-É importante lembrar que a utilização do comando *break* é facultativa, porem indispensável caso se queira que apenas aquele bloco seja executado e não todos os demais abaixo dele.
+É importante lembrar que a utilização do comando **break** é facultativa, porem indispensável caso se queira que apenas aquele bloco seja executado e não todos os demais abaixo dele.
 
-O bloco de comandos *default* representa uma condição geral de execução caso nenhuma das anteriores tenha sido atendida, sendo a sua utilização também opcional.
+O bloco de comandos **default** representa uma condição geral de execução caso nenhuma das anteriores tenha sido atendida, sendo a sua utilização também opcional.
 
 Segue um exemplo de utilização do comando switch:
 
@@ -69,7 +69,7 @@ public class ExemploSwitch {
 }
 {% endhighlight %}
 
-Neste caso, será impressa a mensagem *“Aluno reprovado !”*, pois nenhum dos *cases* foi atendido, então a estrutura *default* foi executada.
+Neste caso, será impressa a mensagem **“Aluno reprovado !”**, pois nenhum dos *cases* foi atendido, então a estrutura **default** foi executada.
 
 {% highlight java %}
 C:\>javac ExemploSwitch.java
