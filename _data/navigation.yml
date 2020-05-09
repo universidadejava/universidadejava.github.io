@@ -10,15 +10,10 @@
   excerpt: Materiais sobre a linguagem Java Enterprise Edition.
   image: javaee.jpg
 
-- title: Android
-  url: /android/
-  excerpt: Materiais sobre Android.
-  image: android.jpg
-
 - title: Outros
   url: /outros/
   excerpt: Materiais sobre outros assuntos relacionados a desenvolvimento.
-  image: materiais.jpg
+  image: outros.jpg
 
 - title: Apresentações
   url: /apresentacoes/
@@ -33,4 +28,4 @@
 - title: Professores
   url: /professores/
   excerpt: Sobre nós.
-#  image:
+  image: professores.jpg
