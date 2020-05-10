@@ -10,7 +10,7 @@ excerpt: Nesse vídeo é apresentado um exemplo de relacionamento de muitos para
 comments: true
 image:
   teaser: 2014-10-03-teaser-jpa-muitos-para-muitos.png
-ads: true
+ads: false
 ---
 
 Nesse vídeo é apresentado um exemplo de relacionamento de muitos para muitos entre duas entidades com o uso da anotação @ManyToMany.

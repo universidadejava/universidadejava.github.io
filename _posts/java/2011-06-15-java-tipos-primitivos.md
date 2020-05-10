@@ -10,7 +10,7 @@ excerpt: Conheça os tipos primitivos do Java.
 comments: true
 image:
   teaser: 2011-06-15-teaser-java-tipos-primitivos.png
-ads: true
+ads: false
 ---
 
 ## Variáveis

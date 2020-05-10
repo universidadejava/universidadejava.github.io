@@ -10,7 +10,7 @@ excerpt: Exemplo de projeto de calculo de ano do chassi seguindo as práticas do
 comments: true
 image:
   teaser: 2014-05-10-teaser-tdd-introducao-exemplo2.png
-ads: true
+ads: false
 ---
 
 Exemplo de projeto de calculo de ano do chassi seguindo as práticas do TDD.

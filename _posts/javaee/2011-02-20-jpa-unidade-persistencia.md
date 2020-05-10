@@ -10,7 +10,7 @@ excerpt: Montando uma únidade de persistência do JPA.
 comments: true
 image:
   teaser: teaser-jpa.png
-ads: true
+ads: false
 ---
 
 ## Unidade de Persistência

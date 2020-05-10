@@ -10,7 +10,7 @@ excerpt: Nesse vídeo apresento uma introdução a integração continua na prá
 comments: true
 image:
   teaser: 2014-05-10-teaser-ic-git-maven-jenkins.png
-ads: true
+ads: false
 ---
 
 Nesse vídeo apresento uma introdução a integração continua na prática usando as ferramentas Git, Maven e Jenkins.

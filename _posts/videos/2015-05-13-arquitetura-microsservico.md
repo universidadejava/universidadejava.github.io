@@ -11,7 +11,7 @@ comments: true
 image:
   teaser: 2015-05-13-teaser-arquitetura-microsservico.png
   feature: 2015-05-13-arquitetura-microsservico.png
-ads: true
+ads: false
 ---
 
 Arquitetura de sistemas baseada em micro serviços é um conceito que está se popularizando nos últimos anos. Mesmo não tendo uma definição completa deste tipo de arquitetura, algumas características são comuns aos sistemas que a utilizam. Iremos abordar na palestra os benefícios da arquitetura e compará-la a outros modelos.

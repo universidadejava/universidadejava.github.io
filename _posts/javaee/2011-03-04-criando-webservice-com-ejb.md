@@ -10,7 +10,7 @@ excerpt: Introdução a Web Services com JAX-WS.
 comments: true
 image:
   teaser: 2011-03-04-teaser-criando-webservice-com-ejb.png
-ads: true
+ads: false
 ---
 
 Para criar um serviço web baseado no EJB 3.0, podemos utilizar a Java API for XML-based Web Services (JAX-WS), através dessa API podemos adicionar anotações ao EJB para que ele possa ser utilizado como um serviço web.

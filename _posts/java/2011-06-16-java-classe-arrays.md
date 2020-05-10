@@ -10,7 +10,7 @@ excerpt: A classe Arrays possui uma série de métodos estáticos que nos ajudam
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 Dentro do pacote java.util encontramos uma classe chamada **Arrays**. Esta classe possui uma série de métodos estáticos que nos ajudam a trabalhar mais facilmente com vetores. Dentre seus principais métodos podemos evidenciar os seguintes:

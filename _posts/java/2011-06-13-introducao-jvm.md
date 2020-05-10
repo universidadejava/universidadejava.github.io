@@ -10,7 +10,7 @@ excerpt: Introdução sobre a JVM.
 comments: true
 image:
   teaser: 2011-06-13-teaser-introducao-jvm.png
-ads: true
+ads: false
 ---
 
 A *Java Virtual Machine* é uma maquina imaginaria que é implementada através da  emulação em software, existe uma JVM diferente para cada Sistema Operacional (SO) e uma vez que sua aplicação é criada, a mesma pode ser executada em diversos SO através da JVM sem ter que ser recompilado.

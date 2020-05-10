@@ -10,7 +10,7 @@ excerpt: Nesse vídeo é apresentado como fazer o relacionamento entre duas enti
 comments: true
 image:
   teaser: 2014-10-03-teaser-jpa-tabela-associacao.png
-ads: true
+ads: false
 ---
 
 Nesse vídeo é apresentado como fazer o relacionamento entre duas entidades utilizando uma tabela de associação com a anotação @JoinTable.

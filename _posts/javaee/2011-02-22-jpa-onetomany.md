@@ -10,7 +10,7 @@ excerpt: Veja como especificar o relacionamento de Um-para-Muitos entre as entid
 comments: true
 image:
   teaser: 2011-02-22-teaser-jpa-onetomany.png
-ads: true
+ads: false
 ---
 
 ## Relacionamento Um-para-Muitos

@@ -10,7 +10,7 @@ excerpt: Relacionamento de um para um entre entidades.
 comments: true
 image:
   teaser: 2014-09-26-teaser-jpa-um-para-um.png
-ads: true
+ads: false
 ---
 
 Relacionamento de um para um entre entidades.

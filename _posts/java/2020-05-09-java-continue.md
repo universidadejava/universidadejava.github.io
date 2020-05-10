@@ -10,7 +10,7 @@ excerpt: continue - passando para a próxima iteração do laço.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## continue 

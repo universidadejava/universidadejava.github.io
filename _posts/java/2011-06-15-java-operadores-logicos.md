@@ -10,7 +10,7 @@ excerpt: Conheça os operadores lógicos do Java.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 Os operadores lógicos aceitam apenas operando do tipo boolean.

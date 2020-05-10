@@ -10,7 +10,7 @@ excerpt: Identidade e igualdade de objetos.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## Identidade e igualdade de objetos

@@ -10,7 +10,7 @@ excerpt: Usando a classe java.lang.String.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## A classe java.lang.String

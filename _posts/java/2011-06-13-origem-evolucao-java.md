@@ -10,7 +10,7 @@ excerpt: Introdução a linguagem de programação Java.
 comments: true
 image:
   teaser: 2011-06-13-teaser-origem-evolucao-java.png
-ads: true
+ads: false
 ---
 
 A linguagem **Java** surgiu a partir de uma pesquisa financiada pela Sun Microsystems em 1991, iniciada sob o codinome de projeto Green.

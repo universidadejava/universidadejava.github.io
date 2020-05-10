@@ -10,7 +10,7 @@ excerpt: JavaServer Faces (JSF) é um framework de interface de usuário para de
 comments: true
 image:
   teaser: teaser-jsf.png
-ads: true
+ads: false
 ---
 
 JavaServer Faces (JSF) é um framework de interface de usuário para desenvolvimento de aplicações web Java. Ele possui um design para facilitar significativamente o trabalho de escrever e manter aplicações wen que rodam em servidores de aplicações Java e renderizam suas interfaces de usuário (telas) de volta para o cliente (navegador) solicitante. (JSR 314: JavaServer Faces 2.0 Specification)

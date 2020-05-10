@@ -10,7 +10,7 @@ excerpt: Aprenda a usar o padrão de projeto Service Locator, para localizar seu
 comments: true
 image:
   teaser: teaser-ejb.png
-ads: true
+ads: false
 ---
 
 Para melhorarmos a forma de fazer lookup, vamos utilizar um padrão de projeto chamado **Service Locator**, que consiste em deixar genérica a forma como é feito o lookup do EJB.

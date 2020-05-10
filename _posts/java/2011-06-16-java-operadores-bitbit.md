@@ -10,7 +10,7 @@ excerpt: Conheça os operadores bit a bit do Java.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## Operador E bit a bit

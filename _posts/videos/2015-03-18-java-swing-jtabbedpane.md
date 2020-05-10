@@ -10,7 +10,7 @@ excerpt: Nesse vídeo apresento como usar o JTabbedPane para criar uma tela com 
 comments: true
 image:
   teaser: 2015-03-18-teaser-java-swing-jtabbedpane.png
-ads: true
+ads: false
 ---
 
 Nesse vídeo apresento como usar o JTabbedPane para criar uma tela com abas para distribuir e organizar conteúdos.

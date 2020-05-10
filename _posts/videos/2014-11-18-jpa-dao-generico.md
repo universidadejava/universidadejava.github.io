@@ -10,7 +10,7 @@ excerpt: Nesse vídeo apresento como criar um DAO genérico que pode ser usado p
 comments: true
 image:
   teaser: 2014-11-18-teaser-jpa-dao-generico.png
-ads: true
+ads: false
 ---
 
 Nesse vídeo apresento como criar um DAO genérico que pode ser usado para reaproveitar métodos como salvar, alterar, remover e consultar por id.

@@ -10,7 +10,7 @@ excerpt: Aprenda a interceptar chamadas aos componentes EJB.
 comments: true
 image:
   teaser: 2011-03-04-teaser-ejb-interceptando.png
-ads: true
+ads: false
 ---
 
 Quando utilizamos EJBs estamos utilizando componentes que possuem seu ciclo de vida gerenciados pelo Container EJB, as vezes desejamos executar algo antes da criação ou depois da criação do EJB, como por exemplo quando terminar de criar o objeto do EJB, gostaríamos de criar os objetos das classes DAOs de forma generica para qualquer EJB, sem ter que ficar declarando em cada EJB como criar os DAOs.

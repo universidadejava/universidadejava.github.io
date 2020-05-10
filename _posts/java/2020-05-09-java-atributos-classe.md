@@ -10,7 +10,7 @@ excerpt: Utilizando os atributos da classe.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## Utilizando os atributos da classe

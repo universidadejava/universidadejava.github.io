@@ -10,7 +10,7 @@ excerpt: Utilizando métodos com parâmetro.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## Métodos com recebimento de parâmetro

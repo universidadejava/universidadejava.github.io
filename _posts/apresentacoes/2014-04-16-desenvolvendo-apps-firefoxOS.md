@@ -10,7 +10,7 @@ excerpt: Apresentação realizada na SESTINFO 2014 da Universidade Metodista de 
 comments: true
 image:
   teaser: 2014-04-16-teaser-desenvolvendo-apps-firefoxOS.png
-ads: true
+ads: false
 ---
 
 Apresentação realizada na SESTINFO 2014 da Universidade Metodista de São Paulo.

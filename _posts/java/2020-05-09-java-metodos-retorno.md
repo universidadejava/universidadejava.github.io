@@ -10,7 +10,7 @@ excerpt: Utilizando métodos com retorno de valor.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## Métodos com retorno de valor

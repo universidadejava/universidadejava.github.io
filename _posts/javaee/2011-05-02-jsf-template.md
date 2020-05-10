@@ -10,7 +10,7 @@ excerpt: Templates são layouts de páginas que podem ser reaproveitadas.
 comments: true
 image:
   teaser: teaser-jsf.png
-ads: true
+ads: false
 ---
 
 ## Introdução ao Facelets

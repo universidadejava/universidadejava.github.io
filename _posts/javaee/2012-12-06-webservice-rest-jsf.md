@@ -10,7 +10,7 @@ excerpt: Vamos criar uma aplicação web com JSF que consome um Web Service REST
 comments: true
 image:
   teaser: 2012-12-06-teaser-webservice-rest-jsf.png
-ads: true
+ads: false
 ---
 
 O serviço web (web service) é uma forma de integração bem utilizada atualmente para realizar a integração entre aplicações. O Web Service REST é uma das formas de criar um serviço web, que utilizada muito o protocolo HTTP para realizar essa integração entre as aplicações.

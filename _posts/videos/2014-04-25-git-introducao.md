@@ -10,7 +10,7 @@ excerpt: Nesse vídeo apresento uma introdução ao Git.
 comments: true
 image:
   teaser: 2014-04-25-teaser-git-introducao.png
-ads: true
+ads: false
 ---
 
 Nesse vídeo apresento uma introdução ao Git.

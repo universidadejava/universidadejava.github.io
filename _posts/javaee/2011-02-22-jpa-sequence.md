@@ -10,7 +10,7 @@ excerpt: No banco de dados Oracle podemos utilizar uma estratégia de SEQUENCE p
 comments: true
 image:
   teaser: teaser-jpa.png
-ads: true
+ads: false
 ---
 
 Quando utilizamos o banco de dados Oracle por exemplo, podemos utilizar uma estratégia de SEQUENCE para obter o ID da entidade.

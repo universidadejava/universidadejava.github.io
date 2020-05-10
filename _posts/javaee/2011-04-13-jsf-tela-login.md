@@ -10,7 +10,7 @@ excerpt: Neste exemplo vamos criar uma simples tela na qual o usuário pode info
 comments: true
 image:
   teaser: teaser-jsf.png
-ads: true
+ads: false
 ---
 
 Neste exemplo vamos criar uma simples tela na qual o usuário pode informar seu login e senha e clicar no botão Entrar para acessar o sistema, conforme imagem a seguir:

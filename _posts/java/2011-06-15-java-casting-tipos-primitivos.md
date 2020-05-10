@@ -10,7 +10,7 @@ excerpt: Veja como funciona conversão de tipos primitivos no Java.
 comments: true
 image:
   teaser: 2011-06-15-teaser-java-casting-tipos-primitivos.png
-ads: true
+ads: false
 ---
 
 ## Casting

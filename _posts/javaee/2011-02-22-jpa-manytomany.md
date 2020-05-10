@@ -10,7 +10,7 @@ excerpt: Veja como especificar o relacionamento de Muitos-para-Muitos entre as e
 comments: true
 image:
   teaser: 2011-02-22-teaser-jpa-manytomany.png
-ads: true
+ads: false
 ---
 
 ## Relacionamento Muitos-para-Muitos

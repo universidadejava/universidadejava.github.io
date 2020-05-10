@@ -10,7 +10,7 @@ excerpt: Conheça o tipo primitivo que representa caractere no Java.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## Tipo caractere (char)

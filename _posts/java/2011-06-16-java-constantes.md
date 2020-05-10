@@ -10,7 +10,7 @@ excerpt: Entenda como declarar e usar uma variável constante no Java.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 Assim como outras linguagens de programação, em Java também é possível se trabalhar com constantes. Para tanto, basta utilizar o modificador de acesso **final**.

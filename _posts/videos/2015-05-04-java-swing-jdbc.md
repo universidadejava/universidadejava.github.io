@@ -10,7 +10,7 @@ excerpt: Nesse vídeo mostro como usar JDBC para interagir com um banco de dados
 comments: true
 image:
   teaser: 2015-05-04-teaser-java-swing-jdbc.png
-ads: true
+ads: false
 ---
 
 Nesse vídeo mostro como usar JDBC para interagir com um banco de dados Oracle em uma aplicação Java Swing.

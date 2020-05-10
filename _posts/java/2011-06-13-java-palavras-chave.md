@@ -10,7 +10,7 @@ excerpt: Palavras chave do Java.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 Java possui algumas palavras chaves que são da linguagem e não podem ser usados como nome de variáveis, métodos e classes.

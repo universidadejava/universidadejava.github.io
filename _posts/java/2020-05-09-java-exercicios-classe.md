@@ -10,7 +10,7 @@ excerpt: Exercícios sobre classe, método e objeto.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## Exercícios sobre classe, método e objeto

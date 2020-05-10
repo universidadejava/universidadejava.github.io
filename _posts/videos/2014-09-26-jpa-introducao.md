@@ -10,7 +10,7 @@ excerpt: Introdução do JPA, criação de Entity, unidade de persistência, Ent
 comments: true
 image:
   teaser: 2014-09-26-teaser-jpa-introducao.png
-ads: true
+ads: false
 ---
 
 Introdução do JPA, criação de Entity, unidade de persistência, EntityManager e Sequence.

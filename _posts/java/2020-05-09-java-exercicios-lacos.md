@@ -10,7 +10,7 @@ excerpt: Alguns exercícios para você estudar laços de repetições.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## Exercícios de laços de repetições

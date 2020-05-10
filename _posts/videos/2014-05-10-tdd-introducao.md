@@ -10,7 +10,7 @@ excerpt: Exemplo de projeto de Calculadora seguindo as práticas do TDD.
 comments: true
 image:
   teaser: 2014-05-10-teaser-tdd-introducao.png
-ads: true
+ads: false
 ---
 
 Exemplo de projeto de Calculadora seguindo as práticas do TDD.

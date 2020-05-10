@@ -10,7 +10,7 @@ excerpt: Aprenda a criar um hello world com EJB 3.0 na IDE NetBeans.
 comments: true
 image:
   teaser: 2011-03-06-teaser-ejb-helloworld-netbeans.png
-ads: true
+ads: false
 ---
 
 Nesse vídeo demonstro como criar um hello world com EJB 3.0.

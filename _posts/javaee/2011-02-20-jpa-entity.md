@@ -10,7 +10,7 @@ excerpt: Representando entidades no JPA.
 comments: true
 image:
   teaser: teaser-jpa.png
-ads: true
+ads: false
 ---
 
 ## Entity

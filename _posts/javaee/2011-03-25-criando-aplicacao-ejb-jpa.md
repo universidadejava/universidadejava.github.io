@@ -10,7 +10,7 @@ excerpt: Criando uma aplicação com EJB e JPA.
 comments: true
 image:
   teaser: 2011-03-25-teaser-criando-aplicacao-ejb-jpa.png
-ads: true
+ads: false
 ---
 
 Vamos desenvolver uma aplicação utilizando EJB 3.0 + JPA 1.0 para efetuar emprestimos de livro, o projeto em questão possui um cadastro de livro, um cadastro de pessoa e podemos emprestar livros para as pessoas.

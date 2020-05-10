@@ -10,7 +10,7 @@ excerpt: Exercícios de JPA para praticar.
 comments: true
 image:
   teaser: teaser-jpa.png
-ads: true
+ads: false
 ---
 
 ## Exercício 1

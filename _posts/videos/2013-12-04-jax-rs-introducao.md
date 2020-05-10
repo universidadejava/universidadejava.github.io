@@ -10,7 +10,7 @@ excerpt: Nesse vídeo apresento como criar um novo projeto com JAX-RS e consumir
 comments: true
 image:
   teaser: 2013-12-04-teaser-jax-rs-introducao.png
-ads: true
+ads: false
 ---
 
 Nesse vídeo será demonstrado como:

@@ -10,7 +10,7 @@ excerpt: Exemplo de projeto de rodízio de carros, que começa criando alguns if
 comments: true
 image:
   teaser: 2014-05-10-teaser-tdd-melhorando-codigo.png
-ads: true
+ads: false
 ---
 
 Exemplo de projeto de rodízio de carros, que começa criando alguns ifs aninhados e depois substitui por polimorfismo, seguindo as práticas do TDD.

@@ -10,7 +10,7 @@ excerpt: Gerenciando as entidades no JPA com o EntityManager.
 comments: true
 image:
   teaser: teaser-jpa.png
-ads: true
+ads: false
 ---
 
 ## EntityManager

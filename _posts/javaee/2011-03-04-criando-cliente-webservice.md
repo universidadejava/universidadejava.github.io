@@ -10,7 +10,7 @@ excerpt: Criando uma aplicação que consome um Web Services.
 comments: true
 image:
   teaser: 2011-03-04-teaser-criando-cliente-webservice.png
-ads: true
+ads: false
 ---
 
 O NetBeans possui uma maneira automática para geração de clientes de web services, para isto basta termos o WSDL do WS, no exemplo abaixo vamos criar um cliente para o WS de Ola Mundo.

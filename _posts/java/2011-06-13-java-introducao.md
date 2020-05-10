@@ -10,7 +10,7 @@ excerpt: Introdução a linguagem de programação Java.
 comments: true
 image:
   teaser: 2011-06-13-teaser-introducao-java.png
-ads: true
+ads: false
 ---
 
 ## Plataforma Java

@@ -10,7 +10,7 @@ excerpt: Nesse vídeo mostro como podemos utilizar o componente JFileChooser do 
 comments: true
 image:
   teaser: 2015-05-06-teaser-java-swing-jfilechooser.png
-ads: true
+ads: false
 ---
 
 Nesse vídeo mostro como podemos utilizar o componente JFileChooser do Swing para abrir e ler um arquivo no formato XML.

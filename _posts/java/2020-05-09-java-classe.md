@@ -10,7 +10,7 @@ excerpt: Classe em Java.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## Classe

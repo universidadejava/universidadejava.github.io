@@ -10,7 +10,7 @@ excerpt: Nesse vídeo apresento como usar o AbstractTableModel em aplicações d
 comments: true
 image:
   teaser: 2015-04-30-teaser-java-swing-abstracttablemodel.png
-ads: true
+ads: false
 ---
 
 Nesse vídeo apresento como usar o AbstractTableModel em aplicações desktop Java Swing para criar modelos de tabelas (JTable) personalizados.

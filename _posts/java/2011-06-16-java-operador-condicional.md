@@ -10,7 +10,7 @@ excerpt: Conheça o operadore condicional do Java.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## O operador condicional é do tipo ternário, pois envolve três operandos.

@@ -10,7 +10,7 @@ excerpt: Relacionamento @OneToMany e @ManyToOne entre entidades do JPA.
 comments: true
 image:
   teaser: 2014-09-26-teaser-jpa-um-para-muitos.png
-ads: true
+ads: false
 ---
 
 Relacionamento @OneToMany e @ManyToOne entre entidades do JPA.

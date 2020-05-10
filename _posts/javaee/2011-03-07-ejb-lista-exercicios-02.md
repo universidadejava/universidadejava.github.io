@@ -10,7 +10,7 @@ excerpt: EJB na prática - lista de exercícios 02.
 comments: true
 image:
   teaser: teaser-ejb.png
-ads: true
+ads: false
 ---
 
 A melhor forma de aprender EJB é praticando, então segue alguns exercícios de EJB.

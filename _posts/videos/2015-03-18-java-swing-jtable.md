@@ -10,7 +10,7 @@ excerpt: Nesse vídeo apresento uma breve introdução do JTable em aplicações
 comments: true
 image:
   teaser: 2015-03-18-teaser-java-swing-jtable.png
-ads: true
+ads: false
 ---
 
 Nesse vídeo apresento uma breve introdução do JTable em aplicações desktop Java Swing, mostro como adicionar o componente no JFrame e como adicionar informações através do seu model.

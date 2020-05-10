@@ -10,7 +10,7 @@ excerpt: Conheça os tipos primitivos que representam números com ponto flutuan
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## Tipos Ponto Flutuante (float ou double)

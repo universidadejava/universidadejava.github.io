@@ -10,7 +10,7 @@ excerpt: foreach em Java.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## Estruturas de repetição "enhanced for" ou “for-each” 

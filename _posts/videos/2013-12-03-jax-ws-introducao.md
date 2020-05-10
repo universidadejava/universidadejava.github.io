@@ -10,7 +10,7 @@ excerpt: Nesse vídeo apresento como criar um novo projeto com JAX-WS e consumir
 comments: true
 image:
   teaser: 2013-12-03-teaser-jax-ws-introducao.png
-ads: true
+ads: false
 ---
 
 Nesse vídeo será apresentado como:

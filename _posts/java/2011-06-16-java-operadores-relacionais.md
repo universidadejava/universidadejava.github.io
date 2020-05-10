@@ -10,7 +10,7 @@ excerpt: Conheça os operadores relacionais do Java.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 Os resultados dos operadores relacionais são do tipo boolean.

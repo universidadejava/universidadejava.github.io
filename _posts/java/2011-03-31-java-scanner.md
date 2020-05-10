@@ -10,7 +10,7 @@ excerpt: Leitura de dados do Console usando a classe Scanner.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 Em Java temos uma classe chamada **java.util.Scanner** que neste momento utilizaremos para receber entradas do usuário via console, mas esta classe também é pode ser utilizada para outros fins, tais como leitura de arquivos por exemplo.

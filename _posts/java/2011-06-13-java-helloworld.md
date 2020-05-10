@@ -10,7 +10,7 @@ excerpt: Hello World em Java.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 Durante o desenvolvimento de aplicações utilizando a linguagem Java, precisamos criar arquivos com a extensão .java.

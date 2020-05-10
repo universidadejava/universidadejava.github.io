@@ -10,7 +10,7 @@ excerpt: Adicionando comentários no meio do código Java.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## Definindo comentários no código Java

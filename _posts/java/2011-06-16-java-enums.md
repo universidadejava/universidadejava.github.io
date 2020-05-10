@@ -10,7 +10,7 @@ excerpt: As Enums surgiram na linguagem Java a partir da versão 5 como uma alte
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 As Enums surgiram na linguagem Java a partir da versão 5 como uma alternativa ao uso de constantes, e para atender de maneira melhor algumas das situações específicas que podem ocorrer durante a programação.

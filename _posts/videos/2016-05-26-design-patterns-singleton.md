@@ -10,7 +10,7 @@ excerpt: Neste vídeo será apresentado o padrão de projetos Singleton.
 comments: true
 image:
   teaser: 2016-05-26-design-patterns-singleton.png
-ads: true
+ads: false
 ---
 
 

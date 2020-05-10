@@ -10,7 +10,7 @@ excerpt: Veja como especificar o relacionamento entre as entidades.
 comments: true
 image:
   teaser: teaser-jpa.png
-ads: true
+ads: false
 ---
 
 ## javax.persistence.CascadeType

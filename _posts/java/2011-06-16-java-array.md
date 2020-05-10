@@ -10,7 +10,7 @@ excerpt: Entenda como declarar, incializar e acessar os elementos de um vetor no
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 Segundo a definição mais clássica da informática, um vetor é uma estrutura de dados homogenia, ou seja, todos os elementos de um vetor são do mesmo tipo.

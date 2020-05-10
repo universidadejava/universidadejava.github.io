@@ -10,7 +10,7 @@ excerpt: Veja como especificar se as entidades relacionadas devem ou não ser co
 comments: true
 image:
   teaser: teaser-jpa.png
-ads: true
+ads: false
 ---
 
 ## javax.persistence.FetchType

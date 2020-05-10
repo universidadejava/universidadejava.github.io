@@ -10,7 +10,7 @@ excerpt: Introdução ao EJB.
 comments: true
 image:
   teaser: teaser-ejb.png
-ads: true
+ads: false
 ---
 
 ## Enterprise JavaBeans 3.0 (EJB)

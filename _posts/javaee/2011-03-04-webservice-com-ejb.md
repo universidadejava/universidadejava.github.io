@@ -10,7 +10,7 @@ excerpt: Introdução a Web Services a partir de componentes EJB.
 comments: true
 image:
   teaser: 2011-03-04-teaser-webservice-com-ejb.png
-ads: true
+ads: false
 ---
 
 Serviço Web (Web Service) é uma forma padronizada para integração entre aplicações diferentes.

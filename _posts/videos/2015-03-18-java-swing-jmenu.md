@@ -10,7 +10,7 @@ excerpt: Nesse vídeo apresento como usar o JMenuBar para criar uma barra de men
 comments: true
 image:
   teaser: 2015-03-18-teaser-java-swing-jmenu.png
-ads: true
+ads: false
 ---
 
 Nesse vídeo apresento como usar o JMenuBar para criar uma barra de menu, como usar o JMenu e JMenuItem para criar os menus e seus itens e também apresento como abrir uma outra JFrame a partir de um item do menu.

@@ -10,7 +10,7 @@ excerpt: Aula introdutória a tecnologia Java, abordando tipos primitivos, Scann
 comments: true
 image:
   teaser: 2012-05-20-teaser-poo-java-basico.png
-ads: true
+ads: false
 ---
 
 Aula introdutória a tecnologia Java, abordando tipos primitivos, Scanner e System.out.

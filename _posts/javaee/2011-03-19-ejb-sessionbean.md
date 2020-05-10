@@ -10,7 +10,7 @@ excerpt: Entenda o que é um Session Bean.
 comments: true
 image:
   teaser: teaser-ejb.png
-ads: true
+ads: false
 ---
 
 O Session Bean é um componente Java que guarda a lógica de negocio da aplicação, este tipo de componente é executado dentro de um Container EJB. Podemos criar um EJB e deixar que diversas aplicações o utilizem. O Stateless Session Bean tem o ciclo de vida que dura apenas o tempo de uma simples chamada de método.

@@ -10,7 +10,7 @@ excerpt: Nesse vídeo apresento como usar o JOptionPane em aplicações desktop 
 comments: true
 image:
   teaser: 2015-03-18-teaser-java-swing-joptionpane.png
-ads: true
+ads: false
 ---
 
 Nesse vídeo apresento como usar o JOptionPane em aplicações desktop Java Swing para criar caixas de diálogo de mensagem, confirmação, opções e inserção de dados.

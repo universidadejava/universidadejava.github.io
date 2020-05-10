@@ -10,7 +10,7 @@ excerpt: Exemplo demonstrando como utilizar o padrão de projetos Singleton.
 comments: true
 image:
   teaser: 2014-06-03-teaser-design-patterns-singleton.png
-ads: true
+ads: false
 ---
 
 Exemplo demonstrando como utilizar o padrão de projetos Singleton.

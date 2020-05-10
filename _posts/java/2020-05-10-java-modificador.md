@@ -10,7 +10,7 @@ excerpt: Visibilidade.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## Visibilidade

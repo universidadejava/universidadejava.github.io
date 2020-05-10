@@ -10,7 +10,7 @@ excerpt: Conheça os tipos primitivos que representam números inteiros no Java.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## Tipos Inteiros (byte, short, int ou long)

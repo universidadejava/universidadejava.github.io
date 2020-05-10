@@ -10,7 +10,7 @@ excerpt: Veja como especificar o relacionamento de Um-para-Um entre as entidades
 comments: true
 image:
   teaser: 2011-02-22-teaser-jpa-onetoone.png
-ads: true
+ads: false
 ---
 
 ## Relacionamento Um-para-Um

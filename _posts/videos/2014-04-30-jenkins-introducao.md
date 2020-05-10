@@ -10,7 +10,7 @@ excerpt: Nesse vídeo apresento uma introdução ao servidor de integração con
 comments: true
 image:
   teaser: 2014-04-30-teaser-ic-introducao-jenkins.png
-ads: true
+ads: false
 ---
 
 Nesse vídeo apresento uma introdução ao servidor de integração contínua Jenkins.

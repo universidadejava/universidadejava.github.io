@@ -10,7 +10,7 @@ excerpt: Nesse vídeo é apresentado como criar consultas nomeadas no JPA.
 comments: true
 image:
   teaser: 2014-10-27-teaser-jpa-consultas-nomeadas.png
-ads: true
+ads: false
 ---
 
 Nesse vídeo é apresentado como criar consultas nomeadas no JPA.

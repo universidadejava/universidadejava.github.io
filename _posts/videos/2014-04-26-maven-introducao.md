@@ -10,7 +10,7 @@ excerpt: Nesse vídeo apresento uma introdução ao Maven.
 comments: true
 image:
   teaser: 2014-04-26-teaser-maven-introducao.png
-ads: true
+ads: false
 ---
 
 Nesse vídeo apresento uma introdução ao Maven.

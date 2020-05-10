@@ -10,7 +10,7 @@ excerpt: Conheça os operadores aritméticos do Java.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ##Operador de adição

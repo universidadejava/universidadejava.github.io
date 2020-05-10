@@ -10,7 +10,7 @@ excerpt: if/else em Java.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## Estruturas de controle if / else

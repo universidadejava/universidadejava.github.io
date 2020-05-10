@@ -10,7 +10,7 @@ excerpt: Exemplo de DAO (CRUD) utilizando JPA.
 comments: true
 image:
   teaser: teaser-jpa.png
-ads: true
+ads: false
 ---
 
 Nesse exemplo vamos salvar, alterar, consultar por id e apagar um registro de pessoa, utilizaremos o banco de dados MySQL.

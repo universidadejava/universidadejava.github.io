@@ -10,7 +10,7 @@ excerpt: Veja como especificar o relacionamento de Muitos-para-Um entre as entid
 comments: true
 image:
   teaser: 2011-02-22-teaser-jpa-manytoone.png
-ads: true
+ads: false
 ---
 
 ## Relacionamento Muitos-para-Um

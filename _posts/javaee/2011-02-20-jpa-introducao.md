@@ -10,7 +10,7 @@ excerpt: Introdução a Java Persistence API.
 comments: true
 image:
   teaser: teaser-jpa.png
-ads: true
+ads: false
 ---
 
 Java Persistence API é um framework para camada de persistência dos dados, pode ser utilizado no contexto Java EE (Java Enterprise Edition) e Java SE (Java Standard Edition). Utilizando este framework temos uma facilidade maior para desenvolver a camada de comunicação entre o Java e o banco de dados.

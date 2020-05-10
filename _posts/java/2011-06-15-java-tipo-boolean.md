@@ -10,7 +10,7 @@ excerpt: Conheça o tipo primitivo boolean do Java.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## Tipo Booleano (boolean)

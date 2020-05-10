@@ -10,7 +10,7 @@ excerpt: A biblioteca http://java.sun.com/jsf/html possui os componentes básico
 comments: true
 image:
   teaser: teaser-jsf.png
-ads: true
+ads: false
 ---
 
 A biblioteca http://java.sun.com/jsf/html possui os componentes básicos para renderização de telas em HTML.

@@ -10,7 +10,7 @@ excerpt: Exemplo de uso de repositório de fontes com Subversion, integração c
 comments: true
 image:
   teaser: 2011-03-22-teaser-ic-jenkins-maven-subversion-sonar.png
-ads: true
+ads: false
 ---
 
 Neste exemplo vamos criar uma aplicação Java bem simples com apenas uma classe e usando o JUnit para testar esta classe, iremos versionar o projeto no Subversion para controlar as alterações, depois vamos configurar o Jenkins CI para ele gerar o build da aplicação a partir do repositório do Subversion, feito isso adicionamos o plugin do Sonar que irá verificar a qualidade do código-fonte.

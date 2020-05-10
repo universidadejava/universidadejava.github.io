@@ -10,7 +10,7 @@ excerpt: break - interrompendo um laço de repetição.
 comments: true
 image:
   teaser: teaser-java.png
-ads: true
+ads: false
 ---
 
 ## break
