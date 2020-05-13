@@ -25,7 +25,7 @@ A organização de pacotes ocorre de forma semelhante a uma biblioteca de dados.
 
 A árvore hierárquica do pacote não possui regras restritas de limitação de quantidade de nós, apenas recomenda-se notação semelhante a da Internet, a fim de reduzir ao máximo a possibilidade de termos mais de um pacote de arquivos de mesmo nome.
 
-Observação: uma boa pratica para nomes de pacotes é utilizar apenas uma palavra como nome do pacote, por exemplo, biblioteca, pessoa, email, e o nome do pacote escrito em minúsculo. O pacote não pode ter o nome de uma palavra-chave do java e não pode começar com número ou caracteres especiais (exceto $ e _).
+> uma boa pratica para nomes de pacotes é utilizar apenas uma palavra como nome do pacote, por exemplo, biblioteca, pessoa, email, e o nome do pacote escrito em minúsculo. O pacote não pode ter o nome de uma palavra-chave do java e não pode começar com número ou caracteres especiais (exceto $ e _).
 
 No exemplo a seguir vamos criar a estrutura de pacotes **br.biblioteca.telas** e dentro deste pacote vamos colocar a classe **CadastroLivro**:
 

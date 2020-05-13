@@ -1,19 +1,19 @@
 ---
 layout: article
-title: "JPA - OneToMany"
+title: "JPA - Um-para-Muitos (OneToMany)"
 categories: javaee
 author: sakurai
 date: 2011-02-22 08:06:00
 tags: [javaee, jpa]
 published: true
-excerpt: Veja como especificar o relacionamento de Um-para-Muitos entre as entidades.
+excerpt: Veja como especificar o relacionamento de Um-para-Muitos (OneToMany) entre as entidades.
 comments: true
 image:
   teaser: 2011-02-22-teaser-jpa-onetomany.png
 ads: false
 ---
 
-## Relacionamento Um-para-Muitos
+## Relacionamento Um-para-Muitos (OneToMany)
 
 Este relacionamento informa que o registro de uma entidade está relacionado com vários registros de outra entidade.
 

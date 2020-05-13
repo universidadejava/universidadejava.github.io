@@ -1,19 +1,19 @@
 ---
 layout: article
-title: "JPA - OneToOne"
+title: "JPA - Um-para-Um (OneToOne)"
 categories: javaee
 author: sakurai
 date: 2011-02-22 05:53:00
 tags: [javaee, jpa]
 published: true
-excerpt: Veja como especificar o relacionamento de Um-para-Um entre as entidades.
+excerpt: Veja como especificar o relacionamento de Um-para-Um (OneToOne) entre as entidades.
 comments: true
 image:
   teaser: 2011-02-22-teaser-jpa-onetoone.png
 ads: false
 ---
 
-## Relacionamento Um-para-Um
+## Relacionamento Um-para-Um (OneToOne)
 
 Este relacionamento informa que há apenas um registro da entidade relacionado com um registro de outra entidade.
 

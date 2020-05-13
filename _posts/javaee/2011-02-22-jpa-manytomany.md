@@ -1,19 +1,19 @@
 ---
 layout: article
-title: "JPA - ManyToMany"
+title: "JPA - Muitos-para-Muitos (ManyToMany)"
 categories: javaee
 author: sakurai
 date: 2011-02-22 08:43:00
 tags: [javaee, jpa]
 published: true
-excerpt: Veja como especificar o relacionamento de Muitos-para-Muitos entre as entidades.
+excerpt: Veja como especificar o relacionamento de Muitos-para-Muitos (ManyToMany) entre as entidades.
 comments: true
 image:
   teaser: 2011-02-22-teaser-jpa-manytomany.png
 ads: false
 ---
 
-## Relacionamento Muitos-para-Muitos
+## Relacionamento Muitos-para-Muitos (ManyToMany)
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/GRyNWIEZ6MQ" frameborder="0" allowfullscreen></iframe>
 

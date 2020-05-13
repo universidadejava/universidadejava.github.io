@@ -1,19 +1,19 @@
 ---
 layout: article
-title: "JPA - ManyToOne"
+title: "JPA - Muitos-para-Um (ManyToOne)"
 categories: javaee
 author: sakurai
 date: 2011-02-22 08:15:00
 tags: [javaee, jpa]
 published: true
-excerpt: Veja como especificar o relacionamento de Muitos-para-Um entre as entidades.
+excerpt: Veja como especificar o relacionamento de Muitos-para-Um (ManyToOne) entre as entidades.
 comments: true
 image:
   teaser: 2011-02-22-teaser-jpa-manytoone.png
 ads: false
 ---
 
-## Relacionamento Muitos-para-Um
+## Relacionamento Muitos-para-Um (ManyToOne)
 
 Este relacionamento informa que existem muitos registros de uma entidade associados a um registro de outra entidade.
 

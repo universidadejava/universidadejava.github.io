@@ -250,7 +250,7 @@ public class SubProdutoOutroPacote extends Produto {
 
 **public** é o modificador menos restritivo de todos os demais. Declarando classes, atributos ou métodos com este modificador, automaticamente dizemos que aquela propriedade é acessível a partir de qualquer outra classe.
 
-Obs: Dentro de um arquivo **.java**, só pode existir uma classe do tipo **public**, e está classe precisa obrigatoriamente ter o mesmo nome que o nome do arquivo **.java**.
+> Dentro de um arquivo **.java**, só pode existir uma classe do tipo **public**, e está classe precisa obrigatoriamente ter o mesmo nome que o nome do arquivo **.java**.
 
 Além dos modificadores de acesso, temos vários outros modificadores que serão abordados futuramente. A seguir, temos uma relação de todos os modificadores e os seus respectivos impactos quando aplicados a Classes, Métodos e Atributos.
 
