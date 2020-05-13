@@ -6,7 +6,7 @@ author: sakurai
 date: 2020-05-09 15:41:00
 tags: [java]
 published: true
-excerpt: Usando a classe java.lang.String.
+excerpt: A classe java.lang.String é utilizada para representar textos (sequência de caracteres).
 comments: true
 image:
   teaser: teaser-java.png

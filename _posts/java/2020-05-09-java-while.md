@@ -6,7 +6,7 @@ author: sakurai
 date: 2020-05-09 00:06:00
 tags: [java]
 published: true
-excerpt: while em Java.
+excerpt: A estrutura while executa um bloco de instruções enquanto uma determinada condição for verdadeira.
 comments: true
 image:
   teaser: teaser-java.png

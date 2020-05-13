@@ -6,7 +6,7 @@ author: sakurai
 date: 2020-05-09 11:57:00
 tags: [java]
 published: true
-excerpt: foreach em Java.
+excerpt: Muitas vezes o for é utilizado para percorrer um array ou uma coleção, e para facilitar seu uso foi adicionado na versão 5 do Java o enhanced for ou foreach.
 comments: true
 image:
   teaser: teaser-java.png

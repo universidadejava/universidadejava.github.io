@@ -6,7 +6,7 @@ author: sakurai
 date: 2020-05-10 00:14:00
 tags: [java]
 published: true
-excerpt: Visibilidade.
+excerpt: Utilizamos alguns modificadores que nos permitem “proteger” o acesso a um atributo, método ou até mesmo uma classe.
 comments: true
 image:
   teaser: teaser-java.png
