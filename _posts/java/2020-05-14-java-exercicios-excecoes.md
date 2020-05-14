@@ -140,6 +140,7 @@ public void depositar(double valor) throws ContaException {}
 
 E crie também a seguinte classe 
 
+{% highlight java %}
 public classe ContaException extends Exception {
 	// Construtor padrão da classe. 
 	public ContaException (String _mensagem) {

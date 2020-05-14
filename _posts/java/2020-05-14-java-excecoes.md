@@ -347,6 +347,7 @@ public class ExemploRuntimeException {
 
 Observe que no trecho de código acima, temos uma variável do tipo int recebendo uma entrada do usuário também do tipo int. Porém, vamos supor que nosso usuário não digite um inteiro, mas sim um caractere.
 
+{% highlight java %}
 C:\>javac material\excecao\ExemploRuntimeException.java
 C:\>java material.excecao.ExemploRuntimeException
 Digite um numero inteiro..: abc
@@ -356,6 +357,7 @@ Exception in thread "main" java.util.InputMismatchException
 	at java.util.Scanner.nextInt(Unknown Source)
 	at java.util.Scanner.nextInt(Unknown Source)
 	at material.excecao.ExemploRuntimeException.main(ExemploRuntime Exception.java:15)
+{% endhighlight %}
 
 Este tipo de exceção, que acontece somente em tempo de execução, a princípio não era tratado e uma exceção do tipo **java.util.InputMismatchException** será gerada e nosso programa é encerrado. Agora iremos prever este erro, utilizando o bloco try / catch:
 
@@ -496,7 +498,6 @@ public class TesteErroDivisao {
 Quando executamos a classe TesteErroDivisao caso não ocorra nenhum problema será apresentado o resto da divisão, se ocorrer algum erro será apresentado a mensagem “Divisão Invalida!!!”.
 
 {% highlight java %}
-
 C:\>javac material\excecao\TesteErroDivisao.java
 C:\>java material.excecao.TesteErroDivisao
 Digite o valor do dividendo: 5
