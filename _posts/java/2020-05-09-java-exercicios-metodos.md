@@ -4,7 +4,7 @@ title: "Java - exercícios sobre métodos"
 categories: java
 author: sakurai
 date: 2020-05-09 23:25:00
-tags: [java]
+tags: [java, método, method, exercícios]
 published: true
 excerpt: Exercícios sobre métodos.
 comments: true

@@ -4,7 +4,7 @@ title: "Java - Declarando constantes"
 categories: java
 author: sakurai
 date: 2011-06-16 17:34:00
-tags: [java]
+tags: [java, constante, final]
 published: true
 excerpt: Entenda como declarar e usar uma variável constante no Java.
 comments: true

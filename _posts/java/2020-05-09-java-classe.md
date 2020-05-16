@@ -4,7 +4,7 @@ title: "Java - classe"
 categories: java
 author: sakurai
 date: 2020-05-09 14:15:00
-tags: [java]
+tags: [java, classe, class]
 published: true
 excerpt: Classe em Java.
 comments: true

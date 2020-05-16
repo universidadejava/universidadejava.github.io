@@ -4,7 +4,7 @@ title: "Java Virtual Machine"
 categories: java
 author: sakurai
 date: 2011-06-13 18:33:00
-tags: [java]
+tags: [java, jvm]
 published: true
 excerpt: Introdução sobre a JVM.
 comments: true

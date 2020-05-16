@@ -4,7 +4,7 @@ title: "Java - Palavras chave"
 categories: java
 author: sakurai
 date: 2011-06-15 15:13:00
-tags: [java]
+tags: [java, palavras-chave]
 published: true
 excerpt: Palavras chave do Java.
 comments: true

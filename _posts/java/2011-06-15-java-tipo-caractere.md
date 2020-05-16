@@ -4,7 +4,7 @@ title: "Java - Tipo primitivo de caractere"
 categories: java
 author: sakurai
 date: 2011-06-15 15:43:00
-tags: [java]
+tags: [java, tipos, primitivos, caractere]
 published: true
 excerpt: Conheça o tipo primitivo que representa caractere no Java.
 comments: true

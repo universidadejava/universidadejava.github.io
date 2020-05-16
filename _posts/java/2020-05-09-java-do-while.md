@@ -4,7 +4,7 @@ title: "Java - do/while"
 categories: java
 author: sakurai
 date: 2020-05-09 00:08:00
-tags: [java]
+tags: [java, do while, loop, repetição]
 published: true
 excerpt: do/while em Java.
 comments: true

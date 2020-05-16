@@ -4,7 +4,7 @@ title: "Java - Operadores bit a bit"
 categories: java
 author: sakurai
 date: 2011-06-16 21:40:00
-tags: [java]
+tags: [java, operadores, bit]
 published: true
 excerpt: Conheça os operadores bit a bit do Java.
 comments: true

@@ -4,7 +4,7 @@ title: "Java - construtor"
 categories: java
 author: sakurai
 date: 2020-05-09 14:32:00
-tags: [java]
+tags: [java, construtor, new]
 published: true
 excerpt: Construtor.
 comments: true

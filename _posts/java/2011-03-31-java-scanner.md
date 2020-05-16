@@ -4,7 +4,7 @@ title: "Java - Entrada de dados via console com java.util.Scanner"
 categories: java
 author: sakurai
 date: 2011-03-31 20:34:00
-tags: [java]
+tags: [java, input, console, scanner]
 published: true
 excerpt: Leitura de dados do Console usando a classe Scanner.
 comments: true

@@ -4,7 +4,7 @@ title: "Java - Tipos primitivos com ponto flutuante"
 categories: java
 author: sakurai
 date: 2011-06-15 15:26:00
-tags: [java]
+tags: [java, tipos, primitivos, float, double]
 published: true
 excerpt: Conheça os tipos primitivos que representam números com ponto flutuante no Java.
 comments: true

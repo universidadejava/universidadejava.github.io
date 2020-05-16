@@ -4,7 +4,7 @@ title: "Java - Origem e evolução da linguagem Java"
 categories: java
 author: sakurai
 date: 2011-06-13 18:05:00
-tags: [java]
+tags: [java, origem, linguagem]
 published: true
 excerpt: Introdução a linguagem de programação Java.
 comments: true

@@ -4,7 +4,7 @@ title: "Java - Arrays"
 categories: java
 author: sakurai
 date: 2011-06-16 22:00:00
-tags: [java]
+tags: [java, array, vetor]
 published: true
 excerpt: Entenda como declarar, incializar e acessar os elementos de um vetor no Java.
 comments: true

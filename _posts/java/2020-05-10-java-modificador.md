@@ -4,7 +4,7 @@ title: "Java - Modificadores de visibilidade"
 categories: java
 author: sakurai
 date: 2020-05-10 00:14:00
-tags: [java]
+tags: [java, visibilidade, public, protected, default, private]
 published: true
 excerpt: Utilizamos alguns modificadores que nos permitem “proteger” o acesso a um atributo, método ou até mesmo uma classe.
 comments: true

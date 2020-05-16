@@ -4,7 +4,7 @@ title: "Java - continue"
 categories: java
 author: sakurai
 date: 2020-05-09 12:02:00
-tags: [java]
+tags: [java, continue]
 published: true
 excerpt: continue - passando para a próxima iteração do laço.
 comments: true

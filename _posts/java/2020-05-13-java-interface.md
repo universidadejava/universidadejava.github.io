@@ -4,7 +4,7 @@ title: "Java - Interfaces"
 categories: java
 author: sakurai
 date: 2020-05-13 00:13:00
-tags: [java]
+tags: [java, interface]
 published: true
 excerpt: Interface é um recurso da linguagem Java que apresenta inúmeras vantagens no sentido da modelagem e instanciação de objetos.
 comments: true

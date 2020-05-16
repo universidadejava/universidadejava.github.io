@@ -4,7 +4,7 @@ title: "Java - Exceções em Java"
 categories: java
 author: sakurai
 date: 2020-05-14 06:31:00
-tags: [java]
+tags: [java, exceções, exception, try, catch, finally]
 published: true
 excerpt: A linguagem Java possui um mecanismo especial para o tratamento de erros que possam ocorrer em tempo de execução do programa. 
 comments: true

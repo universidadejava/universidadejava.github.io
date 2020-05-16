@@ -4,7 +4,7 @@ title: "Java - Introdução ao Java"
 categories: java
 author: sakurai
 date: 2011-06-13 18:16:00
-tags: [java]
+tags: [java, plataforma]
 published: true
 excerpt: Introdução a linguagem de programação Java.
 comments: true

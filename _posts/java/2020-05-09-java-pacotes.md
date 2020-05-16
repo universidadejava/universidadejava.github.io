@@ -4,7 +4,7 @@ title: "Java - Pacotes"
 categories: java
 author: sakurai
 date: 2020-05-09 23:56:00
-tags: [java]
+tags: [java, package, pacotes]
 published: true
 excerpt: Na linguagem Java existe uma maneira simples e direta de se organizar arquivos de código-fonte.
 comments: true

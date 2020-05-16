@@ -4,9 +4,9 @@ title: "Java - Polimorfismo"
 categories: java
 author: sakurai
 date: 2020-05-14 06:42:00
-tags: [java]
+tags: [java, polimorfismo, herança, interface, abstração]
 published: true
-excerpt: 
+excerpt: polimorfismo é a capacidade de um objeto ser referenciado de diversas formas diferentes e com isso realizar as mesmas tarefas de diferentes formas.
 comments: true
 image:
   teaser: teaser-java.png

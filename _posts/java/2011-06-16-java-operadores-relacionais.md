@@ -4,7 +4,7 @@ title: "Java - Operadores relacionais"
 categories: java
 author: sakurai
 date: 2011-06-16 20:30:00
-tags: [java]
+tags: [java, operadores, relacionais]
 published: true
 excerpt: Conheça os operadores relacionais do Java.
 comments: true

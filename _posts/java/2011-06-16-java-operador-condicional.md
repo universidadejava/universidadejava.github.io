@@ -4,7 +4,7 @@ title: "Java - Operador Condicional"
 categories: java
 author: sakurai
 date: 2011-06-16 21:34:00
-tags: [java]
+tags: [java, condicional, ternário]
 published: true
 excerpt: Conheça o operadore condicional do Java.
 comments: true

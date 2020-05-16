@@ -4,7 +4,7 @@ title: "Java - while"
 categories: java
 author: sakurai
 date: 2020-05-09 00:06:00
-tags: [java]
+tags: [java, loop, while, repetição]
 published: true
 excerpt: A estrutura while executa um bloco de instruções enquanto uma determinada condição for verdadeira.
 comments: true

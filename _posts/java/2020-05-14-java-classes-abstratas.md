@@ -4,7 +4,7 @@ title: "Java - Classes Abstratas"
 categories: java
 author: sakurai
 date: 2020-05-14 06:25:00
-tags: [java]
+tags: [java, classe abstrata, herança, abstract]
 published: true
 excerpt: As classes abstratas é um tipo especial de classe que não pode ser instanciada.
 comments: true

@@ -4,7 +4,7 @@ title: "Java - Hello World"
 categories: java
 author: sakurai
 date: 2011-06-13 18:23:00
-tags: [java]
+tags: [java, helloworld]
 published: true
 excerpt: Hello World em Java.
 comments: true

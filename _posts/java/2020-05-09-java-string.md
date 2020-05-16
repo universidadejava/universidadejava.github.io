@@ -4,7 +4,7 @@ title: "Java - java.lang.String"
 categories: java
 author: sakurai
 date: 2020-05-09 15:41:00
-tags: [java]
+tags: [java, string]
 published: true
 excerpt: A classe java.lang.String é utilizada para representar textos (sequência de caracteres).
 comments: true

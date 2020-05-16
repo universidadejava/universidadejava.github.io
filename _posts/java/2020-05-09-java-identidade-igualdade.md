@@ -4,7 +4,7 @@ title: "Java - Identidade e igualdade"
 categories: java
 author: sakurai
 date: 2020-05-09 23:05:00
-tags: [java]
+tags: [java, equals, new, referência, instanciação]
 published: true
 excerpt: Identidade e igualdade de objetos.
 comments: true
@@ -17,7 +17,7 @@ ads: false
 
 Ao criar um objeto a partir de uma classe, criamos uma variável que serve de meio de acesso ao objeto criado em memória, ou como chamamos, uma **referência**.
 
-Exatamente por este motivo, sempre que declaramos um novo objeto, temos de utilizar o comando **new**, pois o mesmo irá efetivamente criar o novo objeto em memória e fornecer o seu “endereço” a variável declarada. 
+Exatamente por este motivo, sempre que declaramos um novo objeto, temos de utilizar o comando **new**, pois o mesmo irá efetivamente criar o novo objeto em memória e fornecer o seu "endereço" a variável declarada. 
 
 O comando **new** recebe um parâmetro que é um construtor de classe.
 

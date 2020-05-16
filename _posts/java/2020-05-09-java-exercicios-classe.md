@@ -4,7 +4,7 @@ title: "Java - exercicios classe, método e objeto"
 categories: java
 author: sakurai
 date: 2020-05-09 14:41:00
-tags: [java]
+tags: [java, classe, método, objeto]
 published: true
 excerpt: Exercícios sobre classe, método e objeto.
 comments: true

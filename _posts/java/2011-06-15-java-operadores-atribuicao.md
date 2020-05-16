@@ -4,7 +4,7 @@ title: "Java - Operadores de atribuição"
 categories: java
 author: sakurai
 date: 2011-06-15 18:42:00
-tags: [java]
+tags: [java, operadores, atribuição]
 published: true
 excerpt: Conheça os operadores aritméticos do Java.
 comments: true

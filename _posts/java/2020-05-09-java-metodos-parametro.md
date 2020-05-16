@@ -4,7 +4,7 @@ title: "Java - métodos com parâmetro"
 categories: java
 author: sakurai
 date: 2020-05-09 14:32:00
-tags: [java]
+tags: [java, método, method, param, parâmetro]
 published: true
 excerpt: Utilizando métodos com parâmetro.
 comments: true

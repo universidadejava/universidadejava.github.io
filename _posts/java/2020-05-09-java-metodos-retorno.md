@@ -4,7 +4,7 @@ title: "Java - métodos com retorno"
 categories: java
 author: sakurai
 date: 2020-05-09 14:27:00
-tags: [java]
+tags: [java, método, method, return]
 published: true
 excerpt: Utilizando métodos com retorno de valor.
 comments: true

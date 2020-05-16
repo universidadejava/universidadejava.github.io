@@ -4,7 +4,7 @@ title: "Java - Assinatura de métodos"
 categories: java
 author: sakurai
 date: 2020-05-09 23:05:00
-tags: [java]
+tags: [java, método, assinatura]
 published: true
 excerpt: Assinatura de métodos.
 comments: true

@@ -4,7 +4,7 @@ title: "Java - Exercícios sobre interfaces"
 categories: java
 author: sakurai
 date: 2020-05-10 00:17:00
-tags: [java]
+tags: [java, interface, exercícios]
 published: true
 excerpt: Exercícios para praticar o uso de interfaces.
 comments: true

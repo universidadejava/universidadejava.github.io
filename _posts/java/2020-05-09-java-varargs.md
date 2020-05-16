@@ -4,7 +4,7 @@ title: "Java - varargs"
 categories: java
 author: sakurai
 date: 2020-05-09 23:05:00
-tags: [java]
+tags: [java, varargs]
 published: true
 excerpt: varargs.
 comments: true

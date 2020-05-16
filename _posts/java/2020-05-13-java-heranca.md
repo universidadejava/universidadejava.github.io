@@ -4,7 +4,7 @@ title: "Java - Herança"
 categories: java
 author: sakurai
 date: 2020-05-13 00:30:00
-tags: [java]
+tags: [java, extends, herança]
 published: true
 excerpt: Em Java, podemos criar classes que herdem atributos e métodos de outras classes, evitando rescrita de código.
 comments: true

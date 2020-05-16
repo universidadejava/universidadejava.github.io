@@ -4,7 +4,7 @@ title: "Java - Exercícios de exceções"
 categories: java
 author: sakurai
 date: 2020-05-13 06:35:00
-tags: [java]
+tags: [java, exceções, exception, exercícios]
 published: true
 excerpt: Exercícios para praticar o uso de exceções no Java. 
 comments: true

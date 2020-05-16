@@ -4,7 +4,7 @@ title: "Java - exercícios com operadores e tipos primitivos"
 categories: java
 author: sakurai
 date: 2020-05-08 22:00:00
-tags: [java]
+tags: [java, tipos, primitivos, operadores, exercícios]
 published: true
 excerpt: Exercícios com operadores e tipos primitivos em Java.
 comments: true

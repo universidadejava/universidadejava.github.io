@@ -4,7 +4,7 @@ title: "Java - Encapsulamento"
 categories: java
 author: sakurai
 date: 2020-05-12 23:38:00
-tags: [java]
+tags: [java, encapsulamento]
 published: true
 excerpt: Encapsular, nada mais é do que proteger membros de outra classe de acesso externo, permitindo somente sua manipulação de forma indireta.
 comments: true

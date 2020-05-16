@@ -4,7 +4,7 @@ title: "Java - switch"
 categories: java
 author: sakurai
 date: 2020-05-09 00:01:00
-tags: [java]
+tags: [java, switch, controle]
 published: true
 excerpt: switch em Java.
 comments: true

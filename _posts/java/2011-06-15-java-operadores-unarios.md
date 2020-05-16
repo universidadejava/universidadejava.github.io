@@ -4,7 +4,7 @@ title: "Java - Operadores unários"
 categories: java
 author: sakurai
 date: 2011-06-15 17:55:00
-tags: [java]
+tags: [java, operadores, unários, incremento, decremento]
 published: true
 excerpt: Conheça os operadores unários de incremento e decremento do Java.
 comments: true

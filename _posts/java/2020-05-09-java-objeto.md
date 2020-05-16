@@ -4,7 +4,7 @@ title: "Java - objeto"
 categories: java
 author: sakurai
 date: 2020-05-09 14:18:00
-tags: [java]
+tags: [java, objeto, object, new]
 published: true
 excerpt: Um objeto é a representação (instância) de uma classe.
 comments: true

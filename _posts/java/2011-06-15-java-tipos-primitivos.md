@@ -4,7 +4,7 @@ title: "Java - Tipos primitivos"
 categories: java
 author: sakurai
 date: 2011-06-15 15:14:00
-tags: [java]
+tags: [java, tipos, primitivos]
 published: true
 excerpt: Conheça os tipos primitivos do Java.
 comments: true

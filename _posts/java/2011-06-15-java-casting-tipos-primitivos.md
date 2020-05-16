@@ -4,7 +4,7 @@ title: "Java - Casting de tipos primitivos"
 categories: java
 author: sakurai
 date: 2011-06-15 15:48:00
-tags: [java]
+tags: [java, casting, conversão, tipos, primitivos]
 published: true
 excerpt: Veja como funciona conversão de tipos primitivos no Java.
 comments: true

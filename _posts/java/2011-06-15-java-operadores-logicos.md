@@ -4,7 +4,7 @@ title: "Java - Operadores lógicos"
 categories: java
 author: sakurai
 date: 2011-06-15 22:43:00
-tags: [java]
+tags: [java, operadores, logicos, E, OU, negação]
 published: true
 excerpt: Conheça os operadores lógicos do Java.
 comments: true

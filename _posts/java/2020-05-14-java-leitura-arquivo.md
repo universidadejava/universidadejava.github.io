@@ -4,9 +4,9 @@ title: "Java - Leitura de arquivos"
 categories: java
 author: sakurai
 date: 2020-05-14 22:46:00
-tags: [java, file, io]
+tags: [java, file, io, read, write]
 published: true
-excerpt: 
+excerpt: Existem diversos meios de se manipular arquivos na linguagem de programação Java.
 comments: true
 image:
   teaser: teaser-java.png

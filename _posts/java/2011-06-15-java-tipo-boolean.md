@@ -4,7 +4,7 @@ title: "Java - Tipo primitivo boolean"
 categories: java
 author: sakurai
 date: 2011-06-15 15:24:00
-tags: [java]
+tags: [java, tipos, primitivos, boolean]
 published: true
 excerpt: Conheça o tipo primitivo boolean do Java.
 comments: true

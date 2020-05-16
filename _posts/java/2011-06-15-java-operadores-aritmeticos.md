@@ -4,7 +4,7 @@ title: "Java - Operadores aritméticos"
 categories: java
 author: sakurai
 date: 2011-06-15 18:12:00
-tags: [java]
+tags: [java, operadores, aritméticos]
 published: true
 excerpt: Conheça os operadores aritméticos do Java.
 comments: true

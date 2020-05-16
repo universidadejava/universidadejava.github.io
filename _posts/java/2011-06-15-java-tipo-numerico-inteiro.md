@@ -4,7 +4,7 @@ title: "Java - Tipo primitivo numérico"
 categories: java
 author: sakurai
 date: 2011-06-15 15:26:00
-tags: [java]
+tags: [java, tipos, primitivos, byte, short, int, long]
 published: true
 excerpt: Conheça os tipos primitivos que representam números inteiros no Java.
 comments: true

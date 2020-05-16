@@ -4,7 +4,7 @@ title: "Java - Enums"
 categories: java
 author: sakurai
 date: 2011-06-16 22:35:00
-tags: [java]
+tags: [java, enum]
 published: true
 excerpt: As Enums surgiram na linguagem Java a partir da versão 5 como uma alternativa ao uso de constantes, e para atender de maneira melhor algumas das situações específicas que podem ocorrer durante a programação.
 comments: true

@@ -4,7 +4,7 @@ title: "Java - atributos da classe"
 categories: java
 author: sakurai
 date: 2020-05-09 14:23:00
-tags: [java]
+tags: [java, atributo, classe]
 published: true
 excerpt: Utilizando os atributos da classe.
 comments: true

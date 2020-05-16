@@ -4,7 +4,7 @@ title: "Java - Classe java.util.Arrays"
 categories: java
 author: sakurai
 date: 2011-06-16 21:34:00
-tags: [java]
+tags: [java, java.util.Arrays]
 published: true
 excerpt: A classe Arrays possui uma série de métodos estáticos que nos ajudam a trabalhar mais facilmente com vetores.
 comments: true

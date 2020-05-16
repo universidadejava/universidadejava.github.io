@@ -4,7 +4,7 @@ title: "Java - exercícios com laços de repetições"
 categories: java
 author: sakurai
 date: 2020-05-09 12:06:00
-tags: [java]
+tags: [java, exercícios, laço, repetição, for, while, foreach, do while]
 published: true
 excerpt: Alguns exercícios para você estudar laços de repetições.
 comments: true
