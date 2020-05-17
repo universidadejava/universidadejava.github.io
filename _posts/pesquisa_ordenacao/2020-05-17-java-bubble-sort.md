@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Java - Bubble Sort"
-categories: java
+categories: pesquisa_ordenacao
 author: sakurai
 date: 2020-05-17 16:58:00
 tags: [java, bubble sort, ordenação]
