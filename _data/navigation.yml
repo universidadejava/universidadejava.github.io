@@ -10,6 +10,11 @@
   excerpt: Materiais sobre a linguagem Java Enterprise Edition.
   image: javaee.jpg
 
+- title: Pesquisa e Ordenação de Dados
+  url: /pesquisa_ordenacao/
+  excerpt: Algoritmos de pesquisa e ordenação de dados implementados em Java.
+  image: pesquisa_ordenacao.jpg
+
 - title: Outros
   url: /outros/
   excerpt: Materiais sobre outros assuntos relacionados a desenvolvimento.
