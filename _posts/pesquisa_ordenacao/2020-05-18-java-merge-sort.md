@@ -28,49 +28,49 @@ Fluxo de execução do Merge Sort
 Dado um vetor de elementos inteiros **[3, 5, 4, 1, 9, 6, 7, 2]**, ordená-lo utilizando Merge Sort. Divide o vetor até ter um par de elementos, ordena esses elementos e altera a ordem deles no vetor original se necessário:
 
 <figure>
-    <a href="/images/2020-05-18-java-merge-sort-01.png"><img src="/images/2020-05-17-java-merge-sort-01.png" alt="Divide o vetor até ter um par de elementos, ordena esses elementos e altera a ordem deles no vetor original."></a>
+    <a href="/images/2020-05-18-java-merge-sort-01.png"><img src="/images/2020-05-18-java-merge-sort-01.png" alt="Divide o vetor até ter um par de elementos, ordena esses elementos e altera a ordem deles no vetor original."></a>
 </figure>
 
 Ordena outro par de elementos e altera a ordem deles no vetor original se necessário: 
 
 <figure>
-    <a href="/images/2020-05-18-java-merge-sort-02.png"><img src="/images/2020-05-17-java-merge-sort-02.png" alt="Ordena outro par de elementos e altera a ordem deles no vetor original."></a>
+    <a href="/images/2020-05-18-java-merge-sort-02.png"><img src="/images/2020-05-18-java-merge-sort-02.png" alt="Ordena outro par de elementos e altera a ordem deles no vetor original."></a>
 </figure>
 	
 Depois que tem 2 pares ordenados, ordena este 2 pares e altera a ordem deles no vetor original se necessário:
 
 <figure>
-    <a href="/images/2020-05-18-java-merge-sort-03.png"><img src="/images/2020-05-17-java-merge-sort-03.png" alt="Depois que tem 2 pares ordenados, ordena este 2 pares e altera a ordem deles no vetor original."></a>
+    <a href="/images/2020-05-18-java-merge-sort-03.png"><img src="/images/2020-05-18-java-merge-sort-03.png" alt="Depois que tem 2 pares ordenados, ordena este 2 pares e altera a ordem deles no vetor original."></a>
 </figure>
 
 Continua ordenando a outra metade do vetor, faz o mesmo processo de dividir os elementos até chegar em um par de valores e ordena esses valores e altera a ordem deles no vetor original se necessário:
 
 <figure>
-    <a href="/images/2020-05-18-java-merge-sort-04.png"><img src="/images/2020-05-17-java-merge-sort-04.png" alt="Continua ordenando a outra metade do vetor."></a>
+    <a href="/images/2020-05-18-java-merge-sort-04.png"><img src="/images/2020-05-18-java-merge-sort-04.png" alt="Continua ordenando a outra metade do vetor."></a>
 </figure>
 
 Ordena outro par de elementos e altera a ordem deles no vetor original se necessário.
 
 <figure>
-    <a href="/images/2020-05-18-java-merge-sort-05.png"><img src="/images/2020-05-17-java-merge-sort-05.png" alt="Ordena outro par de elementos e altera a ordem deles no vetor original."></a>
+    <a href="/images/2020-05-18-java-merge-sort-05.png"><img src="/images/2020-05-18-java-merge-sort-05.png" alt="Ordena outro par de elementos e altera a ordem deles no vetor original."></a>
 </figure>
 
 Depois que tem 2 pares ordenados, ordena estes 2 pares e altera a ordem deles no vetor original se necessário:
 
 <figure>
-    <a href="/images/2020-05-18-java-merge-sort-06.png"><img src="/images/2020-05-17-java-merge-sort-06.png" alt="Depois que tem 2 pares ordenados, ordena estes 2 pares e altera a ordem deles no vetor original."></a>
+    <a href="/images/2020-05-18-java-merge-sort-06.png"><img src="/images/2020-05-18-java-merge-sort-06.png" alt="Depois que tem 2 pares ordenados, ordena estes 2 pares e altera a ordem deles no vetor original."></a>
 </figure>
 
 Depois que as duas metades do vetor está ordenado, ordena novamente as duas metades e altera a ordem dos elementos no vetor original se necessário:
 
 <figure>
-    <a href="/images/2020-05-18-java-merge-sort-07.png"><img src="/images/2020-05-17-java-merge-sort-07.png" alt="Depois que as duas metades do vetor está ordenado, ordena novamente as duas metades."></a>
+    <a href="/images/2020-05-18-java-merge-sort-07.png"><img src="/images/2020-05-18-java-merge-sort-07.png" alt="Depois que as duas metades do vetor está ordenado, ordena novamente as duas metades."></a>
 </figure>
 
 O vetor foi ordenado por completo:
 
 <figure>
-    <a href="/images/2020-05-18-java-merge-sort-08.png"><img src="/images/2020-05-17-java-merge-sort-07.png" alt="O vetor foi ordenado por completo."></a>
+    <a href="/images/2020-05-18-java-merge-sort-08.png"><img src="/images/2020-05-18-java-merge-sort-07.png" alt="O vetor foi ordenado por completo."></a>
 </figure>
 
 ### Implementação do Merge Sort iterativo
@@ -261,7 +261,7 @@ public class MergeSort {
 A imagem abaixo mostra a arvore de chamadas recursivas, caso este método receba um vetor de 5 elementos.
 
 <figure>
-    <a href="/images/2020-05-18-java-merge-sort-09.png"><img src="/images/2020-05-17-java-merge-sort-09.png" alt="Chamadas recursivas do Merge Sort."></a>
+    <a href="/images/2020-05-18-java-merge-sort-09.png"><img src="/images/2020-05-18-java-merge-sort-09.png" alt="Chamadas recursivas do Merge Sort."></a>
 </figure>
 
 Em vermelho está a ordem em que os métodos serão chamados recursivamente.
@@ -304,7 +304,7 @@ public class Animal {
 A partir da classe animal, criamos um vetor de animais e queremos ordenar os animais pelo nome.
 
 <figure>
-    <a href="/images/2020-05-18-java-merge-sort-10.png"><img src="/images/2020-05-17-java-merge-sort-10.png" alt="Objetos animais que serão ordenados com o Merge Sort."></a>
+    <a href="/images/2020-05-18-java-merge-sort-10.png"><img src="/images/2020-05-18-java-merge-sort-10.png" alt="Objetos animais que serão ordenados com o Merge Sort."></a>
 </figure>
 
 Segue abaixo a implementação do programa que ordena o vetor de animais pelo nome utilizando o algoritmo de Merge Sort:
