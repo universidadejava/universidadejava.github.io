@@ -1,19 +1,19 @@
 ---
 layout: article
-title: "JPA - ManyToMany"
-categories: materiais
+title: "JPA - Muitos-para-Muitos (ManyToMany)"
+categories: javaee
 author: sakurai
 date: 2011-02-22 08:43:00
-tags: [javaee, jpa]
+tags: [javaee, jpa, manytomany, relacionamento]
 published: true
-excerpt: Veja como especificar o relacionamento de Muitos-para-Muitos entre as entidades.
+excerpt: Veja como especificar o relacionamento de Muitos-para-Muitos (ManyToMany) entre as entidades.
 comments: true
 image:
   teaser: 2011-02-22-teaser-jpa-manytomany.png
-ads: true
+ads: false
 ---
 
-## Relacionamento Muitos-para-Muitos
+## Relacionamento Muitos-para-Muitos (ManyToMany)
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/GRyNWIEZ6MQ" frameborder="0" allowfullscreen></iframe>
 
@@ -156,3 +156,11 @@ public class Funcionario implements Serializable {
   }
 }
 {% endhighlight %}
+
+
+### Conteúdos relacionados
+
+- [Utilizando relacionamento de Um para Um com JPA](http://www.universidadejava.com.br/javaee/jpa-onetoone/)
+- [Utilizando relacionamento de Um para Muitos com JPA](http://www.universidadejava.com.br/javaee/jpa-onetomany/)
+- [Utilizando relacionamento de Muitos para Um com JPA](http://www.universidadejava.com.br/javaee/jpa-manytoone/)
+- [Criando consultas com JPA](http://www.universidadejava.com.br/javaee/jpa-query/)
