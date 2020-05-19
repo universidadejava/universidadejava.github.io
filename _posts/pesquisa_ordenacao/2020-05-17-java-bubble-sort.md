@@ -27,7 +27,7 @@ Na primeira iteração, é encontrado o maior elemento e o mesmo é deslocado at
 
 > Não é obrigatório colocar sempre o maior elemento no final do vetor, dependendo da sua lógica de programação, é possível deixar os elementos de forma decrescente.
 
-Implementação do Bubble Sort
+### Implementação do Bubble Sort
 
 {% highlight java %}
 package bubblesort;
