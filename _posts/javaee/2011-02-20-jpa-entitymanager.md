@@ -4,7 +4,7 @@ title: "JPA - EntityManager"
 categories: javaee
 author: sakurai
 date: 2011-02-20 06:42:00
-tags: [javaee, jpa]
+tags: [java, javaee, jpa, entity, manager]
 published: true
 excerpt: Gerenciando as entidades no JPA com o EntityManager.
 comments: true
@@ -66,7 +66,7 @@ Dentro do método **getEntityManager()** criamos um **EntityManagerFactory** da 
 
 ### EntityManager gerenciado pelo Container
 
-Quando trabalhamos com aplicações Java EE, podemos deixar o container EJB injetar a unidade de persistência através da anotação **javax.persistence.PersistenceContext**.
+Quando trabalhamos com aplicações Java EE, podemos deixar o container EJB injetar a [unidade de persistência](http://www.universidadejava.com.br/javaee/jpa-unidade-persistencia/) através da anotação **javax.persistence.PersistenceContext**.
 
 {% highlight java %}
 package br.universidadejava.jpa.exemplo.ejb;
@@ -209,3 +209,11 @@ A Entity foi persistida no banco de dados, mas encontra-se em um estado que não
 ## Referências
 
 [BROSE, G.; SILVERMAN, M.; SRIGANESH, R. P.] Mastering Enterprise JavaBeans 3.0 – Rima Pastel Sriganesh, Gerald Brose, Micah Silverman – 2006 – Wiley – Disponível
+
+
+### Conteúdos relacionados
+
+- [Alguns exercícios para você praticar com JPA](http://www.universidadejava.com.br/javaee/jpa-exercicios-01/)
+- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/javaee/jpa-exemplo-crud/)
+- [Utilizando relacionamento de Um para Muitos com JPA](http://www.universidadejava.com.br/javaee/jpa-onetomany/)
+- [Criando consultas com JPA](http://www.universidadejava.com.br/javaee/jpa-query/)

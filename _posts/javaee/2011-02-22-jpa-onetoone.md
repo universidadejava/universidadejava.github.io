@@ -4,7 +4,7 @@ title: "JPA - Um-para-Um (OneToOne)"
 categories: javaee
 author: sakurai
 date: 2011-02-22 05:53:00
-tags: [javaee, jpa]
+tags: [javaee, jpa, onetoone, relacionamento]
 published: true
 excerpt: Veja como especificar o relacionamento de Um-para-Um (OneToOne) entre as entidades.
 comments: true
@@ -15,7 +15,7 @@ ads: false
 
 ## Relacionamento Um-para-Um (OneToOne)
 
-Este relacionamento informa que há apenas um registro da entidade relacionado com um registro de outra entidade.
+Este relacionamento informa que há apenas um registro da [entidade](http://www.universidadejava.com.br/javaee/jpa-entity/) relacionado com um registro de outra entidade.
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/Sh-Y-beMxns" frameborder="0" allowfullscreen></iframe>
 
@@ -329,3 +329,11 @@ referencedColumnName | Nome da coluna que é referenciada pela coluna da chave e
 table | Nome da tabela que contém a coluna.
 unique | Informa se a propriedade é chave única.
 updatable | Informa se a coluna é incluída no SQL de UPDATE.
+
+
+### Conteúdos relacionados
+
+- [Utilizando relacionamento de Um para Muitos com JPA](http://www.universidadejava.com.br/javaee/jpa-onetomany/)
+- [Utilizando relacionamento de Muitos para Um com JPA](http://www.universidadejava.com.br/javaee/jpa-manytoone/)
+- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/javaee/jpa-exemplo-crud/)
+- [Criando consultas com JPA](http://www.universidadejava.com.br/javaee/jpa-query/)

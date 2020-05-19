@@ -4,7 +4,7 @@ title: "JPA - Muitos-para-Um (ManyToOne)"
 categories: javaee
 author: sakurai
 date: 2011-02-22 08:15:00
-tags: [javaee, jpa]
+tags: [javaee, jpa, manytoone, relacionamento]
 published: true
 excerpt: Veja como especificar o relacionamento de Muitos-para-Um (ManyToOne) entre as entidades.
 comments: true
@@ -603,3 +603,11 @@ Hibernate: delete from Telefone where id=?
 Hibernate: delete from Telefone where id=?
 Hibernate: delete from Aluno where id=?
 {% endhighlight %}
+
+
+### Conteúdos relacionados
+
+- [Utilizando relacionamento de Um para Um com JPA](http://www.universidadejava.com.br/javaee/jpa-onetoone/)
+- [Utilizando relacionamento de Um para Muitos com JPA](http://www.universidadejava.com.br/javaee/jpa-onetomany/)
+- [Utilizando relacionamento de Muitos para Muitos com JPA](http://www.universidadejava.com.br/javaee/jpa-manytomany/)
+- [Criando consultas com JPA](http://www.universidadejava.com.br/javaee/jpa-query/)

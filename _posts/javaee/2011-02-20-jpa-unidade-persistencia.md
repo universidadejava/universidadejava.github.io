@@ -4,7 +4,7 @@ title: "JPA - Unidade de Persistência"
 categories: javaee
 author: sakurai
 date: 2011-02-20 19:25:00
-tags: [javaee, jpa]
+tags: [java, javaee, jpa, persistencia]
 published: true
 excerpt: Montando uma únidade de persistência do JPA.
 comments: true
@@ -43,7 +43,7 @@ Exemplo de unidade de persistência mapeado para um banco de dados MySQL:
 </persistence>
 {% endhighlight %}
 
-Neste arquivo **persistence.xml** utilizamos a tag **\<persistence-unit\>** para definir uma unidade de persistência, onde podemos informar através da propriedade name qual seu nome (utilizado quando criamos um EntityManager através de um EntityManagerFactory ou quando utilizamos injeção de dependência através da anotação **javax.persistence.PersistenceContext** quando estamos no contexto Java EE) e através da propriedade **transaction-type** qual seu tipo de transação (RESOURCE_LOCAL ou JTA). Se a aplicação é Java SE utilizamos o tipo de transação **RESOURCE_LOCAL** onde programaticamente criamos as transações com o banco de dados ou utilizamos **JTA** quando acessamos um pool de conexões em um servidor web.
+Neste arquivo **persistence.xml** utilizamos a tag **\<persistence-unit\>** para definir uma unidade de persistência, onde podemos informar através da propriedade name qual seu nome (utilizado quando criamos um [EntityManager](http://www.universidadejava.com.br/javaee/jpa-entitymanager/) através de um EntityManagerFactory ou quando utilizamos injeção de dependência através da anotação **javax.persistence.PersistenceContext** quando estamos no contexto Java EE) e através da propriedade **transaction-type** qual seu tipo de transação (RESOURCE_LOCAL ou JTA). Se a aplicação é Java SE utilizamos o tipo de transação **RESOURCE_LOCAL** onde programaticamente criamos as transações com o banco de dados ou utilizamos **JTA** quando acessamos um pool de conexões em um servidor web.
 
 Dentro de uma unidade de persistência podemos utilizar a tag **\<provider\>** para informar qual a API irá fornecer uma implementação do JPA.
 
@@ -84,7 +84,7 @@ Para utilizarmos o Hibernate precisamos adicionar suas bibliotecas dentro do pro
 
 Quando desenvolvemos uma aplicação web onde utilizamos um pool de conexões que pode ser criado pelo próprio servidor web, ao invés de definirmos a **Conexão com o banco de dados** precisamos definir a **Fonte de dados** (que é nosso pool de conexão criado no servidor web, veja material sobre como criar um pool de conexão no servidor web Glassfish).
 
-**Estratégia de geração de tabelas** nós permite:
+**Estratégia de geração de tabelas** permite:
 
 * **Criar** - o JPA cria a estrutura de tabelas no banco de dados.
 * **Apagar e criar** - o JPA apaga a estrutura existente e cria uma estrutura nova das tabelas do banco de dados.
@@ -154,3 +154,11 @@ Altere as propriedades referentes ao banco de dados, como usuário, senha, nome 
   </persistence-unit>
 </persistence>
 {% endhighlight %}
+
+
+### Conteúdos relacionados
+
+- [Alguns exercícios para você praticar com JPA](http://www.universidadejava.com.br/javaee/jpa-exercicios-01/)
+- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/javaee/jpa-exemplo-crud/)
+- [Criando entidades com JPA](http://www.universidadejava.com.br/javaee/jpa-entity/)
+- [Criando consultas com JPA](http://www.universidadejava.com.br/javaee/jpa-query/)

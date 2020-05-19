@@ -4,7 +4,7 @@ title: "JPA - Entity"
 categories: javaee
 author: sakurai
 date: 2011-02-20 05:55:00
-tags: [javaee, jpa]
+tags: [java, javaee, jpa, entity]
 published: true
 excerpt: Representando entidades no JPA.
 comments: true
@@ -15,7 +15,7 @@ ads: false
 
 ## Entity
 
-Uma entity é um objeto leve de domínio persistente utilizado para representar uma tabela da base de dados, sendo que cada instância da entity corresponde a uma linha da tabela. A entity é baseada em um simples POJO (Plain Old Java Object), ou seja, uma classe Java comum, com anotações para fornecer informações mais especifica para o gerenciador das entidades (EntityManager).
+Uma entity é um objeto leve de domínio persistente utilizado para representar uma tabela da base de dados, sendo que cada instância da entity corresponde a uma linha da tabela. A entity é baseada em um simples [POJO](http://www.universidadejava.com.br/java/java-pojo/), ou seja, uma classe Java comum, com anotações para fornecer informações mais especifica para o gerenciador das entidades - [EntityManager](http://www.universidadejava.com.br/javaee/jpa-entitymanager/).
 
 Exemplo de entity que representa uma tabela de PRODUTO:
 
@@ -78,7 +78,7 @@ As anotações do JPA seguem um padrão para fazer o mapeamento objeto / relacio
 
 ## Anotações para Entity
 
-As classes Entity podem ser melhor especificadas quando adicionamos algumas anotações, estas anotações podem informar ao JPA que você por exemplo não segue o padrão de nome de tabela igual ao nome da classe Java, que sua tabela no banco tem um relacionamento de Um-Para-Muitos com outra tabela, que a tabela utiliza um gerador de ID do tipo SEQUENCE para definir o número da chave primaria e outras informações.
+As classes Entity podem ser melhor especificadas quando adicionamos algumas anotações, estas anotações podem informar ao JPA que você por exemplo não segue o padrão de nome de tabela igual ao nome da classe Java, que sua tabela no banco tem um relacionamento de Um-Para-Muitos com outra tabela, que a tabela utiliza um gerador de ID do tipo [SEQUENCE](http://www.universidadejava.com.br/javaee/jpa-sequence/) para definir o número da chave primaria e outras informações.
 
 Obrigatoriamente toda entity do JPA precisa ter pelo menos as anotações **javax.persistence.Entity** que informa que é uma tabela do banco de dados e **javax.persistence.Id** que informa qual o atributo é chave primaria da tabela.
 
@@ -190,7 +190,7 @@ sequenceName | Nome da sequence do banco de dados.
 
 Exemplo:
 
-Criar uma Entity para representar a tabela PRODUTO e no banco de dados temos criado uma SEQUENCE chamada SEQ_PRODUTO que deve ser usada para geração do ID da tabela.
+Criar uma Entity para representar a tabela PRODUTO e no banco de dados temos criado uma [SEQUENCE](http://www.universidadejava.com.br/javaee/jpa-sequence/) chamada SEQ_PRODUTO que deve ser usada para geração do ID da tabela.
 
 {% highlight java %}
 @Entity
@@ -379,3 +379,11 @@ public class Usuario implements Serializable {
 {% endhighlight %}
 
 Utilizamos a anotação **@Entity** para informar que a classe Usuario é uma Entity do banco de dados, definimos que a propriedade **Long id** será o ID (chave primaria) da tabela através da anotação **@Id** e também informamos que seu valor será gerado automaticamente com a anotação **@GeneratedValue**. Através da anotação **@Column** conseguimos informar quais os atributos não podem ser **null** e que o atributo **Date dataNascimento** está mapeado para a coluna **dataNasc** da tabela USUARIO.
+
+
+### Conteúdos relacionados
+
+- [Configurando o EntityManager do JPA](http://www.universidadejava.com.br/javaee/jpa-entitymanager/)
+- [Criando uma entidade com uma chave primaria](http://www.universidadejava.com.br/javaee/jpa-chavecomposta/)
+- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/javaee/jpa-exemplo-crud/)
+- [Criando consultas com JPA](http://www.universidadejava.com.br/javaee/jpa-query/)

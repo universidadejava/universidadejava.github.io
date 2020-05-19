@@ -4,7 +4,7 @@ title: "JPA - Um-para-Muitos (OneToMany)"
 categories: javaee
 author: sakurai
 date: 2011-02-22 08:06:00
-tags: [javaee, jpa]
+tags: [javaee, jpa, onetomany, relacionamento]
 published: true
 excerpt: Veja como especificar o relacionamento de Um-para-Muitos (OneToMany) entre as entidades.
 comments: true
@@ -168,3 +168,11 @@ public class Tarefa implements Serializable {
   }
 }
 {% endhighlight %}
+
+
+### Conteúdos relacionados
+
+- [Utilizando relacionamento de Um para Um com JPA](http://www.universidadejava.com.br/javaee/jpa-onetoone/)
+- [Utilizando relacionamento de Muitos para Um com JPA](http://www.universidadejava.com.br/javaee/jpa-manytoone/)
+- [Utilizando relacionamento de Muitos para Muitos com JPA](http://www.universidadejava.com.br/javaee/jpa-manytomany/)
+- [Criando consultas com JPA](http://www.universidadejava.com.br/javaee/jpa-query/)

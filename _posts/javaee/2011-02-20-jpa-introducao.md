@@ -4,7 +4,7 @@ title: "JPA - Introdução"
 categories: javaee
 author: sakurai
 date: 2011-02-20 05:40:00
-tags: [javaee, jpa]
+tags: [java, javaee, jpa, banco de dados]
 published: true
 excerpt: Introdução a Java Persistence API.
 comments: true
@@ -29,7 +29,7 @@ Algumas facilidades que o JPA oferece são:
 
 Também aumenta a produtividade dos desenvolvedores que utilizam o banco de dados, deixando de forma transparente a sua utilização, principalmente por não deixar a programação Java vinculada a um tipo específico de banco de dados.
 
-Para trazer as informações do banco de dados e convertê-las em classes Java, acaba sendo um pouco trabalhoso. Quando é usado JDBC puro há a necessidade de realizar o mapeamento entre os atributos e colunas do banco de dados, às vezes é necessário fazer uma conversão do tipo de dado declarado no banco de dados com o tipo de dado utilizado na classe. O mesmo processo ocorre quando os objetos Java são salvos no banco de dados.
+Para trazer as informações do banco de dados e convertê-las em classes Java, acaba sendo um pouco trabalhoso. Quando é usado [JDBC](http://www.universidadejava.com.br/java/java-jdbc/) puro há a necessidade de realizar o mapeamento entre os atributos e colunas do banco de dados, às vezes é necessário fazer uma conversão do tipo de dado declarado no banco de dados com o tipo de dado utilizado na classe. O mesmo processo ocorre quando os objetos Java são salvos no banco de dados.
 
 O JPA utiliza o conceito de **mapeamento objeto / relacional (ORM – Object / Relational Mapping)** para fazer ponte entre a base de dados relacional e os objetos Java. A figura a seguir mostra o próprio framework faz o relacionamento entre os atributos das classes Java com a tabela do banco de dados.
 
@@ -42,3 +42,11 @@ O JPA cria uma instância da classe Produto para cada linha da tabela Produto, c
 <figure>
     <a href="/images/2011-02-20-jpa-introducao-03.png"><img src="/images/2011-02-20-jpa-introducao-03.png" alt="Mapeamento objeto / relacional"></a>
 </figure>
+
+
+### Conteúdos relacionados
+
+- [Criando entidades com JPA](http://www.universidadejava.com.br/javaee/jpa-entity/)
+- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/javaee/jpa-exemplo-crud/)
+- [Criando consultas com JPA](http://www.universidadejava.com.br/javaee/jpa-query/)
+- [Adicionando relaciomento de Um para Um entre entidades](http://www.universidadejava.com.br/javaee/jpa-onetoone/)
