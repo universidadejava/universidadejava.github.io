@@ -3,7 +3,7 @@ layout: article
 title: "Pesquisa de Dados - Binária"
 categories: pesquisa_ordenacao
 author: sakurai
-date: 2020-05-19 13:20:00
+date: 2020-05-19 23:00:00
 tags: [java, pesquisa, binaria]
 published: true
 excerpt: Este método de pesquisa é muito mais rápido que a pesquisa sequencial, e usa como base que o vetor já está ordenado.
