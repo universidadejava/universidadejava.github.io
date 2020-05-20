@@ -1,12 +1,12 @@
 ---
 layout: article
-title: "Java - Quick Sort"
+title: "Ordenação de Dados - Quick Sort"
 categories: pesquisa_ordenacao
 author: sakurai
 date: 2020-05-19 13:20:00
 tags: [java, quick sort, ordenação]
 published: true
-excerpt: 
+excerpt: O Quick Sort é um algoritmo que se baseia no princípio da divisão e conquista.
 comments: true
 image:
   teaser: teaser-java.png
@@ -30,7 +30,7 @@ O algoritmo Quick Sort trabalha ordenando uma sequência qualquer de valores div
 Vale lembrar que, caso exista apenas um elemento de valor igual ao de x, a subsequência Lg será composta de apenas um elemento.
 
 <figure>
-    <a href="/images/2020-05-19-java-quick-sort-01.png"><img src="/images/2020-05-19-java-quick-sort-01.png" alt="Exemplo de divisão do vetor."></a>
+    <a href="/images/2020-05-19-quick-sort-01.png"><img src="/images/2020-05-19-quick-sort-01.png" alt="Exemplo de divisão do vetor."></a>
 </figure>
 
 **Recursão** – Ordene as sequências Me e Ma recursivamente.
@@ -52,91 +52,91 @@ Para que isso seja possível, adotaremos a seguinte técnica:
 Exemplo:
 
 <figure>
-    <a href="/images/2020-05-19-java-quick-sort-02.png"><img src="/images/2020-05-19-java-quick-sort-02.png" alt="Escolher um elemento x do vetor, no caso o primeiro elemento do vetor."></a>
+    <a href="/images/2020-05-19-quick-sort-02.png"><img src="/images/2020-05-19-quick-sort-02.png" alt="Escolher um elemento x do vetor, no caso o primeiro elemento do vetor."></a>
 </figure>
 
 x = S[p] = 12
 
 <figure>
-    <a href="/images/2020-05-19-java-quick-sort-03.png"><img src="/images/2020-05-19-java-quick-sort-03.png" alt="Percorrer o vetor da esquerda para a direita procurando um elemento maior que x."></a>
+    <a href="/images/2020-05-19-quick-sort-03.png"><img src="/images/2020-05-19-quick-sort-03.png" alt="Percorrer o vetor da esquerda para a direita procurando um elemento maior que x."></a>
 </figure>
 
 4 < 12? Sim -> incrementar ponteiro...
 
 <figure>
-    <a href="/images/2020-05-19-java-quick-sort-04.png"><img src="/images/2020-05-19-java-quick-sort-04.png" alt="Percorrer o vetor da esquerda para a direita procurando um elemento maior que x."></a>
+    <a href="/images/2020-05-19-quick-sort-04.png"><img src="/images/2020-05-19-quick-sort-04.png" alt="Percorrer o vetor da esquerda para a direita procurando um elemento maior que x."></a>
 </figure>
 
 15 < 12? Não! -> parar ponteiro...
 
 <figure>
-    <a href="/images/2020-05-19-java-quick-sort-05.png"><img src="/images/2020-05-19-java-quick-sort-05.png" alt="Parar de percorrer o vetor porque encontramos um elemento maior que x."></a>
+    <a href="/images/2020-05-19-quick-sort-05.png"><img src="/images/2020-05-19-quick-sort-05.png" alt="Parar de percorrer o vetor porque encontramos um elemento maior que x."></a>
 </figure>
 
 28 > 12? Sim -> decrementar ponteiro...
 
 <figure>
-    <a href="/images/2020-05-19-java-quick-sort-06.png"><img src="/images/2020-05-19-java-quick-sort-06.png" alt="Percorrer o vetor da direita para a esquerda procurando um elemento menor ou igual a x."></a>
+    <a href="/images/2020-05-19-quick-sort-06.png"><img src="/images/2020-05-19-quick-sort-06.png" alt="Percorrer o vetor da direita para a esquerda procurando um elemento menor ou igual a x."></a>
 </figure>
 
 20 > 12? Sim -> decrementar ponteiro...
 
 <figure>
-    <a href="/images/2020-05-19-java-quick-sort-07.png"><img src="/images/2020-05-19-java-quick-sort-07.png" alt="Percorrer o vetor da direita para a esquerda procurando um elemento menor ou igual a x."></a>
+    <a href="/images/2020-05-19-quick-sort-07.png"><img src="/images/2020-05-19-quick-sort-07.png" alt="Percorrer o vetor da direita para a esquerda procurando um elemento menor ou igual a x."></a>
 </figure>
 
 6 > 12? Não! -> parar ponteiro...
 
 <figure>
-    <a href="/images/2020-05-19-java-quick-sort-08.png"><img src="/images/2020-05-19-java-quick-sort-08.png" alt="Parar de percorrer o vetor porque encontramos um elemento maior que x."></a>
+    <a href="/images/2020-05-19-quick-sort-08.png"><img src="/images/2020-05-19-quick-sort-08.png" alt="Parar de percorrer o vetor porque encontramos um elemento maior que x."></a>
 </figure>
 
 Os dois ponteiros pararam, logo os seus elementos devem ser trocados e ambos os ponteiros devem ser incrementados!
 
 <figure>
-    <a href="/images/2020-05-19-java-quick-sort-09.png"><img src="/images/2020-05-19-java-quick-sort-09.png" alt="Trocar x com o j-ésimo elemento e devolver a posição j."></a>
+    <a href="/images/2020-05-19-quick-sort-09.png"><img src="/images/2020-05-19-quick-sort-09.png" alt="Trocar x com o j-ésimo elemento e devolver a posição j."></a>
 </figure>
 
 Continuando...
 
 <figure>
-    <a href="/images/2020-05-19-java-quick-sort-10.png"><img src="/images/2020-05-19-java-quick-sort-10.png" alt="Continuando..."></a>
+    <a href="/images/2020-05-19-quick-sort-10.png"><img src="/images/2020-05-19-quick-sort-10.png" alt="Continuando..."></a>
 </figure>
 
 7 < 12? Sim -> incrementar ponteiro...
 
 <figure>
-    <a href="/images/2020-05-19-java-quick-sort-11.png"><img src="/images/2020-05-19-java-quick-sort-11.png" alt="Percorrer o vetor da esquerda para a direita procurando um elemento maior que x."></a>
+    <a href="/images/2020-05-19-quick-sort-11.png"><img src="/images/2020-05-19-quick-sort-11.png" alt="Percorrer o vetor da esquerda para a direita procurando um elemento maior que x."></a>
 </figure>
 
 10 < 12? Sim -> incrementar ponteiro...
 
 <figure>
-    <a href="/images/2020-05-19-java-quick-sort-12.png"><img src="/images/2020-05-19-java-quick-sort-12.png" alt="Percorrer o vetor da esquerda para a direita procurando um elemento maior que x."></a>
+    <a href="/images/2020-05-19-quick-sort-12.png"><img src="/images/2020-05-19-quick-sort-12.png" alt="Percorrer o vetor da esquerda para a direita procurando um elemento maior que x."></a>
 </figure>
 
 2 < 12? Sim -> incrementar ponteiro...
 
 <figure>
-    <a href="/images/2020-05-19-java-quick-sort-13.png"><img src="/images/2020-05-19-java-quick-sort-13.png" alt="Percorrer o vetor da esquerda para a direita procurando um elemento maior que x."></a>
+    <a href="/images/2020-05-19-quick-sort-13.png"><img src="/images/2020-05-19-quick-sort-13.png" alt="Percorrer o vetor da esquerda para a direita procurando um elemento maior que x."></a>
 </figure>
 
 1 < 12? Sim -> incrementar ponteiro...
 
 <figure>
-    <a href="/images/2020-05-19-java-quick-sort-14.png"><img src="/images/2020-05-19-java-quick-sort-14.png" alt="Percorrer o vetor da esquerda para a direita procurando um elemento maior que x."></a>
+    <a href="/images/2020-05-19-quick-sort-14.png"><img src="/images/2020-05-19-quick-sort-14.png" alt="Percorrer o vetor da esquerda para a direita procurando um elemento maior que x."></a>
 </figure>
 
 13 < 12? Não! -> parar ponteiro...
 
 <figure>
-    <a href="/images/2020-05-19-java-quick-sort-15.png"><img src="/images/2020-05-19-java-quick-sort-14.png" alt="Parar de percorrer o vetor porque encontramos um elemento maior que x."></a>
+    <a href="/images/2020-05-19-quick-sort-15.png"><img src="/images/2020-05-19-quick-sort-14.png" alt="Parar de percorrer o vetor porque encontramos um elemento maior que x."></a>
 </figure>
 
 13 > 12? Sim -> decrementar ponteiro...
 
 <figure>
-    <a href="/images/2020-05-19-java-quick-sort-16.png"><img src="/images/2020-05-19-java-quick-sort-15.png" alt="Percorrer o vetor da direita para a esquerda procurando um elemento menor ou igual a x."></a>
+    <a href="/images/2020-05-19-quick-sort-16.png"><img src="/images/2020-05-19-quick-sort-15.png" alt="Percorrer o vetor da direita para a esquerda procurando um elemento menor ou igual a x."></a>
 </figure>
 
 1 > 12? Não! -> parar ponteiro...
@@ -144,7 +144,7 @@ Continuando...
 Uma vez que os dois ponteiros se ultrapassaram, o elemento escolhido “x” deve ser agora trocado com o elemento da posição j.
 
 <figure>
-    <a href="/images/2020-05-19-java-quick-sort-17.png"><img src="/images/2020-05-19-java-quick-sort-16.png" alt="Parar de percorrer o vetor porque encontramos um elemento maior que x."></a>
+    <a href="/images/2020-05-19-quick-sort-17.png"><img src="/images/2020-05-19-quick-sort-16.png" alt="Parar de percorrer o vetor porque encontramos um elemento maior que x."></a>
 </figure>
 
 Essa foi a primeira passada percorrendo o vetor, o mesmo processo deve continuar até que o vetor fique completamente ordenado. O código a seguir apresenta como implementar o Quick Sort em Java.
@@ -286,3 +286,11 @@ public class TesteQuickSort {
   }
 }
 {% endhighlight %}
+
+
+### Conteúdos relacionados
+
+- [Ordenação de dados com Bubble Sort](http://www.universidadejava.com.br/pesquisa_ordenacao/bubble-sort/)
+- [Ordenação de dados com Merge Sort](http://www.universidadejava.com.br/pesquisa_ordenacao/merge-sort/)
+- [Pesquisa sequencial](http://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-sequencial/)
+- [Pesquisa binaria](http://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-binaria/)

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Bubble Sort"
+title: "Ordenação de Dados - Bubble Sort"
 categories: pesquisa_ordenacao
 author: sakurai
 date: 2020-05-17 16:58:00
@@ -20,7 +20,7 @@ O Bubble-Sort é um dos algoritmos de ordenação mais simples, que consiste em 
 Execução do algoritmo de Bubble Sort
 
 <figure>
-    <a href="/images/2020-05-17-java-bubble-sort-01.png"><img src="/images/2020-05-17-java-bubble-sort-01.png" alt="Execução do algoritmo Bubble Sort."></a>
+    <a href="/images/2020-05-17-bubble-sort-01.png"><img src="/images/2020-05-17-bubble-sort-01.png" alt="Execução do algoritmo Bubble Sort."></a>
 </figure>
 
 Na primeira iteração, é encontrado o maior elemento e o mesmo é deslocado até a ultima posição. Na segunda iteração, é encontrado o segundo maior elemento e o mesmo é deslocado até a penúltima posição. Continua até que todos os elementos serem ordenados.
@@ -164,7 +164,7 @@ public class Animal {
 A partir da classe Animal, criamos um vetor de animais e queremos ordenar os animais pelo nome.
 
 <figure>
-    <a href="/images/2020-05-17-java-bubble-sort-02.png"><img src="/images/2020-05-17-java-bubble-sort-02.png" alt="Ordenando um vetor de objetos com Bubble Sort."></a>
+    <a href="/images/2020-05-17-bubble-sort-02.png"><img src="/images/2020-05-17-bubble-sort-02.png" alt="Ordenando um vetor de objetos com Bubble Sort."></a>
 </figure>
 
 Segue abaixo a implementação do programa que ordena o vetor de animais utilizando o algoritmo de Bubble Sort.
@@ -298,3 +298,11 @@ public class NomeAnimal {
 
 - Na linha 65 verifica se o nome da especie do animal na posição atual do vetor é maior que a especie do próximo animal, se for então troca os animais de lugar.
 - Na linha 74 verifica se o nome da especie do animal na posição atual do vetor é igual a especie do próximo animal, se as espécies forem iguais, então verifica se o nome do animal na posição atual do vetor é maior que o nome do próximo animal, se for maior então troca os animais de lugar no vetor.
+
+
+### Conteúdos relacionados
+
+- [Ordenação de dados com Merge Sort](http://www.universidadejava.com.br/pesquisa_ordenacao/merge-sort/)
+- [Ordenação de dados com Quick Sort](http://www.universidadejava.com.br/pesquisa_ordenacao/quick-sort/)
+- [Pesquisa sequencial](http://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-sequencial/)
+- [Pesquisa binaria](http://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-binaria/)
