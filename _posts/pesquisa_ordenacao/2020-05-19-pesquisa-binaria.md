@@ -36,7 +36,7 @@ Se não encontrou o valor:
 
 - O valor da posição inicial é 0 (zero).
 - O valor da posição final é 8.
-- O valor da posição meio é 4. (A posição do meio é igual ao (inicio + fim) / 2)
+- O valor da posição meio é 4. (A posição do meio é igual ao `(inicio + fim) / 2`)
 
 Verifica se o valor do vetor que está na posição do meio é igual ao valor procurado, neste caso o valor do meio do vetor é 5 e estamos procurando o valor 4.
 
@@ -140,14 +140,14 @@ public class PesquisaBinaria {
 - Na linha 28, calculamos a posição meio do vetor.
 - Na linha 32, verifica se o valor que tem no vetor na posição meio é igual ao valor do número procurado, se for igual, então imprimimos seu valor e paramos a pesquisa.
 - Na linha 40, se não encontramos o valor, vamos diminuir o tamanho do vetor, para restringir o local onde pode estar o valor procurado.
-- Se o valor do meio do vetor for menor que o valor procurado, significa que o valor que estamos procurando está entre a posição do meio + 1 e o fim do vetor.
-- Se o valor do meio do vetor for maior que o valor procurado, significa que o valor que estamos procurando está entre a posição inicial e o meio – 1 do vetor.
+- Se o valor do meio do vetor for menor que o valor procurado, significa que o valor que estamos procurando está entre a posição do `meio + 1` e o `fim` do vetor.
+- Se o valor do meio do vetor for maior que o valor procurado, significa que o valor que estamos procurando está entre a posição `inicial` e o `meio – 1` do vetor.
 - A linha 52 é executada apenas se não encontrou o número procurado dentro do vetor.
 
 
 ### Pesquisa Binária utilizando objetos
 
-Dado um vetor de pessoas, queremos pesquisar as pessoas que tem a inicial do nome entre A e F.
+Dado um vetor de pessoas, queremos pesquisar as pessoas que tem a inicial do nome entre 'A' e 'F'.
 
 > Neste exemplo não vamos tratar mais de um nome com a mesma inicial e também não vamos tratar intervalos de letras que não tem nome, exemplo: 'G' a 'H'.
 
@@ -237,12 +237,13 @@ Neste exemplo criamos algumas pessoas e colocamos elas dentro de um vetor, depoi
 - Na linha 37, declaramos a assinatura do método que recebe uma letra e um vetor de pessoas.
 - Na linha 50 verificamos se a primeira letra do nome da pessoa que está no meio do vetor é igual a letra procurada. Se encontrou o nome, então retorna a posição do vetor.
 - Na linha 58, se não encontramos o nome com a letra inicial igual a letra procurada, vamos diminuir o tamanho do vetor, para restringir o local onde possa estar.
-- Se a letra do nome do meio do vetor for menor que a letra procurada, significa que o nome com a letra que estamos procurando está entre a posição do meio + 1 e o fim do vetor.
-- Se a letra do nome do meio do vetor for maior que a letra procurada, significa que o nome com a letra que estamos procurando está entre a posição inicial e o meio – 1 do vetor.
+- Se a letra do nome do meio do vetor for menor que a letra procurada, significa que o nome com a letra que estamos procurando está entre a posição do `meio + 1` e o fim do vetor.
+- Se a letra do nome do meio do vetor for maior que a letra procurada, significa que o nome com a letra que estamos procurando está entre a posição inicial e o `meio – 1` do vetor.
 - A linha 57 é executada apenas se não encontrou o número procurado dentro do vetor, então retorna a posição que possui um caractere mais próximo do procurado.
 
 
 ### Conteúdos relacionados
 
 - [Pesquisa sequencial](http://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-sequencial/)
+- [Ordenação de dados com Merge Sort](http://www.universidadejava.com.br/pesquisa_ordenacao/merge-sort/)
 - [Ordenação de dados com Quick Sort](http://www.universidadejava.com.br/pesquisa_ordenacao/quick-sort/)

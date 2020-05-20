@@ -208,3 +208,11 @@ OK (1 test)
 {% endhighlight %}
 
 Essa saída informa que um teste foi executado com sucesso. Note que agora executamos o mesmo teste que o usuário executou, mas agora estamos fazendo isso de forma automática.
+
+
+### Conteúdos relacionados
+
+- [Introdução ao TDD](http://www.universidadejava.com.br/tdd/tdd-introducao/)
+- [Entendendo o ciclo de desenvolvimento com TDD](http://www.universidadejava.com.br/tdd/tdd-ciclo-desenvolvimento/)
+- [Introdução a refatoração](http://www.universidadejava.com.br/tdd/tdd-refatoracao/)
+- [O impacto do TDD no design da aplicação](http://www.universidadejava.com.br/tdd/tdd-design-aplicacao/)

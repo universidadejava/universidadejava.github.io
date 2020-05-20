@@ -21,21 +21,21 @@ O próximo algoritmo de ordenação de dados que falaremos é o Quick Sort. Assi
 
 O algoritmo Quick Sort trabalha ordenando uma sequência qualquer de valores dividindo-a em subsequências menores, aplicando recursão para ordenar cada uma destas subsequências e por fim, concatenando-as novamente em uma sequência idêntica a original, porem, já ordenada.
 
-**Divisão** – Para uma sequência **S** de ao menos dois elementos, basta escolher um elemento x de S chamado por pivô. Uma vez feito isso, removemos todos os elementos de S e os alocamos em três novas subsequências, sendo elas:
+**Divisão** – Para uma sequência `S` de ao menos dois elementos, basta escolher um elemento `x` de `S` chamado por pivô. Uma vez feito isso, removemos todos os elementos de S e os alocamos em três novas subsequências, sendo elas:
 
-- Uma subsequência *Me*, composta de elementos menores do que x.
-- Uma subsequência *Ig*, composta de elementos iguais a x.
-- Uma subsequência *Ma*, composta de elementos maiores do que x.
+- Uma subsequência `Me`, composta de elementos menores do que `x`.
+- Uma subsequência `Ig`, composta de elementos iguais a `x`.
+- Uma subsequência `Ma`, composta de elementos maiores do que `x`.
 
-Vale lembrar que, caso exista apenas um elemento de valor igual ao de x, a subsequência Lg será composta de apenas um elemento.
+Vale lembrar que, caso exista apenas um elemento de valor igual ao de `x`, a subsequência `Lg` será composta de apenas um elemento.
 
 <figure>
     <a href="/images/2020-05-19-quick-sort-01.png"><img src="/images/2020-05-19-quick-sort-01.png" alt="Exemplo de divisão do vetor."></a>
 </figure>
 
-**Recursão** – Ordene as sequências Me e Ma recursivamente.
+**Recursão** – Ordene as sequências `Me` e `Ma` recursivamente.
 
-**Conquista** – Recoloque os elementos das subsequências **Me**, **Ig** e **Ma** novamente na sequência **S** nesta mesma ordem em que foram mencionados.
+**Conquista** – Recoloque os elementos das subsequências `Me`, `Ig` e `Ma` novamente na sequência `S` nesta mesma ordem em que foram mencionados.
 
 
 ### QuickSort in-place
@@ -45,9 +45,9 @@ Uma das melhores maneiras de se aplica o Quick Sort, é através da metodologia 
 Para que isto seja possível, iremos no preocupar não somente com a composição de novos vetores, mas sim iremos a partir do pivô comparar todos os elementos do vetor com o pivô de maneira a trocar elementos de posição e deixar o pivô centralizado, ou seja, com elementos menores que ele a sua esquerda e maiores que ele a sua direita, com isso já teremos os três novos vetores.
 
 Para que isso seja possível, adotaremos a seguinte técnica:
-- Escolher um elemento x do vetor, no caso o primeiro elemento do vetor;
-- Percorrer o vetor da esquerda para a direita procurando um elemento maior que x, e da direita para a esquerda procurando um elemento menor ou igual a x. Quando este elementos forem encontrados, devemos troca-los de posição;
-- Trocar x com o j-ésimo elemento e devolver a posição j.
+- Escolher um elemento `x` do vetor, no caso o primeiro elemento do vetor;
+- Percorrer o vetor da esquerda para a direita procurando um elemento maior que `x`, e da direita para a esquerda procurando um elemento menor ou igual a `x`. Quando este elementos forem encontrados, devemos troca-los de posição;
+- Trocar `x` com o j-ésimo elemento e devolver a posição `j`.
 
 Exemplo:
 
@@ -55,37 +55,37 @@ Exemplo:
     <a href="/images/2020-05-19-quick-sort-02.png"><img src="/images/2020-05-19-quick-sort-02.png" alt="Escolher um elemento x do vetor, no caso o primeiro elemento do vetor."></a>
 </figure>
 
-x = S[p] = 12
+`x = S[p] = 12`
 
 <figure>
     <a href="/images/2020-05-19-quick-sort-03.png"><img src="/images/2020-05-19-quick-sort-03.png" alt="Percorrer o vetor da esquerda para a direita procurando um elemento maior que x."></a>
 </figure>
 
-4 < 12? Sim -> incrementar ponteiro...
+`4 < 12`? Sim -> incrementar ponteiro...
 
 <figure>
     <a href="/images/2020-05-19-quick-sort-04.png"><img src="/images/2020-05-19-quick-sort-04.png" alt="Percorrer o vetor da esquerda para a direita procurando um elemento maior que x."></a>
 </figure>
 
-15 < 12? Não! -> parar ponteiro...
+`15 < 12`? Não! -> parar ponteiro...
 
 <figure>
     <a href="/images/2020-05-19-quick-sort-05.png"><img src="/images/2020-05-19-quick-sort-05.png" alt="Parar de percorrer o vetor porque encontramos um elemento maior que x."></a>
 </figure>
 
-28 > 12? Sim -> decrementar ponteiro...
+`28 > 12`? Sim -> decrementar ponteiro...
 
 <figure>
     <a href="/images/2020-05-19-quick-sort-06.png"><img src="/images/2020-05-19-quick-sort-06.png" alt="Percorrer o vetor da direita para a esquerda procurando um elemento menor ou igual a x."></a>
 </figure>
 
-20 > 12? Sim -> decrementar ponteiro...
+`20 > 12`? Sim -> decrementar ponteiro...
 
 <figure>
     <a href="/images/2020-05-19-quick-sort-07.png"><img src="/images/2020-05-19-quick-sort-07.png" alt="Percorrer o vetor da direita para a esquerda procurando um elemento menor ou igual a x."></a>
 </figure>
 
-6 > 12? Não! -> parar ponteiro...
+`6 > 12`? Não! -> parar ponteiro...
 
 <figure>
     <a href="/images/2020-05-19-quick-sort-08.png"><img src="/images/2020-05-19-quick-sort-08.png" alt="Parar de percorrer o vetor porque encontramos um elemento maior que x."></a>
@@ -103,45 +103,45 @@ Continuando...
     <a href="/images/2020-05-19-quick-sort-10.png"><img src="/images/2020-05-19-quick-sort-10.png" alt="Continuando..."></a>
 </figure>
 
-7 < 12? Sim -> incrementar ponteiro...
+`7 < 12`? Sim -> incrementar ponteiro...
 
 <figure>
     <a href="/images/2020-05-19-quick-sort-11.png"><img src="/images/2020-05-19-quick-sort-11.png" alt="Percorrer o vetor da esquerda para a direita procurando um elemento maior que x."></a>
 </figure>
 
-10 < 12? Sim -> incrementar ponteiro...
+`10 < 12`? Sim -> incrementar ponteiro...
 
 <figure>
     <a href="/images/2020-05-19-quick-sort-12.png"><img src="/images/2020-05-19-quick-sort-12.png" alt="Percorrer o vetor da esquerda para a direita procurando um elemento maior que x."></a>
 </figure>
 
-2 < 12? Sim -> incrementar ponteiro...
+`2 < 12`? Sim -> incrementar ponteiro...
 
 <figure>
     <a href="/images/2020-05-19-quick-sort-13.png"><img src="/images/2020-05-19-quick-sort-13.png" alt="Percorrer o vetor da esquerda para a direita procurando um elemento maior que x."></a>
 </figure>
 
-1 < 12? Sim -> incrementar ponteiro...
+`1 < 12`? Sim -> incrementar ponteiro...
 
 <figure>
     <a href="/images/2020-05-19-quick-sort-14.png"><img src="/images/2020-05-19-quick-sort-14.png" alt="Percorrer o vetor da esquerda para a direita procurando um elemento maior que x."></a>
 </figure>
 
-13 < 12? Não! -> parar ponteiro...
+`13 < 12`? Não! -> parar ponteiro...
 
 <figure>
     <a href="/images/2020-05-19-quick-sort-15.png"><img src="/images/2020-05-19-quick-sort-14.png" alt="Parar de percorrer o vetor porque encontramos um elemento maior que x."></a>
 </figure>
 
-13 > 12? Sim -> decrementar ponteiro...
+`13 > 12`? Sim -> decrementar ponteiro...
 
 <figure>
     <a href="/images/2020-05-19-quick-sort-16.png"><img src="/images/2020-05-19-quick-sort-15.png" alt="Percorrer o vetor da direita para a esquerda procurando um elemento menor ou igual a x."></a>
 </figure>
 
-1 > 12? Não! -> parar ponteiro...
+`1 > 12`? Não! -> parar ponteiro...
 
-Uma vez que os dois ponteiros se ultrapassaram, o elemento escolhido “x” deve ser agora trocado com o elemento da posição j.
+Uma vez que os dois ponteiros se ultrapassaram, o elemento escolhido `x` deve ser agora trocado com o elemento da posição `j`.
 
 <figure>
     <a href="/images/2020-05-19-quick-sort-17.png"><img src="/images/2020-05-19-quick-sort-16.png" alt="Parar de percorrer o vetor porque encontramos um elemento maior que x."></a>
@@ -152,7 +152,7 @@ Essa foi a primeira passada percorrendo o vetor, o mesmo processo deve continuar
 
 ### Implementação do QuickSort in-place em Java
 
-Para iniciar o exemplo, vamos criar uma classe Quick Sort:
+Para iniciar o exemplo, vamos criar uma classe `QuickSort`:
 
 {% highlight java %}
 package quicksort;
@@ -172,9 +172,9 @@ public class QuickSort {
 }
 {% endhighlight %}
 
-Nossa classe QuickSort já disponibiliza um método específico para a ordenação de números inteiros, conforme a linha 15 do código.
+A classe QuickSort já disponibiliza um método específico para a ordenação de números inteiros, conforme a linha 15 do código.
 
-Note que este método invoca um método interno da classe também chamado de quickSort, logo vamos a seu código fonte:
+Note que este método invoca o método `private void quickSort(int[] vetor, int inicio, int fim)`, logo vamos a seu código fonte:
 
 {% highlight java %}
   /**
@@ -200,7 +200,7 @@ Note que este método invoca um método interno da classe também chamado de qui
   }
 {% endhighlight %}
 
-Observe que nesta etapa, o algoritmo visa divider o vetor de entrada utilizando o método dividir, conforme a linha 32. Nesta etapa de divisão veremos como o algoritmo se comporta para realizar a ordenação a cada etapa desta divisão.
+Observe que nesta etapa, o algoritmo visa divider o vetor de entrada utilizando o método `private int dividir(int[] vetor, int inicio, int fim)`, conforme a linha 32. Nesta etapa de divisão veremos como o algoritmo se comporta para realizar a ordenação a cada etapa desta divisão.
 
 {% highlight java %}
   /**
@@ -245,7 +245,7 @@ Observe que nesta etapa, o algoritmo visa divider o vetor de entrada utilizando 
 
 Este trecho de código responsável pela divisão do vetor em função da comparação por base de um vetor, estabelecido pelo elemento inicial do vetor, conforme a linha 63.
 
-Utilizando dois ponteiros, um vindo da esquerda e outro da direita, este algoritmo ao mesmo que divide o vetor em dois novos vetores, estabelece uma ordenação fundamentada no pivô, onde os elementos menores que ele ficarão a sua esquerda e os maiores a sua direita. Quando elementos que não atendam a esta regra são localizados no vetor, estes são trocados pelo método trocar, conforme linhas 79 e 84. Vejamos seu código fonte:
+Utilizando dois ponteiros, um vindo da esquerda e outro da direita, este algoritmo ao mesmo que divide o vetor em dois novos vetores, estabelece uma ordenação fundamentada no pivô, onde os elementos menores que ele ficarão a sua esquerda e os maiores a sua direita. Quando elementos que não atendam a esta regra são localizados no vetor, estes são trocados pelo método `private void trocar(int[] vetor, int i, int j)`, conforme linhas 79 e 84. Vejamos seu código fonte:
 
 {% highlight java %}
   /**
@@ -262,7 +262,7 @@ Utilizando dois ponteiros, um vindo da esquerda e outro da direita, este algorit
   }
 {% endhighlight %}
  
-Agora, já finalizada a classe QuickSort, vamos elaborar uma classe de teste para vermos o comportamento do algoritmo:
+Agora, já finalizada a classe `QuickSort`, vamos elaborar uma classe de teste para ver o comportamento do algoritmo:
 
 {% highlight java %}
 package quicksort;

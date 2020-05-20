@@ -72,3 +72,11 @@ Teste unitário é um teste de uma pequena parte da aplicação, normalmente é 
 Garantindo que cada pequena parte da aplicação está funcionando como deveria, podemos ter um controle melhor das alterações que estão sendo feitas dentro da aplicação. Após uma alteração na aplicação podemos executar todos os testes unitários criados, verificando se não houve alteração em nenhuma outra parte da aplicação, pois caso algum outro teste unitário da aplicação falhe sabemos que foi causado pela alteração atual.
 
 Os testes podem ser utilizados como documentação do sistema, dado que podemos definir nomes informativos para cada teste, eles também podem dar mais confiança durante o desenvolvimento, já que se algum erro acontecer ou impactar outra funcionalidade do sistema algum teste pode falhar.
+
+
+### Conteúdos relacionados
+
+- [Começando a criar testes passo a passo](http://www.universidadejava.com.br/tdd/tdd-ola-testes/)
+- [Entendendo o ciclo de desenvolvimento com TDD](http://www.universidadejava.com.br/tdd/tdd-ciclo-desenvolvimento/)
+- [Introdução a refatoração](http://www.universidadejava.com.br/tdd/tdd-refatoracao/)
+- [O impacto do TDD no design da aplicação](http://www.universidadejava.com.br/tdd/tdd-design-aplicacao/)

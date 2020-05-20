@@ -92,7 +92,7 @@ public class Sequencial {
     
     for(cont = 0; cont < numeros.length; cont++) {
       //Verifica se o elemento que está sendo procurado está no vetor.
-      if(numeros[cont] == x) {
+      if (numeros[cont] == x) {
         //Se encontrou o elemento, imprime ele na tela e para a pesquisa.
         System.out.println("Encontrou o número " + x);
         break;
@@ -107,7 +107,7 @@ public class Sequencial {
 {% endhighlight %}
 
 - Na linha 20, temos a assinatura do método que vai procurar um elemento dentro do vetor, utilizando o algoritmo de **Pesquisa Sequencial**.
-- Na linha 23, utilizamos um for para percorrer todos os elementos do vetor.
+- Na linha 23, utilizamos um `for` para percorrer todos os elementos do vetor.
 - Na linha 25, verifica se o numero dentro do vetor, tem o mesmo valor que o número que está sendo procurado, e se encontrou o número então imprime ele na tela e para de pesquisar.
 - Na linha 33, verificamos se o tamanho do contador utilizado no for tem um valor maior que o tamanho do vetor, para verificar se já percorreu todo o vetor, mas não encontrou o valor procurado.
 
@@ -184,12 +184,12 @@ Este mesmo algoritmo de busca sequencial pode ser programando de uma outra forma
     int cont = 0;
     
     /* Percorre o vetor até chegar no fim ou até encontrar o número no vetor. */
-    while(cont < numeros.length && numeros[cont] != x)
+    while (cont < numeros.length && numeros[cont] != x)
       cont++;
     
     /* Verifica se não percorreu todos os elementos do vetor e se encontrou o 
     número dentro do vetor. */
-    if(cont < numeros.length && numeros[cont] == x)
+    if (cont < numeros.length && numeros[cont] == x)
       System.out.println("Encontrou o número " + x);
     else /* Caso tenha percorrido todo o vetor e não encontrou o número. */
       System.out.println("Não encontrou o número " + x);
