@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Arrays"
+title: "array"
 categories: java
 author: sakurai
 date: 2011-06-16 22:00:00

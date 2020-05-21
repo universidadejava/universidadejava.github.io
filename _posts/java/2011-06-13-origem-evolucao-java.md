@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Origem e evolução da linguagem Java"
+title: "Origem e evolução da linguagem Java"
 categories: java
 author: sakurai
 date: 2011-06-13 18:05:00
@@ -28,12 +28,32 @@ Inicialmente Java foi batizada de **Oak** por seu criador (**James Gosling**), t
 
 Em março de 1995 foi anunciado no evento SunWorld a tecnologia Java 1.0, inicialmente o foco principal da tecnologia utilizado para divulgação foram os Applets, pequenas aplicações que poderiam ser executadas via web através de um browser.
 
-Em 1998 foi lançado a versão 1.2 (codinome “Playground”) da linguagem Java, está nova versão trouxe uma quantidade muito grande de novas funcionalidades, essa alteração foi tão grande que a pessoa do marketing começou a chamar de Java 2.
+Em 1998 foi lançado a versão 1.2 (codinome "Playground") da linguagem Java, está nova versão trouxe uma quantidade muito grande de novas funcionalidades, essa alteração foi tão grande que a pessoa do marketing começou a chamar de Java 2.
 
-As versões 1.3 (codinome “Kestrel”) lançada em 2000 e 1.4 (codinome “Merlin”) lançada em 2002 continuaram sendo chamado de Java 2, pois houveram alterações e melhorias na linguagem mas não tão grandes como na versão 1.2.
+As versões 1.3 (codinome "Kestrel") lançada em 2000 e 1.4 (codinome "Merlin") lançada em 2002 continuaram sendo chamado de Java 2, pois houveram alterações e melhorias na linguagem mas não tão grandes como na versão 1.2.
 
-Na versão 1.5 lançada em 2004 o pessoal resolveu mudar novamente chamando de Java 5 (codinome “Tiger”), a partir desta versão foi padronizado as novas atualizações.
+Na versão 1.5 lançada em 2004 o pessoal resolveu mudar novamente chamando de Java 5 (codinome "Tiger"), a partir desta versão foi padronizado as novas atualizações.
 
-Em 2006 o Java 6 (codinome “Mustang”) e atualmente o Java está na versão 6 update 26 e a versão 7 tem o codinome “Dolphin”.
+Em 2006 o Java 6 (codinome "Mustang").
+
+Em 2011 o Java 7 (codinome "Dolphin").
+
+Em 2014 o Java 8.
+
+Em 2017 o Java 9.
+
+Em 2018 foram lançados o Java 10 e Java 11.
+
+Em 2019 foram lançados o Java 12 e Java 13.
+
+Atualmente estamos na versão do Java 14 lançado em Março de 2020, mas já há um roadmap para lançar a versão do Java 15 até o final deste ano, e o Java 16 e Java 17 em 2021.
 
 Java também é uma linguagem Open Source e não possui um único dono, todas novas atualizações da linguagem são feitas através da JCP (Java Community Process), formada por um conjunto de empresas.
+
+
+### Conteúdos relacionados
+
+- [Hello World em Java](http://www.universidadejava.com.br/java/java-helloworld/)
+- [Adicionando comentários no seu código](http://www.universidadejava.com.br/java/java-comentarios/)
+- [Conhecendo as palavras chave do Java](http://www.universidadejava.com.br/images/teaser-java.png)
+- [Introdução a Java Virtual Machine (JVM)](http://www.universidadejava.com.br/java/introducao-jvm/)

@@ -1,12 +1,12 @@
 ---
 layout: article
-title: "Java - Comentários de código"
+title: "Adicionando comentários no código"
 categories: java
 author: sakurai
 date: 2011-06-13 18:36:00
 tags: [java, comentarios]
 published: true
-excerpt: Adicionando comentários no meio do código Java.
+excerpt: A linguagem Java disponibiliza três maneiras diferentes de escrever comentários no seu código, entenda quais são essas formas diferentes e muito usadas para explicar o código desenvolvido.
 comments: true
 image:
   teaser: teaser-java.png
@@ -35,7 +35,7 @@ Exemplo:
 
 {% gist dd788f19e685ef675715 %}
 
-Depois de criado este arquivo, acessando a linha de comando iremos executar o seguinte comando para compilar a classe **PrimeiraClasse.java**:
+Depois de criado este arquivo, acessando a linha de comando iremos executar o seguinte comando para compilar a classe `PrimeiraClasse.java`:
 
 Na linha 1 até a linha 7 estamos criando um comentário do tipo javadoc.
 
@@ -59,31 +59,31 @@ Também é possível utilizar-se de comandos especiais, que servem como marcaç�
 
 #### Comentários gerais
 
-**@deprecated** - adiciona um comentário de que a classe, método ou variável deveria não ser usada. O texto deve sugerir uma substituição.
+`@deprecated` - adiciona um comentário de que a classe, método ou variável deveria não ser usada. O texto deve sugerir uma substituição.
 
-**@since** - descreve a versão do produto quando o elemento foi adicionado à especificação da API.
+`@since` - descreve a versão do produto quando o elemento foi adicionado à especificação da API.
 
-**@version** - descreve a versão do produto.
+`@version` - descreve a versão do produto.
 
-**@see** - essa marca adiciona um link à seção "Veja também" da documentação.
+`@see` - essa marca adiciona um link à seção "Veja também" da documentação.
 
 #### Comentários de classes e interfaces
 
-**@author** - autor do elemento.
+`@author` - autor do elemento.
 
-**@version** - número da versão atual.
+`@version` - número da versão atual.
 
 #### Comentários de métodos
 
-**@param** - descreve os parâmetros de um método acompanhado por uma descrição.
+`@param` - descreve os parâmetros de um método acompanhado por uma descrição.
 
-**@return** - descreve o valor retornado por um método.
+`@return` - descreve o valor retornado por um método.
 
-**@throws** - indica as exceções que um dado método dispara com uma descrição associada.
+`@throws` - indica as exceções que um dado método dispara com uma descrição associada.
 
 #### Comentários de serialização
 
-**@serial** - para documentar a serialização de objetos.
+@serial` - para documentar a serialização de objetos.
 
 Exemplo:
 
@@ -118,10 +118,10 @@ Depois comentar seu programa usando as tags acima, basta somente deixar o javado
 No diretório que contém os arquivos-fonte execute o comando:
 
 {% highlight java %}
-javadoc -d dirDoc nomeDoPacote
+javadoc -d dirDoc nomeDiretorio
 {% endhighlight %}
 
-No qual **dirDoc** é o nome do diretório que deseja colocar os arquivos HTML.
+No qual `dirDoc` é o nome do diretório que deseja colocar os arquivos HTML.
 
 ## Gerando a documentação em HTML com Eclipse
 
@@ -140,3 +140,11 @@ Mais abaixo existe a opção de visibilidade dos membros os quais você deseja c
 Por fim temos a opção de Doclet, que corresponde ao padrão de fonte que será utilizado, deixe marcada a opção Standard Doclet, e aponte o destino de geração de sua documentação na opção Destination.
 
 Feito isso, basta clicar em **Finish** e sua documentação estará disponível na pasta solicitada.
+
+
+### Conteúdos relacionados
+
+- [Organizando seu código Java em pacotes](http://www.universidadejava.com.br/java/java-pacotes/)
+- [Introdução a Java Virtual Machine (JVM)](http://www.universidadejava.com.br/java/introducao-jvm/)
+- [Criando classes no Java](http://www.universidadejava.com.br/java/java-classe/)
+- [Entendendo como funciona um método recursivo](http://www.universidadejava.com.br/java/java-recursividade/)

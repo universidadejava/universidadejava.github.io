@@ -1,12 +1,12 @@
 ---
 layout: article
-title: "Java - Palavras chave"
+title: "Palavras chave do Java"
 categories: java
 author: sakurai
 date: 2011-06-15 15:13:00
 tags: [java, palavras-chave]
 published: true
-excerpt: Palavras chave do Java.
+excerpt: Conheça as palavras chave reservadas da linguagem Java.
 comments: true
 image:
   teaser: teaser-java.png
@@ -29,3 +29,11 @@ Java possui algumas palavras chaves que são da linguagem e não podem ser usado
 Nos próximos posts veremos como utilizar estas palavras chave, note que todas as palavras chaves são escritas em minúsculo.
 
 As palavras chave **const** e **goto** foram criadas, mas não possuem nenhuma funcionalidade.
+
+
+### Conteúdos relacionados
+
+- [Conhecendo os tipos primitivos do Java](http://www.universidadejava.com.br/java/java-tipos-primitivos/)
+- [Coversão (casting) entre tipos primitivos](http://www.universidadejava.com.br/java/java-casting-tipos-primitivos/)
+- [Usando os modificadores de visibilidade do Java](http://www.universidadejava.com.br/java/java-modificador/)
+- [Criando uma simples classe Java no estilo POJO](http://www.universidadejava.com.br/java/java-pojo/)

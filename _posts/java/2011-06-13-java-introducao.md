@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Introdução ao Java"
+title: "Introdução ao Java"
 categories: java
 author: sakurai
 date: 2011-06-13 18:16:00
@@ -44,6 +44,13 @@ Este é um pacote mais compacto utilizado para desenvolvimento de aplicações m
 
 Há dois principais produtos dentro da plataforma Java SE: Java Runtime Environment (JRE) e Java Development Kit (JDK).
 
-* O JRE fornece a Java Virtual Machine, bibliotecas e outros componentes para executar aplicações escritas em Java.
+- O JRE fornece a Java Virtual Machine, bibliotecas e outros componentes para executar aplicações escritas em Java.
+- O JDK contém tudo que tem na JRE, mais ferramentas adicionais para desenvolver (compilar e debugar) aplicações feitas em Java.
 
-* O JDK contém tudo que tem na JRE, mais ferramentas adicionais para desenvolver (compilar e debugar) aplicações feitas em Java.
+
+### Conteúdos relacionados
+
+- [Introdução a Java Virtual Machine (JVM)](http://www.universidadejava.com.br/java/introducao-jvm/)
+- [Hello World em Java](http://www.universidadejava.com.br/java/java-helloworld/)
+- [Criando uma simples classe Java no estilo POJO](http://www.universidadejava.com.br/java/java-pojo/)
+- [Conhecendo a estrutura array para organizar dados](http://www.universidadejava.com.br/java/java-array/)
