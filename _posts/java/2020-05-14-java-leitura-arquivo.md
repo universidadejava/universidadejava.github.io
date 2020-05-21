@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Leitura de arquivos"
+title: "Leitura e escrita de arquivos"
 categories: java
 author: sakurai
 date: 2020-05-14 22:46:00
@@ -15,11 +15,11 @@ ads: false
 
 ## Leitura de arquivos
 
-Existem diversos meios de se manipular arquivos na linguagem de programação Java. A classe **java.io.File** é responsável por representar arquivos ou diretórios do seu sistema de arquivos. Esta classe pode fornecer informações úteis assim como criar um novo arquivo, tamanho do arquivo, caminho absoluto, espaço livre em disco ou, ainda, excluí-lo.
+Existem diversos meios de se manipular arquivos na linguagem de programação Java. A classe `java.io.File` é responsável por representar arquivos ou diretórios do seu sistema de arquivos. Esta classe pode fornecer informações úteis assim como criar um novo arquivo, tamanho do arquivo, caminho absoluto, espaço livre em disco ou, ainda, excluí-lo.
 
-A linguagem Java oferece uma classe específica para a leitura do fluxo de bytes que compõem o arquivo, esta classe chama-se **java.io.FileInputStream**. A FileInputStream recebe em seu construtor uma referencia File, ou uma String que deve representar o caminho completo do arquivo, dessa forma podemos ler as informações que estão dentro do arquivo.
+A linguagem Java oferece uma classe específica para a leitura do fluxo de bytes que compõem o arquivo, esta classe chama-se `java.io.FileInputStream`. A `FileInputStream` recebe em seu construtor uma referencia `File`, ou uma `String` que deve representar o caminho completo do arquivo, dessa forma podemos ler as informações que estão dentro do arquivo.
 
-Tanto a invocação do arquivo pela classe File, quanto diretamente pela FileInputStream fará com que o arquivo seja buscado no diretório em que o Java foi invocado (no caso do NetBeans vai ser dentro do diretório do projeto). Você também pode usar um caminho absoluto, para ler os arquivos que estão em outros diretórios do seu computador (ex: C:\arquivos\arquivo.txt).
+Tanto a invocação do arquivo pela classe `File`, quanto diretamente pela `FileInputStream` fará com que o arquivo seja buscado no diretório em que o Java foi invocado (no caso do NetBeans vai ser dentro do diretório do projeto). Você também pode usar um caminho absoluto, para ler os arquivos que estão em outros diretórios do seu computador, ex: `C:\arquivos\arquivo.txt`.
 
 ### Exemplo de leitura de arquivo 
 
@@ -53,13 +53,13 @@ public class ExemploFile {
 }
 {% endhighlight %}
 
-Criamos um objeto f do tipo File a partir de um caminho recebido, este objeto será utilizado para representar um arquivo ou diretório.
+Criamos um objeto `f` do tipo `File` a partir de um caminho recebido, este objeto será utilizado para representar um arquivo ou diretório.
 
-Verificamos se o objeto f é um arquivo, através do método isFile() da classe File, caso retorne true, então irá imprimir a mensagem informando que o caminho é referente a um arquivo.
+Verificamos se o objeto `f` é um arquivo, através do método `isFile()` da classe `File`, caso retorne `true`, então irá imprimir a mensagem informando que o caminho é referente a um arquivo.
 
-Caso contrário, verificamos se o objeto f é um diretório, através do método isDirectory() da classe File, caso retorne true, então irá imprimir a mensagem informando que o caminho é referente a um diretório.
+Caso contrário, verificamos se o objeto `f` é um diretório, através do método `isDirectory()` da classe `File`, caso retorne `true`, então irá imprimir a mensagem informando que o caminho é referente a um diretório.
 
-Ao executar a classe ExemploFile, teremos a seguinte saída no console:
+Ao executar a classe `ExemploFile`, teremos a seguinte saída no console:
 
 {% highlight java %}
 C:\>javac material\arquivo\ExemploFile.java
@@ -70,7 +70,7 @@ C:\Arquivos\teste.txt
 Este caminho eh de um arquivo.
 {% endhighlight %}
 
-Neste exemplo, vamos ler um arquivo .txt e imprimir seu texto no console.
+Neste exemplo, vamos ler um arquivo chamado `teste.txt` e imprimir seu texto no console.
 
 {% highlight java %}
 package material.arquivo;
@@ -128,17 +128,15 @@ public class ExemploFileInputStream {
 }
 {% endhighlight %}
 
-Criamos um objeto do tipo **FileInputStream**, seu construtor recebe uma String com um caminho de arquivo, esta classe lê os bytes do arquivo.
+Criamos um objeto do tipo `FileInputStream`, seu construtor recebe uma `String` com um caminho de arquivo, esta classe lê os bytes do arquivo.
 
-Para percorrer os bytes do arquivo, vamos declarar uma variável **int c** que será utilizada para guardar os caracteres lidos do arquivo, lembre-se que todos os caracteres em Java são representados por um número inteiro.
+Para percorrer os bytes do arquivo, vamos declarar uma variável `int c` que será utilizada para guardar os caracteres lidos do arquivo, lembre-se que todos os caracteres em Java são representados por um número inteiro.
 
-Percorremos todo o arquivo e fazer o casting de inteiro para caractere, para imprimir o texto do arquivo, note que se o valor lido através do método **read()** for igual a **-1**, significa que chegamos ao final do arquivo.
+Percorremos todo o arquivo e fazer o casting de inteiro para caractere, para imprimir o texto do arquivo, note que se o valor lido através do método `read()` for igual a `-1`, significa que chegamos ao final do arquivo.
 
-Também precisamos tratar as exceções que podem ser lançadas durante a leitura de um arquivo.
+Também precisamos tratar as exceções que podem ser lançadas durante a leitura de um arquivo. Sempre que estiver manipulando um arquivo, lembre-se de fechar o arquivo utilizando o método `close()`.
 
-Sempre que estiver manipulando um arquivo, lembre-se de fechar o arquivo utilizando o método **close()**.
-
-Ao executar a classe **ExemploFileInputStream**, teremos a seguinte saída no console:
+Ao executar a classe `ExemploFileInputStream`, teremos a seguinte saída no console:
 
 {% highlight java %}
 C:\>javac material\arquivo\ExemploFileInputStream.java
@@ -152,11 +150,11 @@ e
 
 ### Streams de caracteres
 
-Streams de caracteres é a forma como trabalhamos com os próprios caracteres lidos do arquivo, e a partir desses caracteres podemos adicionar filtros em cima deles. Exemplos destes leitores são as classes abstratas **java.io.Reader** e **java.io.Writer**.
+Streams de caracteres é a forma como trabalhamos com os próprios caracteres lidos do arquivo, e a partir desses caracteres podemos adicionar filtros em cima deles. Exemplos destes leitores são as classes abstratas `java.io.Reader` e `java.io.Writer`.
 
 #### java.io.Reader
 
-A classe abstrata **java.io.Reader** representa um fluxo de entrada de dados tratados como caracteres. Essa classe possui várias subclasses dedicadas a cada fonte de dados específica, tais como a classe **java.io.FileReader**, que representa a leitura de caracteres de um arquivo
+A classe abstrata `java.io.Reader` representa um fluxo de entrada de dados tratados como caracteres. Essa classe possui várias subclasses dedicadas a cada fonte de dados específica, tais como a classe `java.io.FileReader`, que representa a leitura de caracteres de um arquivo
 
 Neste exemplo, leremos um arquivo e imprimiremos seus caracteres no console:
 
@@ -206,17 +204,15 @@ public class ExemploReader {
 }
 {% endhighlight %}
 
-Criamos um objeto do tipo **FileReader**, seu construtor recebe uma String com um caminho de arquivo, está classe lê os caracteres do arquivo.
+Criamos um objeto do tipo `FileReader`, seu construtor recebe uma String com um caminho de arquivo, está classe lê os caracteres do arquivo.
 
-Declaramos uma variável **int c**, que será utilizada para guardar os caracteres lidos do arquivo, lembre-se que todos os caracteres em Java são representados por um número inteiro.
+Declaramos uma variável `int c`, que será utilizada para guardar os caracteres lidos do arquivo, lembre-se que todos os caracteres em Java são representados por um número inteiro.
 
-Percorremos todo o arquivo e vamos fazer o casting de inteiro para caractere, para imprimir o texto do arquivo, note que se o valor lido através do método **read()** for igual a **-1**, significa que chegamos ao final do arquivo.
+Percorremos todo o arquivo e vamos fazer o casting de inteiro para caractere, para imprimir o texto do arquivo, note que se o valor lido através do método `read()` for igual a `-1`, significa que chegamos ao final do arquivo.
 
-Tratamos as exceções que podem ser lançadas durante a leitura de um arquivo.
+Tratamos as exceções que podem ser lançadas durante a leitura de um arquivo. Sempre que estiver manipulando um arquivo, lembre-se de fechar o arquivo utilizando o método `close()`.
 
-Sempre que estiver manipulando um arquivo, lembre-se de fechar o arquivo utilizando o método **close()**.
-
-Ao executar a classe ExemploReader, teremos a seguinte saída no console:
+Ao executar a classe `ExemploReader`, teremos a seguinte saída no console:
 
 {% highlight java %}
 C:\>javac material.arquivo.ExemploReader.java
@@ -230,7 +226,7 @@ Nao gorjeiam como la.
 
 #### java.io.Writer
 
-A classe **java.io.Writer** é uma classe abstrata que representa um fluxo de saída de dados tratados como caracteres. Essa classe possui várias subclasses dedicadas a cada fonte de dados específica, tais como a classe java.io.FileWriter.
+A classe `java.io.Writer` é uma classe abstrata que representa um fluxo de saída de dados tratados como caracteres. Essa classe possui várias subclasses dedicadas a cada fonte de dados específica, tais como a classe `java.io.FileWriter`.
 
 Neste exemplo, leremos um arquivo e o copiaremos para outro arquivo:
 
@@ -297,13 +293,11 @@ public class ExemploWriter {
 }
 {% endhighlight %}
 
-Criamos um objeto do tipo **FileReader**, para ler o arquivo. Criamos um objeto do tipo **FileWriter**, para criar um novo arquivo e escrever nele as informações do arquivo que será lido.
+Criamos um objeto do tipo `FileReader`, para ler o arquivo. Criamos um objeto do tipo `FileWriter`, para criar um novo arquivo e escrever nele as informações do arquivo que será lido.
 
-Percorremos os caracteres do arquivo de entrada e gravaremos os caracteres lidos no arquivo de saída.
+Percorremos os caracteres do arquivo de entrada e gravaremos os caracteres lidos no arquivo de saída. Para liberar os recurso lembre-se de fechar o arquivo de entrada e o arquivo de saída.
 
-Para liberar os recurso lembre-se de fechar o arquivo de entrada e o arquivo de saída.
-
-Ao executar a classe **ExemploWriter**, teremos a seguinte saída no console:
+Ao executar a classe `ExemploWriter`, teremos a seguinte saída no console:
 
 {% highlight java %}
 C:\>javac material\arquivo\ExemploWriter.java
@@ -315,33 +309,33 @@ Exemplo de copia de arquivo.
 
 ### Streams de bytes
 
-Como já mencionado no título deste material, Streams nada mais são do que fluxos de dados sejam eles de entrada ou de saída. Na linguagem Java, graças aos benefícios trazidos ao polimorfismo, é possível se utilizar fluxos de entrada (**java.io.InputStream**) e de saída (**java.io.OutputStream**) para toda e qualquer operação deste gênero, seja ela relativa a um arquivo, a uma conexão remota via sockets ou até mesmo a entrada e saída padrão de um programa (normalmente o teclado e o console).
+Como já mencionado no título deste material, Streams nada mais são do que fluxos de dados sejam eles de entrada ou de saída. Na linguagem Java, graças aos benefícios trazidos ao polimorfismo, é possível se utilizar fluxos de entrada (`java.io.InputStream`) e de saída (`java.io.OutputStream`) para toda e qualquer operação deste gênero, seja ela relativa a um arquivo, a uma conexão remota via sockets ou até mesmo a entrada e saída padrão de um programa (normalmente o teclado e o console).
 
 <figure>
     <a href="/images/2020-05-14-java-leitura-arquivo-01.png"><img src="/images/2020-05-14-java-leitura-arquivo-01.png" alt="Stream de bytes."></a>
 </figure>
 
-As classes abstratas InputStream e OutputStream definem respectivamente o comportamento padrão dos fluxos em Java: em um fluxo de entrada é possível ler bytes e no fluxo de saída escrever bytes. Exemplos concretos destas classes podem ser vistos na utilização dos métodos **print()** e **println()** de **System.out**, pois **out** é uma **java.io.PrintStream**, que é filha (indiretamente) de **OutputStream**; e na utilização de **System.in**, utilizado na construção de um objeto da classe **java.util.Scanner**, que é um **InputStream**, por isso o utilizamos para entrada de dados.
+As classes abstratas InputStream e OutputStream definem respectivamente o comportamento padrão dos fluxos em Java: em um fluxo de entrada é possível ler bytes e no fluxo de saída escrever bytes. Exemplos concretos destas classes podem ser vistos na utilização dos métodos `print()` e `println()` de `System.out`, pois `out` é uma `java.io.PrintStream`, que é filha (indiretamente) de `OutputStream`; e na utilização de `System.in`, utilizado na construção de um objeto da classe `java.util.Scanner`, que é um `InputStream`, por isso o utilizamos para entrada de dados.
 
 O importante a se falar sobre as Streams, é que como ambas trabalham com leitura e escrita de bytes, é importante que seja aplicado um filtro sobre esse fluxo de bytes que seja capaz de converter caracteres para bytes e vice e versa, por este motivo utilizamos o Writer e Reader.
 
-Quando trabalhamos com classes do pacote java.io, diversos métodos lançam java.io.IOException, que é uma exception do tipo checked, o que nos obriga a tratá-la ou declará-la no método.
+Quando trabalhamos com classes do pacote `java.io`, diversos métodos lançam `java.io.IOException`, que é uma exception do tipo checked, o que nos obriga a tratá-la ou declará-la no método.
 
 #### java.io.InputStream
 
-A classe InputStream é uma classe abstrata que representa um fluxo de entrada de dados. Esse fluxo de dados é recebido de maneira extremamente primitiva em bytes. Por este motivo, existem diversas implementações em Java de subclasses de InputStream que são capazes de tratar de maneira mais específica diferentes tipos de fluxos de dados, tais como as classes java.io.FileInputStream, javax.sound.sampled.AudioInputStream, entre outros mais especializada para cada tipo de fonte.
+A classe `InputStream` é uma classe abstrata que representa um fluxo de entrada de dados. Esse fluxo de dados é recebido de maneira extremamente primitiva em bytes. Por este motivo, existem diversas implementações em Java de subclasses de InputStream que são capazes de tratar de maneira mais específica diferentes tipos de fluxos de dados, tais como as classes `java.io.FileInputStream`, `javax.sound.sampled.AudioInputStream`, entre outros mais especializada para cada tipo de fonte.
 
 #### java.io.OutputStream
 
-A classe OutputStream é uma classe abstrata que representa um fluxo de saída de dados. Assim como na InputStream, esse fluxo de dados é enviado em bytes, por este motivo, existem diversas implementações em Java de subclasses de InputStream que são capazes de tratar de maneira mais específica diferentes tipos de fluxos de dados, tais como as classes **java.io.FileOutputStream**, **javax.imageio.stream.ImageOutputStream**, entre outros mais especializados para cada tipo de destino.
+A classe `OutputStream` é uma classe abstrata que representa um fluxo de saída de dados. Assim como na InputStream, esse fluxo de dados é enviado em bytes, por este motivo, existem diversas implementações em Java de subclasses de InputStream que são capazes de tratar de maneira mais específica diferentes tipos de fluxos de dados, tais como as classes `java.io.FileOutputStream`, `javax.imageio.stream.ImageOutputStream`, entre outros mais especializados para cada tipo de destino.
 
 ### Serialização de objetos
 
 Na linguagem Java existe uma forma simples de persistir objetos, uma delas é gravando o objeto diretamente no sistema de arquivos.
 
-Seguindo a mesma idéia das já discutidas FileInputStream e FileOutputStream, existem duas classes específicas para a serialização de objetos. São elas: **java.io.ObjectOutputStream** e **java.io.ObjectInputStream**.
+Seguindo a mesma idéia das já discutidas `FileInputStream` e `FileOutputStream`, existem duas classes específicas para a serialização de objetos. São elas: `java.io.ObjectOutputStream` e `java.io.ObjectInputStream`.
 
-Para que seja possível a escrita de um objeto em um arquivo, ou seu envio via rede (ou seja, sua conversão em um fluxo de bytes) é necessário inicialmente que este objeto implemente uma interface chamada **java.io.Serializable**. Por este motivo, a classe do objeto que desejamos serializar deve implementar esta interface, alem do que afim de evitar uma warning (aviso) no processo de compilação será necessária a declaração de um atributo constante, privado e estático chamado **serialVersionUID**. Este atributo apenas será utilizado como um controlador (um ID) no processo de serialização.
+Para que seja possível a escrita de um objeto em um arquivo, ou seu envio via rede (ou seja, sua conversão em um fluxo de bytes) é necessário inicialmente que este objeto implemente uma interface chamada `java.io.Serializable`. Por este motivo, a classe do objeto que desejamos serializar deve implementar esta interface, alem do que afim de evitar uma warning (aviso) no processo de compilação será necessária a declaração de um atributo constante, privado e estático chamado `serialVersionUID`. Este atributo apenas será utilizado como um controlador (um ID) no processo de serialização.
 
 A declaração do objeto deve ocorrer assim como segue:
 
@@ -368,7 +362,7 @@ public class Pessoa implements Serializable {
 }
 {% endhighlight %}
 
-Este número da serialVersionUID pode ser adquirido através do programa serialver que vem junto com o JDK, localizado na pasta %JAVA_HOME%\bin.
+Este número da `serialVersionUID `pode ser adquirido através do programa **serialver** que vem junto com o JDK, localizado na pasta `%JAVA_HOME%\bin`.
 
 {% highlight java %}
 C:\>serialver
@@ -384,7 +378,7 @@ Feito isso, vamos nos aprofundar nas classes de leitura e escrita de objetos em 
 java.io.ObjectOutputStream
 {% endhighlight %}
 
-Esta classe possui um construtor que, por padrão, deve receber uma OutputStream qualquer, como uma FileOutputStream para serialização do objeto em um arquivo. 
+Esta classe possui um construtor que, por padrão, deve receber uma OutputStream qualquer, como uma `FileOutputStream` para serialização do objeto em um arquivo. 
 
 Exemplo:
 
@@ -393,26 +387,26 @@ ObjectOutputStream out = new ObjectOutputStream(
 	new FileOutputStream("arquivo.txt"));
 {% endhighlight %}
 
-Feita esta instanciação, podemos escrever um objeto qualquer no arquivo relacionado no construtor utilizando o método writeObject (Object obj), da seguinte forma:
+Feita esta instanciação, podemos escrever um objeto qualquer no arquivo relacionado no construtor utilizando o método `writeObject (Object obj)`, da seguinte forma:
 
 {% highlight java %}
 Object objeto = new Object();
 out.writeObject(objeto);
 {% endhighlight %}
 
-Assim como no caso do método readObject(), da classe ObjectInputStream, e nos lembrando da premissa da herança, podemos utilizar qualquer objeto neste método, da seguinte forma:
+Assim como no caso do método `readObject()`, da classe `ObjectInputStream`, e nos lembrando da premissa da herança, podemos utilizar qualquer objeto neste método, da seguinte forma:
 
 {% highlight java %}
 Pessoa Manuel = new Pessoa();
 out.writeObject(manuel);
 {% endhighlight %}
 
-Após a escrita do arquivo, não se esqueça de finalizar a comunicação com o arquivo utilizando o método close().
+Após a escrita do arquivo, não se esqueça de finalizar a comunicação com o arquivo utilizando o método `close()`.
 
 
 #### java.io.ObjectInputStream
 
-Esta classe possui um construtor que, por padrão, deve receber uma InputStream qualquer, como uma FileInputStream para converter um arquivo em Objeto.
+Esta classe possui um construtor que, por padrão, deve receber uma `InputStream` qualquer, como uma `FileInputStream` para converter um arquivo em Objeto.
 
 Exemplo:
 
@@ -420,19 +414,19 @@ Exemplo:
 ObjectInputStream in = new ObjectInputStream(new FileInputStream("arquivo.txt"));
 {% endhighlight %}
 
-Feita esta instanciação, podemos ler um objeto a partir do arquivo relacionado no construtor utilizando o método readObject(), da seguinte forma:
+Feita esta instanciação, podemos ler um objeto a partir do arquivo relacionado no construtor utilizando o método `readObject()`, da seguinte forma:
 
 {% highlight java %}
 Object objeto = in.readObject();
 {% endhighlight %}
 
-Sobre este método, é importante ressaltar que por ele retornar um objeto (lembrando que todos os objetos em Java são, direta ou indiretamente, filhos da classe java.lang.Object) é possível já armazenar este retorno no objeto que já sabemos ser compatível através de uma operação de casting, da seguinte forma:
+Sobre este método, é importante ressaltar que por ele retornar um objeto (lembrando que todos os objetos em Java são, direta ou indiretamente, filhos da classe `java.lang.Object`) é possível já armazenar este retorno no objeto que já sabemos ser compatível através de uma operação de casting, da seguinte forma:
 
 {% highlight java %}
 Pessoa manual = (Pessoa) in.readObject();
 {% endhighlight %}
 
-Após a leitura do arquivo, não se esqueça de finalizar a comunicação com o arquivo utilizando o método close() de InputStream.
+Após a leitura do arquivo, não se esqueça de finalizar a comunicação com o arquivo utilizando o método `close()` de `InputStream`.
 
 Exemplo que armazena um objeto em um arquivo e vice-versa.
 
@@ -493,8 +487,15 @@ public class TestePessoa {
 }
 {% endhighlight %}
 
-O programa gera o arquivo.txt com o objeto Pessoa no formato que ele entende para depois converter de novo para objeto Pessoa.
+O programa gera o `arquivo.txt` com o objeto `Pessoa` no formato que ele entende para depois converter de novo para objeto `Pessoa`.
 
 <figure>
     <a href="/images/2020-05-14-java-leitura-arquivo-02.png"><img src="/images/2020-05-14-java-leitura-arquivo-02.png" alt="Objeto serializado."></a>
 </figure>
+
+
+### Conteúdos relacionados
+
+- [Tratamento de exceções no Java](http://www.universidadejava.com.br/java/java-excecoes/)
+- [Conexão com banco de dados usando JDBC](http://www.universidadejava.com.br/java/java-jdbc/)
+- [Conheçendo as classes do pacote de coleções do Java](http://www.universidadejava.com.br/java/java-collection/) 

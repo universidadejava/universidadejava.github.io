@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Operador Condicional"
+title: "Operador Condicional"
 categories: java
 author: sakurai
 date: 2011-06-16 21:34:00

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Herança"
+title: "Herança (extends)"
 categories: java
 author: sakurai
 date: 2020-05-13 00:30:00

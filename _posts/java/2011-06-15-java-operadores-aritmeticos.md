@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Operadores aritméticos"
+title: "Operadores aritméticos"
 categories: java
 author: sakurai
 date: 2011-06-15 18:12:00

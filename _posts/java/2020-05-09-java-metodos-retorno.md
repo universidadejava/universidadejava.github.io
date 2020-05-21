@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - métodos com retorno"
+title: "Métodos com retorno"
 categories: java
 author: sakurai
 date: 2020-05-09 14:27:00

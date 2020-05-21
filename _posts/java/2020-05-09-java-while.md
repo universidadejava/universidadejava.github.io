@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - while"
+title: "while"
 categories: java
 author: sakurai
 date: 2020-05-09 00:06:00

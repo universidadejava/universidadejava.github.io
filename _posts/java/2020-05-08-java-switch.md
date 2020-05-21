@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - switch"
+title: "switch"
 categories: java
 author: sakurai
 date: 2020-05-09 00:01:00

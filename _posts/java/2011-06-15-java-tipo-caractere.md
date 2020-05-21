@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Tipo primitivo de caractere"
+title: "Tipo primitivo de caractere"
 categories: java
 author: sakurai
 date: 2011-06-15 15:43:00

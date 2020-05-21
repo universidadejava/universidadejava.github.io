@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Declarando constantes"
+title: "Declarando atributos como constantes"
 categories: java
 author: sakurai
 date: 2011-06-16 17:34:00

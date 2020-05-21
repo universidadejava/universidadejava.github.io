@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Interfaces"
+title: "Interface"
 categories: java
 author: sakurai
 date: 2020-05-13 00:13:00

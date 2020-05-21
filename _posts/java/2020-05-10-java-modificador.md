@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Modificadores de visibilidade"
+title: "Modificadores de visibilidade"
 categories: java
 author: sakurai
 date: 2020-05-10 00:14:00

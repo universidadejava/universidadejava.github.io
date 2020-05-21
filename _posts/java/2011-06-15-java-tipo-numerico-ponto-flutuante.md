@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Tipos primitivos com ponto flutuante"
+title: "Tipos primitivos com ponto flutuante"
 categories: java
 author: sakurai
 date: 2011-06-15 15:26:00

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Exceções em Java"
+title: "Tratamento de exceções no Java"
 categories: java
 author: sakurai
 date: 2020-05-14 06:31:00
@@ -17,13 +17,13 @@ ads: false
 
 A linguagem Java possui um mecanismo especial para o tratamento de erros que possam ocorrer em tempo de execução do programa. Diferentemente de outras linguagens, o surgimento de um erro ocasiona a interrupção imediata do programa, porém em Java podemos tratar esta situação de erro de uma forma adequada e evitando, assim, a interrupção do programa.
 
-Uma exceção, basicamente é uma classe de Java representada na sua forma mais genérica pela classe **java.lang.Exception**, logo todas as exceções que ocorram ao longo da execução do seu programa podem ser tratadas como objetos do tipo **Exception**.
+Uma exceção, basicamente é uma classe de Java representada na sua forma mais genérica pela classe `java.lang.Exception`, logo todas as exceções que ocorram ao longo da execução do seu programa podem ser tratadas como objetos do tipo `Exception`.
 
-Uma característica importante sobre exceções é que, pelo fato delas poderem ocorrer a qualquer momento, estas são literalmente “lançadas” de volta para a cadeia de execução e chamada das classes.
+Uma característica importante sobre exceções é que, pelo fato delas poderem ocorrer a qualquer momento, estas são literalmente "lançadas" de volta para a cadeia de execução e chamada das classes.
 
 ### Bloco try / catch
 
-Como a exceção é lançada por toda a cadeia de classes do sistema, a qualquer momento é possível se “pegar” essa exceção e dar a ela o tratamento adequado.
+Como a exceção é lançada por toda a cadeia de classes do sistema, a qualquer momento é possível se "pegar" essa exceção e dar a ela o tratamento adequado.
 
 Para se fazer este tratamento, é necessário pontuar que um determinado trecho de código que será observado e que uma possível exceção será tratada de uma determinada maneira, segue um exemplo deste novo bloco:
 
@@ -48,9 +48,9 @@ public class ExemploExcecao {
 }
 {% endhighlight %}
 
-No caso acima, o bloco **try**, é o trecho de código em que uma exceção é esperada e o bloco **catch**, em correspondência ao bloco try, prepara-se para “pegar” a exceção ocorrida e dar a ela o tratamento necessário. Uma vez declarado um bloco try, a declaração do bloco catch torna-se obrigatória. 
+No caso acima, o bloco `try`, é o trecho de código em que uma exceção é esperada e o bloco `catch`, em correspondência ao bloco `try`, prepara-se para "pegar" a exceção ocorrida e dar a ela o tratamento necessário. Uma vez declarado um bloco `try`, a declaração do bloco catch torna-se obrigatória. 
 
-Na linha 12 o bloco **catch** declara receber um objeto do tipo **Exception**, lembrando do conceito da herança, todas as exceções do Java são classes filhas de Exception.
+Na linha 12 o bloco `catch` declara receber um objeto do tipo `Exception`, lembrando do conceito da herança, todas as exceções do Java são classes filhas de `Exception`.
 
 Algo importante de ser comentado, é que quando uma exceção ocorre, as demais linhas de código deixam de ser executadas até encontrar o bloco catch que irá tratar a exceção.
 
@@ -81,9 +81,9 @@ public class ExemploTryCatch {
 }
 {% endhighlight %}
 
-Observemos o exemplo acima. Neste código, caso aconteça um erro na linha 13, as linhas de 14 a 17 não seriam executadas, retornando então o código a ser executado apenas a partir da linha 19 (trecho correspondente ao bloco catch).
+Observemos o exemplo acima. Neste código, caso aconteça um erro na linha 13, as linhas de 14 a 17 não seriam executadas, retornando então o código a ser executado apenas a partir da linha 19 (trecho correspondente ao bloco `catch`).
 
-Uma vez que uma exceção foi tratada por um bloco catch, a execução do programa segue normalmente.
+Uma vez que uma exceção foi tratada por um bloco `catch`, a execução do programa segue normalmente.
 
 Caso não ocorra erro durante a execução teremos a seguinte saída no console:
 
@@ -107,13 +107,13 @@ ERRO - Valor digitado nao e um numero inteiro!
 
 ### Palavra-chave throw
 
-Também é possível que você próprio envie uma exceção em alguma situação especifica, como em uma situação de login em que o usuário digita incorretamente sua senha. Para realizarmos tal tarefa é necessária a utilização da palavra-chave **throw** da seguinte maneira:
+Também é possível que você próprio envie uma exceção em alguma situação especifica, como em uma situação de login em que o usuário digita incorretamente sua senha. Para realizarmos tal tarefa é necessária a utilização da palavra-chave `throw` da seguinte maneira:
 
 {% highlight java %}
 throw new << Exceção desejada >>();
 {% endhighlight %}
 
-Vamos ver um exemplo de lançamento de uma exceção do tipo **Exception**:
+Vamos ver um exemplo de lançamento de uma exceção do tipo `Exception`:
 
 {% highlight java %}
 package material.excecao;
@@ -143,9 +143,9 @@ public class ExemploThrow {
 }
 {% endhighlight %}
 
-Note que, assim que a palavra-chave **throw** for utilizada, podemos tentar tratar a exceção no bloco try / catch ou lançar essa exceção nesse método, caso a exceção em questão seja do tipo checked. Observe também que a palavra reservada new foi utilizada, visto que a exceção é um novo objeto que deve ser criado na memória. Isso se faz necessário para que a exceção possa ser lançada por toda a pilha de execução até que seja devidamente tratada ou acarrete no término da aplicação.
+Note que, assim que a palavra-chave `throw` for utilizada, podemos tentar tratar a exceção no bloco `try` / `catch` ou lançar essa exceção nesse método, caso a exceção em questão seja do tipo checked. Observe também que a palavra reservada `new` foi utilizada, visto que a exceção é um novo objeto que deve ser criado na memória. Isso se faz necessário para que a exceção possa ser lançada por toda a pilha de execução até que seja devidamente tratada ou acarrete no término da aplicação.
 
-Quando executamos este código, temos a seguinte saída no console, note que no primeiro teste entramos com uma senha invalida “abc”, portanto foi lançado a exceção, no segundo teste entramos com a senha valida “123456” e executamos a aplicação por completo.
+Quando executamos este código, temos a seguinte saída no console, note que no primeiro teste entramos com uma senha invalida `abc`, portanto foi lançado a exceção, no segundo teste entramos com a senha valida `123456` e executamos a aplicação por completo.
 
 {% highlight java %}
 C:\>javac material\excecao\ExemploThrow.java
@@ -160,18 +160,18 @@ Senha correta!!!
 Bem vindo(a)!!!
 {% endhighlight %}
 
-Alguns métodos importantes da classe Exception:
+Alguns métodos importantes da classe `Exception`:
 
-> **printStackTrace()** - Imprime em tela a pilha de execução. Muito comum para auxiliar no diagnóstico de erros.
+> `printStackTrace()` - Imprime em tela a pilha de execução. Muito comum para auxiliar no diagnóstico de erros.
 
-> **getMessage()** - Retorna uma String com a mensagem contida na exceção.
+> `getMessage()` - Retorna uma String com a mensagem contida na exceção.
 
-> **getClass()** - Retorna uma String com o nome complete da classe da exceção. 
+> `getClass()` - Retorna uma String com o nome complete da classe da exceção. 
 
 
 ### Bloco finnaly
 
-A palavra-chave **finally** representa um trecho de código que será sempre executado, independentemente se uma exceção ocorrer. Por exemplo:
+A palavra-chave `finally` representa um trecho de código que será sempre executado, independentemente se uma exceção ocorrer. Por exemplo:
 
 {% highlight java %}
 package material.excecao;
@@ -205,7 +205,7 @@ public class ExemploFinally {
 }
 {% endhighlight %}
 
-No exemplo anterior, a mensagem “Bloco Final!”, sempre será exibida, ocorrendo ou não um Exception.
+No exemplo anterior, a mensagem "Bloco Final!", sempre será exibida, ocorrendo ou não um `Exception`.
 
 Caso não ocorra erro durante a execução teremos a seguinte saída no console:
 
@@ -218,7 +218,7 @@ Digite o valor do divisor: 2
 Bloco Finally
 {% endhighlight %}
 
-Se digitarmos zero no valor do divisor será lançado uma exceção, note que o bloco finally será executado mesmo que ocorra alguma exceção:
+Se digitarmos zero no valor do divisor será lançado uma exceção, note que o bloco `finally` será executado mesmo que ocorra alguma exceção:
 
 {% highlight java %}
 C:\>javac material\excecao\ExemploFinally.java
@@ -229,14 +229,14 @@ ERRO: Nao eh permitido fazer uma divisao por zero!
 Bloco Finally
 {% endhighlight %}
 
-O bloco finally é muito utilizado quando queremos liberar algum recurso como, por exemplo, uma conexão com o banco de dados, um arquivo de dados, etc. Veremos mais adiante alguns códigos que fazem uso do finally para este propósito.
+O bloco `finally` é muito utilizado quando queremos liberar algum recurso, como: uma conexão com o banco de dados, um arquivo de dados, etc. Veremos mais adiante alguns códigos que fazem uso do `finally` para este propósito.
 
 
 ### Palavra-chave throws
 
-Caso em algum método precise lançar uma exceção, mas você não deseja tratá-la, quer retorna-la para o objeto que fez a chamada ao método que lançou a exceção, basta utilizar a palavra chave throws no final da assinatura do método.
+Caso em algum método precise lançar uma exceção, mas você não deseja tratá-la, quer retorna-la para o objeto que fez a chamada ao método que lançou a exceção, basta utilizar a palavra chave `throws` no final da assinatura do método.
 
-Quando utilizamos o throws precisamos também informar qual ou quais exceções podem ser lançadas.
+Quando utilizamos o `throws` precisamos também informar qual ou quais exceções podem ser lançadas.
 
 Exemplo:
 
@@ -279,9 +279,9 @@ public class ExemploThrows {
 }
 {% endhighlight %}
 
-Note que na linha 29 declaramos na assinatura do método que ele pode ou não lançar uma exceção do tipo **java.lang.Exception**.
+Note que na linha 29 declaramos na assinatura do método que ele pode ou não lançar uma exceção do tipo `java.lang.Exception`.
 
-E o método **public static void main(String[] args)** será responsável por tratar alguma exceção que o método **dividir(double dividendo, double divisor)** possa lançar.
+E o método `public static void main(String[] args)` será responsável por tratar alguma exceção que o método `dividir(double dividendo, double divisor)` possa lançar.
 
 Caso não ocorra erro durante a execução teremos a seguinte saída no console:
 
@@ -293,7 +293,7 @@ Digite o valor do divisor: 2
 O resultado da divisao eh: 3.5
 {% endhighlight %}
 
-Se digitarmos zero no valor do divisor será lançado uma exceção pelo método **dividir()**, esta exceção será tratada pelo método **main()**:
+Se digitarmos zero no valor do divisor será lançado uma exceção pelo método `dividir()`, esta exceção será tratada pelo método `main()`:
 
 {% highlight java %}
 C:\>javac material\excecao\ExemploThrows.java
@@ -305,11 +305,11 @@ Nao e permitido fazer uma divisao por zero!
 
 ### Hierarquia das Exceptions
 
-A princípio, Java possui diversos tipos específicos de exceção, cada um deles diretamente relacionado a uma operação específica, por este motivo para que uma classe seja considerada uma exceção é imprescindível que ela de alguma forma seja filha de **java.lang.Exception**.
+A princípio, Java possui diversos tipos específicos de exceção, cada um deles diretamente relacionado a uma operação específica, por este motivo para que uma classe seja considerada uma exceção é imprescindível que ela de alguma forma seja filha de `java.lang.Exception`.
 
-As exceções que são subclasses de java.lang.Exception são normalmente divididas em duas parte as Checked e Unchecked, que explicaremos mais adiante.
+As exceções que são subclasses de `java.lang.Exception` são normalmente divididas em duas parte as Checked e Unchecked, que explicaremos mais adiante.
 
-No quadro abaixo, temos um exemplo da hierarquia de algumas subclasses de Exception. Uma das subclasses mais comuns é a **java.lang.RuntimeException**, sobretudo para os usuários finais, pois como podem acontecer em qualquer parte do código durante sua execução, normalmente, quando não tratadas ocasionam na interrupção do programa.
+No quadro abaixo, temos um exemplo da hierarquia de algumas subclasses de Exception. Uma das subclasses mais comuns é a `java.lang.RuntimeException`, sobretudo para os usuários finais, pois como podem acontecer em qualquer parte do código durante sua execução, normalmente, quando não tratadas ocasionam na interrupção do programa.
 
 <figure>
     <a href="/images/2020-05-14-java-excecoes.png"><img src="/images/2020-05-14-java-excecoes.png" alt="Hierarquia de classes de exceções."></a>
@@ -317,14 +317,14 @@ No quadro abaixo, temos um exemplo da hierarquia de algumas subclasses de Except
 
 ### Checked Exceptions
 
-As checked exceptions, são exceções já previstas pelo compilador. Usualmente são geradas pela palavra chave throw (que é discutido mais adiante). Como ela é prevista já em tempo de compilação, se faz necessária a utilização do bloco try / catch ou da palavra chave throws.
+As checked exceptions, são exceções já previstas pelo compilador. Usualmente são geradas pela palavra chave `throw` (que é discutido mais adiante). Como ela é prevista já em tempo de compilação, se faz necessária a utilização do bloco `try` / `catch` ou da palavra chave `throws`.
 
-A princípio, todas as classes filhas de Exception são do tipo checked, exceto pelas subclasses de **java.lang.RuntimeException** (exceção em tempo de execução).
+A princípio, todas as classes filhas de Exception são do tipo checked, exceto pelas subclasses de `java.lang.RuntimeException` (exceção em tempo de execução).
 
 
 ### Unchecked Exceptions
 
-Um dos fatores que tornam a RuntimeException e suas classes filhas tão específicas em relação as demais subclasses de Exception é que elas são exceções não diretamente previstas por acontecer em tempo de execução, ou seja, são unchecked exceptions. Por exemplo:
+Um dos fatores que tornam a `RuntimeException` e suas classes filhas tão específicas em relação as demais subclasses de `Exception` é que elas são exceções não diretamente previstas por acontecer em tempo de execução, ou seja, são unchecked exceptions. Por exemplo:
 
 {% highlight java %}
 package material.excecao;
@@ -345,7 +345,7 @@ public class ExemploRuntimeException {
 }
 {% endhighlight %}
 
-Observe que no trecho de código acima, temos uma variável do tipo int recebendo uma entrada do usuário também do tipo int. Porém, vamos supor que nosso usuário não digite um inteiro, mas sim um caractere.
+Observe que no trecho de código acima, temos uma variável do tipo `int` recebendo uma entrada do usuário também do tipo `int`. Porém, vamos supor que nosso usuário não digite um inteiro, mas sim um caractere.
 
 {% highlight java %}
 C:\>javac material\excecao\ExemploRuntimeException.java
@@ -359,7 +359,7 @@ Exception in thread "main" java.util.InputMismatchException
 	at material.excecao.ExemploRuntimeException.main(ExemploRuntime Exception.java:15)
 {% endhighlight %}
 
-Este tipo de exceção, que acontece somente em tempo de execução, a princípio não era tratado e uma exceção do tipo **java.util.InputMismatchException** será gerada e nosso programa é encerrado. Agora iremos prever este erro, utilizando o bloco try / catch:
+Este tipo de exceção, que acontece somente em tempo de execução, a princípio não era tratado e uma exceção do tipo `java.util.InputMismatchException` será gerada e nosso programa é encerrado. Agora iremos prever este erro, utilizando o bloco `try` / `catch`:
 
 {% highlight java %}
 package material.excecao;
@@ -404,11 +404,11 @@ O valor lido foi: 7
 
 ### Errors
 
-Errors são um tipo especial de Exception que representam erros da JVM, tais como estouro de memória, entre outros. Para este tipo de erro normalmente não é feito tratamento, pois sempre quando um java.lang.Error ocorre a execução do programa é interrompida.
+Errors são um tipo especial de Exception que representam erros da JVM, tais como estouro de memória, entre outros. Para este tipo de erro normalmente não é feito tratamento, pois sempre quando um `java.lang.Error` ocorre a execução do programa é interrompida.
 
 ### Tratando múltiplas Exceções
 
-É possível se tratar múltiplos tipos de exceção dentro do mesmo bloco try / catch, para tal, basta declara-los um abaixo do outro, assim como segue:
+É possível se tratar múltiplos tipos de exceção dentro do mesmo bloco `try` / `catch`, para tal, basta declara-los um abaixo do outro, assim como segue:
 
 {% highlight java %}
 package material.excecao;

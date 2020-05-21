@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - do/while"
+title: "do/while"
 categories: java
 author: sakurai
 date: 2020-05-09 00:08:00

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Exercícios sobre interfaces"
+title: "Exercícios sobre interface"
 categories: java
 author: sakurai
 date: 2020-05-10 00:17:00

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Tipo primitivo numérico"
+title: "Tipo primitivo numérico"
 categories: java
 author: sakurai
 date: 2011-06-15 15:26:00

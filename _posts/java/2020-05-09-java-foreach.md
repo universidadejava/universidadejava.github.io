@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - foreach"
+title: "foreach"
 categories: java
 author: sakurai
 date: 2020-05-09 11:57:00

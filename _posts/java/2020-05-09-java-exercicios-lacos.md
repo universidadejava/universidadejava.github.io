@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - exercícios com laços de repetições"
+title: "Exercícios com laços de repetições"
 categories: java
 author: sakurai
 date: 2020-05-09 12:06:00

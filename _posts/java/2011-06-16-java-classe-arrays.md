@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Classe java.util.Arrays"
+title: "Classe java.util.Arrays"
 categories: java
 author: sakurai
 date: 2011-06-16 21:34:00

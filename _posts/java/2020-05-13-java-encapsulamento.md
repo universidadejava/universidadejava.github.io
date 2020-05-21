@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Encapsulamento"
+title: "Encapsulamento"
 categories: java
 author: sakurai
 date: 2020-05-12 23:38:00

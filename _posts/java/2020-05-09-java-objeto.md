@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - objeto"
+title: "Objeto"
 categories: java
 author: sakurai
 date: 2020-05-09 14:18:00

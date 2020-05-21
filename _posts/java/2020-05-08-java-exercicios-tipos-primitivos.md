@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - exercícios com operadores e tipos primitivos"
+title: "Exercícios com operadores e tipos primitivos"
 categories: java
 author: sakurai
 date: 2020-05-08 22:00:00

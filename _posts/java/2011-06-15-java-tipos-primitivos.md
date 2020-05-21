@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Tipos primitivos"
+title: "Tipos primitivos"
 categories: java
 author: sakurai
 date: 2011-06-15 15:14:00

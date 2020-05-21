@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Fatorial"
+title: "Calculando o Fatorial recursivamente"
 categories: java
 author: sakurai
 date: 2020-05-16 23:18:00
@@ -15,9 +15,9 @@ ads: false
 
 ## Exemplo de fatorial:
 
-A chamada de um método para ele mesmo, é igual a chamada de qualquer outro método, exemplo de método recursivo que calcula o fatorial n!
+A chamada de um método para ele mesmo, é igual a chamada de qualquer outro método, exemplo de método recursivo que calcula o fatorial `n!`
 
-O fatorial de um número é dado pela multiplicação de seus antecessores, ou seja, se n é igual 3, então seu fatorial será 3 * 2 * 1. O fatorial de 0! (zero) é igual a 1. 
+O fatorial de um número é dado pela multiplicação de seus antecessores, ou seja, se `n` é igual `3`, então seu fatorial será `3 * 2 * 1`. O fatorial de `0!` (zero) é igual a `1`. 
 
 O método recursivo fica da seguinte forma:
 
@@ -51,9 +51,9 @@ public class Fatorial {
 
 Dentro de um método recursivo é muito importante definirmos como será a condição base para que o método pare a recursão, ou seja, como o método vai parar de se chamar.
 
-Neste caso queremos que o método para de chamar ele mesmo, quando o valor que será calculado o fatorial for igual a 0 (zero), pois neste caso sabemos a resposta direta sem ter que fazer cálculos.
+Neste caso queremos que o método para de chamar ele mesmo, quando o valor que será calculado o fatorial for igual a `0` (zero), pois neste caso sabemos a resposta direta sem ter que fazer cálculos.
 
-Chamando o método fatorial(3), queremos calcular 3 * 2 * 1.
+Chamando o método `fatorial(3)`, queremos calcular `3 * 2 * 1`.
 
 {% highlight java %}
 3 * fatorial(2) 			    retorna (6)
@@ -63,18 +63,26 @@ Chamando o método fatorial(3), queremos calcular 3 * 2 * 1.
 
 Explicando o fluxo do programa:
 
-1. O método fatorial recebe o valor de x igual a 3, verifica se x é igual a 0 (zero), como não é igual, então calcula 3 multiplicado por fatorial(2), neste ponto estamos fazendo uma chamada recursiva.
+1. O método fatorial recebe o valor de `x` igual a `3`, verifica se `x` é igual a `0` (zero), como não é igual, então calcula `3` multiplicado por `fatorial(2)`, neste ponto estamos fazendo uma chamada recursiva.
 
-2. O método fatorial recebe o valor de x igual a 2, verifica se x é igual a 0 (zero), como não é igual, então calcula 2 multiplicado por fatorial(1).
+2. O método fatorial recebe o valor de `x` igual a `2`, verifica se `x` é igual a `0` (zero), como não é igual, então calcula `2` multiplicado por `fatorial(1)`.
 
-3. O método fatorial recebe o valor de x igual a 1, verifica se x é igual a 0 (zero), como não é igual, então calcula 1 multiplicado por fatorial(0).
+3. O método fatorial recebe o valor de `x` igual a `1`, verifica se `x` é igual a `0` (zero), como não é igual, então calcula `1` multiplicado por `fatorial(0)`.
 
-4. O método fatorial recebe o valor de x igual a 0 (zero), verifica se x é igual a 0 (zero), então para a execução do método e retorna o valor 1.
+4. O método fatorial recebe o valor de `x` igual a `0` (zero), verifica se `x` é igual a `0` (zero), então para a execução do método e retorna o valor `1`.
 
-5. Volta para o método fatorial(1) na linha 26 e faz a multiplicação de x que vale 1 pelo resultado do fatorial(0) que é 1, ou seja 1 * 1 e retorna o valor 1.
+5. Volta para o método `fatorial(1)` na linha 26 e faz a multiplicação de `x` que vale `1` pelo resultado do `fatorial(0)` que é `1`, ou seja `1 * 1` e retorna o valor `1`.
 
-6. Volta para o método fatorial(2) na linha 26 e faz a multiplicação de x que vale 2 pelo resultado do fatorial(1) que é 1, ou seja 2 * 1 e retorna o valor 2.
+6. Volta para o método `fatorial(2)` na linha 26 e faz a multiplicação de `x` que vale `2` pelo resultado do `fatorial(1)` que é `1`, ou seja `2 * 1` e retorna o valor `2`.
 
-7. Volta para o método fatorial(3) na linha 26 e faz a multiplicação de x que vale 3 pelo resultado do fatorial(2) que é 2, ou seja 3 * 2 e retorna o valor 6.
+7. Volta para o método `fatorial(3)` na linha 26 e faz a multiplicação de `x` que vale `3` pelo resultado do `fatorial(2)` que é `2`, ou seja `3 * 2` e retorna o valor `6`.
 
-8. Volta para o método que chamou o fatorial(3), neste caso o método main() na linha 7, guarda o resultado do fatorial(3) que é 6, dentro da variável resp, e imprime o resultado da variável resp na linha 8.
+8. Volta para o método que chamou o `fatorial(3)`, neste caso o método `main()` na linha 7, guarda o resultado do `fatorial(3)` que é `6`, dentro da variável `resp`, e imprime o resultado da variável `resp` na linha 8.
+
+
+### Conteúdos relacionados
+
+- [Implementando métodos recursivos no Java](http://www.universidadejava.com.br/java/java-recursividade/)
+- [Implementando Fibonacci de modo recursivo no Java](http://www.universidadejava.com.br/java/java-fibonacci/)
+- [Implementando uma busca binária no Java](http://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-binaria/)
+- [Entendendo como funciona a implementaçãdo do Bubble Sort](http://www.universidadejava.com.br/pesquisa_ordenacao/bubble-sort/)

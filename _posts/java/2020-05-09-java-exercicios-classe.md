@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - exercicios classe, método e objeto"
+title: "Exercicios classe, método e objeto"
 categories: java
 author: sakurai
 date: 2020-05-09 14:41:00

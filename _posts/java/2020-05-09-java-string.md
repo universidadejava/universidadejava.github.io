@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - java.lang.String"
+title: "java.lang.String"
 categories: java
 author: sakurai
 date: 2020-05-09 15:41:00

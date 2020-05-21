@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Enums"
+title: "Enums"
 categories: java
 author: sakurai
 date: 2011-06-16 22:35:00

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - continue"
+title: "continue"
 categories: java
 author: sakurai
 date: 2020-05-09 12:02:00

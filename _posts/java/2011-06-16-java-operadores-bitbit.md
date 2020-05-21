@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Operadores bit a bit"
+title: "Operadores bit a bit"
 categories: java
 author: sakurai
 date: 2011-06-16 21:40:00

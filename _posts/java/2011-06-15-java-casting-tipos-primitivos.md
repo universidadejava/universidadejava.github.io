@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Casting de tipos primitivos"
+title: "Casting de tipos primitivos"
 categories: java
 author: sakurai
 date: 2011-06-15 15:48:00

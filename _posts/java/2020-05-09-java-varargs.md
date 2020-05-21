@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - varargs"
+title: "varargs"
 categories: java
 author: sakurai
 date: 2020-05-09 23:05:00

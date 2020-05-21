@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - break"
+title: "break"
 categories: java
 author: sakurai
 date: 2020-05-09 12:00:00

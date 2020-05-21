@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Operadores relacionais"
+title: "Operadores relacionais"
 categories: java
 author: sakurai
 date: 2011-06-16 20:30:00

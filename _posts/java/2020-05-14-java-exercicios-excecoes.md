@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Exercícios de exceções"
+title: "Exercícios com tratamento de exceções"
 categories: java
 author: sakurai
 date: 2020-05-13 06:35:00
@@ -17,9 +17,9 @@ ads: false
 
 1. Crie uma classe que aceite a digitação de dois números e faça a divisão entre eles exibindo seu resultado. Sua classe deve tratar as seguintes exceções:
 
-- **ArithmeticException** quando ocorrer uma divisão por zero.
+- `ArithmeticException` quando ocorrer uma divisão por zero.
 
-- **InputMismatchException** quando o valor informado não é numerico.
+- `InputMismatchException` quando o valor informado não é numerico.
 
 
 2. Crie uma classe que crie um vetor de inteiros de 10 posições. Feito isso, permita que o usuário digite valores inteiros a fim de preencher este vetor. Não implemente nenhum tipo controle referente ao tamanho do vetor, deixe que o usuário digite valores até que a entrada 0 seja digitada.
@@ -28,9 +28,9 @@ Uma vez digitado o valor 0, o mesmo deve ser inserido no vetor e a digitação d
 
 Sua classe deve tratar as seguintes exceções:
 
-- **ArrayIndexOutOfBoundsException** quando o usuário informar mais que 10 valores.
+- `ArrayIndexOutOfBoundsException` quando o usuário informar mais que 10 valores.
 
-- **InputMismatchException** quando o usuário informar um valor que não é numerico.
+- `InputMismatchException` quando o usuário informar um valor que não é numerico.
 
 
 3. Crie uma classe Login com a seguinte modelagem:
@@ -109,7 +109,7 @@ d) Imprime "try catch finally fim"
 e) Erro de compilação
 
 
-5-) Crie uma classe chamada ContaBancaria, pertencente ao pacote “exercicio. excecao.contas” com os seguintes atributos:
+5-) Crie uma classe chamada ContaBancaria, pertencente ao pacote `exercicio.excecao.contas` com os seguintes atributos:
 
 {% highlight java %}
 private double saldo; // Determina o saldo da conta.
@@ -131,7 +131,7 @@ protected double getLimite(){}
 // Retorna o saldo da conta somado ao limite.
 public double getSaldoComLimite(){}
 
-// Deve decrementar o valor do saque da Conta. Retorna “true” caso a operação tenha sido bem sucedida, ou seja, a conta possui este valor (lembre-se de considerar o limite).
+// Deve decrementar o valor do saque da Conta. Retorna "true" caso a operação tenha sido bem sucedida, ou seja, a conta possui este valor (lembre-se de considerar o limite).
 public boolean sacar(double valor) throws ContaException {}
 
 // Deve incrementar o valor a Conta. 
@@ -149,8 +149,10 @@ public classe ContaException extends Exception {
 }
 {% endhighlight %}
 
-Requisitos
-A sua classe conta bancária deve permitir apenas saques inferiores a R$ 500,00 ou que não façam com que a soma entre o saldo e o limite da conta resultem em um valor menor do que zero. Caso estas condições não se cumpram, deve ser lançada uma **ContaException** com uma mensagem que identifique o tipo de erro. 
-A conta não deve permitir depósitos superiores a R$ 1.000,00. Caso esta condição não se cumpra, deve ser lançada uma **ContaException** com uma mensagem que identifique o tipo de erro. 
+Requisitos: 
 
-Crie uma classe para testar a classe ContaBancaria
+A sua classe conta bancária deve permitir apenas saques inferiores a R$ 500,00 ou que não façam com que a soma entre o saldo e o limite da conta resultem em um valor menor do que zero. Caso estas condições não se cumpram, deve ser lançada uma `ContaException` com uma mensagem que identifique o tipo de erro. 
+
+A conta não deve permitir depósitos superiores a R$ 1.000,00. Caso esta condição não se cumpra, deve ser lançada uma `ContaException` com uma mensagem que identifique o tipo de erro. 
+
+Crie uma classe para testar a classe ContaBancaria.

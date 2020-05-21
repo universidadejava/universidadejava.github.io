@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - métodos com parâmetro"
+title: "Métodos com parâmetro"
 categories: java
 author: sakurai
 date: 2020-05-09 14:32:00

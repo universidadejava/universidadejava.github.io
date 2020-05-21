@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - exercícios sobre métodos"
+title: "Exercícios sobre métodos"
 categories: java
 author: sakurai
 date: 2020-05-09 23:25:00

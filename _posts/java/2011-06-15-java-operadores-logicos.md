@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - Operadores lógicos"
+title: "Operadores lógicos"
 categories: java
 author: sakurai
 date: 2011-06-15 22:43:00

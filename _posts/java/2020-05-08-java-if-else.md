@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Java - if/else"
+title: "if/else"
 categories: java
 author: sakurai
 date: 2020-05-08 23:51:00
