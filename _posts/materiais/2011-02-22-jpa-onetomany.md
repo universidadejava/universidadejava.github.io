@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "JPA - Um-para-Muitos (OneToMany)"
-categories: javaee
+categories: materiais
 author: sakurai
 date: 2011-02-22 08:06:00
 tags: [javaee, jpa, onetomany, relacionamento]

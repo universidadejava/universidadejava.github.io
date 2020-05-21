@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "JPA - Muitos-para-Um (ManyToOne)"
-categories: javaee
+categories: materiais
 author: sakurai
 date: 2011-02-22 08:15:00
 tags: [javaee, jpa, manytoone, relacionamento]

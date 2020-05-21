@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "JPA - Introdução"
-categories: javaee
+categories: materiais
 author: sakurai
 date: 2011-02-20 05:40:00
 tags: [java, javaee, jpa, banco de dados]

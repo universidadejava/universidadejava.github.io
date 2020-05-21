@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Java - Tipos primitivos"
-categories: java
+categories: materiais
 author: sakurai
 date: 2011-06-15 15:14:00
 tags: [java, tipos, primitivos]

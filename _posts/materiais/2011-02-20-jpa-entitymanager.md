@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "JPA - EntityManager"
-categories: javaee
+categories: materiais
 author: sakurai
 date: 2011-02-20 06:42:00
 tags: [java, javaee, jpa, entity, manager]

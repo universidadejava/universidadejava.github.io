@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "JPA - Entity"
-categories: javaee
+categories: materiais
 author: sakurai
 date: 2011-02-20 05:55:00
 tags: [java, javaee, jpa, entity]

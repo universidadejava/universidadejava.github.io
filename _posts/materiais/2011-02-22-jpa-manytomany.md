@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "JPA - Muitos-para-Muitos (ManyToMany)"
-categories: javaee
+categories: materiais
 author: sakurai
 date: 2011-02-22 08:43:00
 tags: [javaee, jpa, manytomany, relacionamento]

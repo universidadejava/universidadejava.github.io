@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "JPA - Unidade de Persistência"
-categories: javaee
+categories: materiais
 author: sakurai
 date: 2011-02-20 19:25:00
 tags: [java, javaee, jpa, persistencia]

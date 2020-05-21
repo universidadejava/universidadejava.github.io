@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "JPA - Um-para-Um (OneToOne)"
-categories: javaee
+categories: materiais
 author: sakurai
 date: 2011-02-22 05:53:00
 tags: [javaee, jpa, onetoone, relacionamento]

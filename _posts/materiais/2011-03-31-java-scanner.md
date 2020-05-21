@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Java - Entrada de dados via console com java.util.Scanner"
-categories: java
+categories: materiais
 author: sakurai
 date: 2011-03-31 20:34:00
 tags: [java, input, console, scanner]
