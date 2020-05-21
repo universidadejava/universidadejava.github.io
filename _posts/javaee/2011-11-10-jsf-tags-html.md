@@ -9,13 +9,13 @@ published: true
 excerpt: A biblioteca http://java.sun.com/jsf/html possui os componentes básicos para renderização de telas em HTML.
 comments: true
 image:
-  teaser: teaser-jsf.png
+  teaser: 2011-11-10-teaser-jsf-tags-html.png
 ads: false
 ---
 
 A biblioteca http://java.sun.com/jsf/html possui os componentes básicos para renderização de telas em HTML.
 
-Para utilizar esta biblioteca dentro da página xhtml, precisamos adicionar ela na propriedade da tag html e darmos um apelido (alias) para ela, por padrão é declarado da seguinte forma:
+Para utilizar esta biblioteca dentro da página xhtml, precisamos adicionar ela na propriedade da tag `html` e darmos um apelido (alias) para ela, por padrão é declarado da seguinte forma:
 
 {% highlight xml %}
 <html xmlns="http://www.w3.org/1999/xhtml"
@@ -24,19 +24,19 @@ Para utilizar esta biblioteca dentro da página xhtml, precisamos adicionar ela 
 </html>
 {% endhighlight %}
 
-Usamos o alias **h** para referenciar a biblioteca html e para utilizar algum componente desta biblioteca utilizamos a sintaxe **h: + nome da tag**, exemplo: **\<h:commandButton ...\>**.
+Usamos o alias `h` para referenciar a biblioteca `html` e para utilizar algum componente desta biblioteca utilizamos a sintaxe `h: + nome da tag`, exemplo: `\<h:commandButton ...\>`.
 
-A biblioteca **html** possui os seguintes componentes: body, head, form, outputFormat, outpuLabel, outputLink, outputScript, outputStylesheet, outputText, button, commandButton, commandLink, link, graphicImage, inputHidden, inputSecret, inputText, inputTextarea, message, messages, selectBooleanCheckbox, selectManyCheckbox, selectManyListbox, selectManyMenu, selectOneListbox, selectOneMenu, selectOneRadio, dataTable, column, panelGrid e panelGroup.
+A biblioteca `html` possui os seguintes componentes: `body`, `head`, `form`, `outputFormat`, `outpuLabel`, `outputLink`, `outputScript`, `outputStylesheet`, `outputText`, `button`, `commandButton`, `commandLink`, `link`, `graphicImage`, `inputHidden`, `inputSecret`, `inputText`, `inputTextarea`, `message`, `messages`, `selectBooleanCheckbox`, `selectManyCheckbox`, `selectManyListbox`, `selectManyMenu`, `selectOneListbox`, `selectOneMenu`, `selectOneRadio`, `dataTable`, `column`, `panelGrid` e `panelGroup`.
 
 ## Formulário
 
 Quando montamos uma tela onde o usuário precisa entrar de alguma forma com uma informação, seja através de campos de digitação, itens de seleção, botões e outros, há a necessidade de criarmos um formulário.
 
-Para enviar informações para o servidor, mais precisamente para uma ManagedBean precisamos criar um formulário e associar os campos da tela com os atributos do ManagedBean, exemplo:
+Para enviar informações para o servidor, mais precisamente para uma `ManagedBean` precisamos criar um formulário e associar os campos da tela com os atributos do `ManagedBean`, exemplo:
 
 Vamos criar um pequeno formulário para preencher informações e enviar uma mensagem para a tela com os dados recebidos.
 
-Para isto vamos criar uma classe para representar um Contato:
+Para isto vamos criar uma classe para representar um `Contato`:
 
 {% highlight java %}
 package br.universidadejava.jsf.modelo;
@@ -74,7 +74,7 @@ public class Contato {
 }
 {% endhighlight %}
 
-Agora vamos criar um ManagedBean para armazenar os atributos e ações da página de cadastro dos contatos.
+Agora vamos criar um `ManagedBean` para armazenar os atributos e ações da página de cadastro dos contatos.
 
 {% highlight java %}
 package br.universidadejava.jsf.managedbean;
@@ -116,7 +116,7 @@ public class ContatoMB {
 }
 {% endhighlight %}
 
-Criamos um simples **ManagedBean** com um atributo do tipo **Contato** e seus métodos get e set.
+Criamos um simples `ManagedBean` com um atributo do tipo `Contato` e seus métodos get e set.
 
 Vamos agora criar uma tela de cadastro de contatos que terá os campos de digitação do nome, telefone e data de nascimento de cada contato.
 
@@ -149,7 +149,7 @@ Vamos agora criar uma tela de cadastro de contatos que terá os campos de digita
 </html>
 {% endhighlight %}
 
-Nesta tela usamos as tags **\<h:form\>** conteúdo do formulário </h:form> para informar a área que terá o formulário.
+Nesta tela usamos as tags `<h:form\>` conteúdo do formulário `</h:form>` para informar a área que terá o formulário.
 
 <figure>
     <a href="/images/2011-11-10-jsf-tags-html-01.png"><img src="/images/2011-11-10-jsf-tags-html-01.png" alt="Formulário com JSF."></a>
@@ -159,7 +159,7 @@ Nesta tela usamos as tags **\<h:form\>** conteúdo do formulário </h:form> para
 
 Alguns componentes podem permitir que o usuário escolha uma opção, sem a necessidade de digitar alguma informação.
 
-Com o componente h:selectOneRadio é possível mostrar diversas opções para que apenas uma possa ser selecionada.
+Com o componente `h:selectOneRadio` é possível mostrar diversas opções para que apenas uma possa ser selecionada.
 
 Exemplo:
 
@@ -167,7 +167,7 @@ Exemplo:
     <a href="/images/2011-11-10-jsf-tags-html-02.png"><img src="/images/2011-11-10-jsf-tags-html-02.png" alt="Exemplo de uso do selectOneRadio."></a>
 </figure>
 
-O código para montar esse h:selectOneRadio é:
+O código para montar esse `h:selectOneRadio` é:
 
 {% highlight xml %}
 <h:selectOneRadio id="sexo" value="#{contatoMB.contato.sexo}">
@@ -176,21 +176,21 @@ O código para montar esse h:selectOneRadio é:
 </h:selectOneRadio>
 {% endhighlight %}
 
-As opções disponíveis nos componentes de seleção são criados com o componente f:selectItem, exemplo:
+As opções disponíveis nos componentes de seleção são criados com o componente `f:selectItem`, exemplo:
 
 {% highlight xml %}
 <f:selectItem itemLabel="Masculino" itemValue="Masculino"/>
 {% endhighlight %}
 
-Nele podemos especificar um texto que será apresentado na tela com a propriedade itemLabel e utilizamos a propriedade itemValue para definir o seu valor.
+Nele podemos especificar um texto que será apresentado na tela com a propriedade `itemLabel` e utilizamos a propriedade `itemValue` para definir o seu valor.
 
-Uma outra forma se apresentar diversas opções onde o usuário tenha que escolher apenas uma, é utilizando o componente h:selectOneListbox exemplo:
+Uma outra forma se apresentar diversas opções onde o usuário tenha que escolher apenas uma, é utilizando o componente `h:selectOneListbox` exemplo:
 
 <figure>
     <a href="/images/2011-11-10-jsf-tags-html-03.png"><img src="/images/2011-11-10-jsf-tags-html-03.png" alt="Exemplo de uso do selectOneListbox."></a>
 </figure>
 
-O código para montar esse h:selectOneListbox é:
+O código para montar esse `h:selectOneListbox` é:
 
 {% highlight xml %}
 <h:selectOneListbox id="categ" value="#{contatoMB.contato.categoria}" size="2">
@@ -200,15 +200,15 @@ O código para montar esse h:selectOneListbox é:
 </h:selectOneListbox>
 {% endhighlight %}
 
-O selectOneListbox possui diversas propriedades como por exemplo a size que informa o tamanho de elementos aparecerão na lista.
+O `selectOneListbox` possui diversas propriedades como `size` que informa o tamanho de elementos aparecerão na lista.
 
-Com o componente h:selectOneMenu podemos montar um ComboBox onde é possível selecionar apenas uma opção também, exemplo:
+Com o componente `h:selectOneMenu` podemos montar um `ComboBox` onde é possível selecionar apenas uma opção também, exemplo:
 
 <figure>
     <a href="/images/2011-11-10-jsf-tags-html-04.png"><img src="/images/2011-11-10-jsf-tags-html-04.png" alt="Exemplo de uso do selectOneMenu."></a>
 </figure>
 
-O código para montar esse h:selectOneMenu é:
+O código para montar esse `h:selectOneMenu` é:
 
 {% highlight xml %}
 <h:selectOneMenu id="tipo" value="#{contatoMB.contato.tipoTelefone}">
@@ -218,13 +218,13 @@ O código para montar esse h:selectOneMenu é:
 </h:selectOneMenu>
 {% endhighlight %}
 
-Se tivermos diversas opções onde o usuário pode selecionar mais de uma opção podemos utilizar uma lista com h:selectManyListbox, por exemplo:
+Se tivermos diversas opções onde o usuário pode selecionar mais de uma opção podemos utilizar uma lista com `h:selectManyListbox`, por exemplo:
 
 <figure>
     <a href="/images/2011-11-10-jsf-tags-html-05.png"><img src="/images/2011-11-10-jsf-tags-html-05.png" alt="Exemplo de uso do selectManyListbox."></a>
 </figure>
 
-O código para montar esse h:selectManyListbox é:
+O código para montar esse `h:selectManyListbox` é:
 
 {% highlight xml %}
 <h:selectManyListbox id="muitasCategorias" size="4">
@@ -234,13 +234,13 @@ O código para montar esse h:selectManyListbox é:
 </h:selectManyListbox>
 {% endhighlight %}
 
-Também podemos usar o h:selectManyCheckbox para permitir que o usuário selecione mais de uma opção:
+Também podemos usar o `h:selectManyCheckbox` para permitir que o usuário selecione mais de uma opção:
 
 <figure>
     <a href="/images/2011-11-10-jsf-tags-html-06.png"><img src="/images/2011-11-10-jsf-tags-html-06.png" alt="Exemplo de uso do selectManyCheckbox."></a>
 </figure>
 
-O código para montar esse h:selectManyCheckbox é:
+O código para montar esse `h:selectManyCheckbox` é:
 
 {% highlight xml %}
 <h:selectManyCheckbox id="redesSociais" value="#{contatoMB.contato.redesSociais}">
@@ -251,7 +251,7 @@ O código para montar esse h:selectManyCheckbox é:
 </h:selectManyCheckbox>
 {% endhighlight %}
 
-Para armazenar quais as opções selecionadas podemos utilizar um vetor de Strings, exemplo:
+Para armazenar quais as opções selecionadas podemos utilizar um vetor de `private String[] redesSociais;` , exemplo:
 
 {% highlight java %}
 private String[] redesSociais;
@@ -263,19 +263,19 @@ public void setRedesSociais(String[] redesSociais){
 }
 {% endhighlight %}
 
-Um checkbox também pode ser utilizado para obter valores do tipo true (verdadeiro) ou falso (false), para isto utilizamos o h:selectBooleanCheckbox.
+Um checkbox também pode ser utilizado para obter valores do tipo `true` (verdadeiro) ou `false` (falso), para isto utilizamos o `h:selectBooleanCheckbox`.
 
 <figure>
     <a href="/images/2011-11-10-jsf-tags-html-07.png"><img src="/images/2011-11-10-jsf-tags-html-07.png" alt="Exemplo de uso do selectBooleanCheckbox."></a>
 </figure>
 
-O código para montar esse h:selectManyCheckbox é:
+O código para montar esse `h:selectManyCheckbox` é:
 
 {% highlight xml %}
 <h:selectBooleanCheckbox id="statusAtivo" value="#{contatoMB.contato. ativo}"/>
 {% endhighlight %}
 
-Quando ele estiver selecionado significa true (verdadeiro), caso contrário significa false (falso), para armazenar este valor podemos utilizar um atributo boolean, exemplo:
+Quando ele estiver selecionado significa `true` (verdadeiro), caso contrário significa `false` (falso), para armazenar este valor podemos utilizar um atributo `private boolean ativo;`, exemplo:
 
 {% highlight java %}
 private boolean ativo;
@@ -287,21 +287,21 @@ public void setAtivo(boolean ativo) { this.ativo = ativo; }
 
 ## Tabela
 
-Podemos definir uma tabela utilizando o componente h:dataTable, exemplo:
+Podemos definir uma tabela utilizando o componente `h:dataTable`, exemplo:
 
 <figure>
     <a href="/images/2011-11-10-jsf-tags-html-08.png"><img src="/images/2011-11-10-jsf-tags-html-08.png" alt="Exemplo de uso do dataTable."></a>
 </figure>
 
-Para criar uma tabela podemos passar para ela um vetor ou lista através da propriedade **value** e com a propriedade **var** é criado uma variável para representar cada elemento do vetor ou lista, exemplo:
+Para criar uma tabela podemos passar para ela um vetor ou lista através da propriedade `value` e com a propriedade `var` é criado uma variável para representar cada elemento do vetor ou lista, exemplo:
 
 {% highlight xml %}
 <h:dataTable id="contatos" value="#{contatoMB.contatos}" var="c" style="width: 100%">
 {% endhighlight %}
 
-Foi passado para o dataTable uma lista de objetos Contato através da propriedade value=\"#{contatoMB.contatos}\" e para cada objeto Contato da lista será armazenado em uma variável chamada c através da propriedade var=\"c\" para ser utilizada dentro da tabela.
+Foi passado para o `dataTable` uma lista de objetos `Contato` através da propriedade `value="#{contatoMB.contatos}"` e para cada objeto `Contato` da lista será armazenado em uma variável chamada `c` através da propriedade `var="c"` para ser utilizada dentro da tabela.
 
-Para definir os valores de cada coluna podemos utilizar o componente h:column, exemplo:
+Para definir os valores de cada coluna podemos utilizar o componente `h:column`, exemplo:
 
 {% highlight xml %}
  <h:column id="columnNome">
@@ -312,13 +312,13 @@ Para definir os valores de cada coluna podemos utilizar o componente h:column, e
   </h:column>
 {% endhighlight %}
 
-Note que dentro da coluna estamos usando um f:facet que é usado para representar um cabecalho (header) ou rodapé (footer) da coluna.
+Note que dentro da coluna estamos usando um `f:facet` que é usado para representar um cabecalho (header) ou rodapé (footer) da coluna.
 
 O exemplo completo da cadastro de contato vai ficar da seguinte forma:
 
 ### Contato
 
-Na classe Contato vamos adicionar mais alguns atributos para representar todos os valores que podem ser informados pelo usuário.
+Na classe `Contato` vamos adicionar mais alguns atributos para representar todos os valores que podem ser informados pelo usuário.
 
 {% highlight java %}
 package br.universidadejava.jsf.modelo;
@@ -393,7 +393,7 @@ public class Contato {
 
 ### ContatoMB
 
-No ManagedBean vamos adicionar agora a lista de contatos que será apresentado na tela no formato de tabela.
+No `ManagedBean` vamos adicionar agora a lista de contatos que será apresentado na tela no formato de tabela.
 
 {% highlight java %}
 package br.universidadejava.jsf.managedbean;
@@ -580,8 +580,16 @@ Crie um formulário para agendar a data/hora para fazer o café, dado o seguinte
     <a href="/images/2011-11-10-jsf-tags-html-10.png"><img src="/images/2011-11-10-jsf-tags-html-10.png" alt="Exercício agendar café."></a>
 </figure>
 
-Ao clicar no botão Agendar, apresentar uma tela com a seguinte informação:
+Ao clicar no botão `Agendar`, apresentar uma tela com a seguinte informação:
 
 <figure>
     <a href="/images/2011-11-10-jsf-tags-html-11.png"><img src="/images/2011-11-10-jsf-tags-html-11.png" alt="Exercício agendar café."></a>
 </figure>
+
+
+### Conteúdos relacionados
+
+- [Criando uma tela de login com JSF](http://www.universidadejava.com.br/javaee/jsf-tela-login/)
+- [Criando um template de página com JSF](http://www.universidadejava.com.br/javaee/jsf-template/)
+- [Chamando um serviço web REST com JSF](http://www.universidadejava.com.br/javaee/webservice-rest-jsf/)
+- [Criando uma aplicação com EJB e JPA](http://www.universidadejava.com.br/javaee/criando-aplicacao-ejb-jpa/)

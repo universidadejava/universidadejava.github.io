@@ -15,17 +15,17 @@ ads: false
 
 O serviço web (web service) é uma forma de integração bem utilizada atualmente para realizar a integração entre aplicações. O Web Service REST é uma das formas de criar um serviço web, que utilizada muito o protocolo HTTP para realizar essa integração entre as aplicações.
 
-O Web Service REST pode disponibilizar através do protocolo HTTP métodos para manipulação de informações, por exemplo: ao fazer uma requisição HTTP através do método GET para a URL http://localhost:8080/CinemaREST/servico/filmes é possível obter um recurso, que nesse caso é uma lista de filmes. Se chamar essa URL através de um navegador podemos verificar o retorno desse Web Service REST.
+O Web Service REST pode disponibilizar através do protocolo HTTP métodos para manipulação de informações, por exemplo: ao fazer uma requisição HTTP através do método GET para a URL `http://localhost:8080/CinemaREST/servico/filmes` é possível obter um recurso, que nesse caso é uma lista de filmes. Se chamar essa URL através de um navegador podemos verificar o retorno desse Web Service REST.
 
 <figure>
     <a href="/images/2012-12-06-webservice-rest-jsf-01.png"><img src="/images/2012-12-06-webservice-rest-jsf-01.png" alt=""></a>
 </figure>
 
-Para consumir um Web Service REST, existem diversas implementações possíveis, uma delas é através da API Jersey, que é a implementação de referência do JavaEE.
+Para consumir um Web Service REST, existem diversas implementações possíveis, uma delas é através da API Jersey, que é a implementação de referência do Java EE.
 
-Crie uma aplicação web chamada **CinemaJSF**, que utiliza o framework do JavaServer Faces para criação das páginas WEB.
+Crie uma aplicação web chamada `CinemaJSF`, que utiliza o framework do JavaServer Faces para criação das páginas WEB.
 
-Vamos alterar uma página inicial **index.xhtml**, para que ela utilize um managed bean para consumir esse web serviço, a página ficará assim:
+Vamos alterar uma página inicial `index.xhtml`, para que ela utilize um managed bean para consumir esse web serviço, a página ficará assim:
 
 {% highlight xml %}
 <?xml version='1.0' encoding='UTF-8' ?>
@@ -43,15 +43,15 @@ Vamos alterar uma página inicial **index.xhtml**, para que ela utilize um mana
 </html>
 {% endhighlight %}
 
-O outputText irá chamar o método **getFilmesEmCartaz()** da managed bean **CinemaMB**, que chama o web service REST que traz todos os filmes em cartaz.
+O outputText irá chamar o método `getFilmesEmCartaz()` da managed bean `CinemaMB`, que chama o web service REST que traz todos os filmes em cartaz.
 
-Para utilizar a API do Jersey dentro da aplicação, clique com o botão direito do mouse em cima do nome do projeto e escolha o item Propriedades. Na tela de propriedades acesse a categoria Bibliotecas e adicione a biblioteca Jersey 1.8 (JAX-RS RI) através do menu Adicionar Biblioteca.
+Para utilizar a API do Jersey dentro da aplicação, clique com o botão direito do mouse em cima do nome do projeto e escolha o item Propriedades. Na tela de propriedades acesse a categoria Bibliotecas e adicione a biblioteca `Jersey 1.8` (JAX-RS RI) através do menu Adicionar Biblioteca.
 
 <figure>
     <a href="/images/2012-12-06-webservice-rest-jsf-02.png"><img src="/images/2012-12-06-webservice-rest-jsf-02.png" alt=""></a>
 </figure>
 
-Vamos criar a managed bean **CinemaMB** com a implementação do método:
+Vamos criar a managed bean `CinemaMB` com a implementação do método:
 
 {% highlight java %}
 package br.metodista.managedbean;
@@ -69,17 +69,17 @@ public class CinemaMB {
 }
 {% endhighlight %}
 
-Com a classe Client é possível obter um resource web (recurso web) através da
+Com a classe `Client` é possível obter um resource web (recurso web) através da
 
-URL do web service REST, e com esse recurso é possível chamar os métodos que o web service REST suporta, como: get, post, put, delete, etc.
+URL do web service REST, e com esse recurso é possível chamar os métodos que o web service REST suporta, como: `get`, `post`, `put`, `delete`, etc.
 
-Ao chamar o método wr.get(String.class), estamos esperando que a chamada para esse serviço devolva uma String, nesse exemplo essa String vem no formato JSON (JavaScript Object Notation), mas poderia ser uma String simples, um formato XML, etc. Ao executar a aplicação CinemaJSF teremos a seguinte tela:
+Ao chamar o método `wr.get(String.class)`, estamos esperando que a chamada para esse serviço devolva uma String, nesse exemplo essa String vem no formato JSON (JavaScript Object Notation), mas poderia ser uma String simples, um formato XML, etc. Ao executar a aplicação `CinemaJSF` teremos a seguinte tela:
 
 <figure>
     <a href="/images/2012-12-06-webservice-rest-jsf-03.png"><img src="/images/2012-12-06-webservice-rest-jsf-03.png" alt=""></a>
 </figure>
 
-Para converter esse JSON em objeto Java, podemos usar uma API simples do Google chamada **gson** (https://code.google.com/p/google-gson) que realiza essa conversão de maneira fácil. Primeiro vamos criar a classe Filme que irá representar cada filme da lista:
+Para converter esse JSON em objeto Java, podemos usar uma API simples do Google chamada `gson` (https://code.google.com/p/google-gson) que realiza essa conversão de maneira fácil. Primeiro vamos criar a classe `Filme` que irá representar cada filme da lista:
 
 {% highlight java %}
 package br.metodista.modelo;
@@ -134,13 +134,13 @@ public class Filme {
 }
 {% endhighlight %}
 
-Adicione a bibioteca do gson no projeto, clique com o botão direito do mouse em cima do nome do projeto e escolha o item Propriedades. Na tela de propriedades acesse a categoria Bibliotecas e adicione a biblioteca **gson-2.2.2.jar** através do menu Adicionar JAR / Pasta.
+Adicione a bibioteca do gson no projeto, clique com o botão direito do mouse em cima do nome do projeto e escolha o item Propriedades. Na tela de propriedades acesse a categoria Bibliotecas e adicione a biblioteca `gson-2.2.2.jar` através do menu Adicionar JAR / Pasta.
 
 <figure>
     <a href="/images/2012-12-06-webservice-rest-jsf-04.png"><img src="/images/2012-12-06-webservice-rest-jsf-04.png" alt=""></a>
 </figure>
 
-Vamos alterar o CinemaMB para utilizar a API do gson e converter o JSON em uma lista de filmes:
+Vamos alterar o `CinemaMB` para utilizar a API do gson e converter o JSON em uma lista de filmes:
 
 {% highlight java %}
 package br.metodista.managedbean;
@@ -165,7 +165,7 @@ public class CinemaMB {
 }
 {% endhighlight %}
 
-Agora vamos mudar a página index.xhtml para mostrar uma tabela com os filmes:
+Agora vamos mudar a página `index.xhtml` para mostrar uma tabela com os filmes:
 
 {% highlight xml %}
 <?xml version='1.0' encoding='UTF-8' ?>
@@ -215,3 +215,11 @@ A tela ficará com a seguinte aparência:
 <figure>
     <a href="/images/2012-12-06-webservice-rest-jsf-05.png"><img src="/images/2012-12-06-webservice-rest-jsf-05.png" alt=""></a>
 </figure>
+
+
+### Conteúdos relacionados
+
+- [Criando uma tela de login com JSF](http://www.universidadejava.com.br/javaee/jsf-tela-login/)
+- [Criando um template de página com JSF](http://www.universidadejava.com.br/javaee/jsf-template/)
+- [Criando um Web Service SOAP com EJB](http://www.universidadejava.com.br/javaee/criando-webservice-com-ejb/)
+- [Criando uma aplicação com EJB e JPA](http://www.universidadejava.com.br/javaee/criando-aplicacao-ejb-jpa/)

@@ -9,7 +9,7 @@ published: true
 excerpt: JavaServer Faces (JSF) é um framework de interface de usuário para desenvolvimento de aplicações web Java.
 comments: true
 image:
-  teaser: teaser-jsf.png
+  teaser: 2011-04-13-teaser-jsf-introducao.png
 ads: false
 ---
 
@@ -53,25 +53,25 @@ No Menu Arquivo -> Novo Projeto, selecione a Categoria: Java Web e escolha um Pr
 
 Na tela Novo Aplicação Web defina o nome do projeto HelloWorld e escolha um local do projeto onde será gerado o código fonte da aplicação, clique em Próximo.
 
-Informe o Servidor onde será publicado a aplicação, neste exemplo estou usando o Glassfish Server 3.1, informe a versão do Java EE: Java EE 6 Web e o caminho do contexto: /HelloWorld, clique em Próximo.
+Informe o Servidor onde será publicado a aplicação, neste exemplo estou usando o Glassfish Server 3.1, informe a versão do Java EE: Java EE 6 Web e o caminho do contexto: `/HelloWorld`, clique em Próximo.
 
-OBS: O caminho do contexto é o nome da aplicação que será chamado pelo navegador (browser) neste caso para acessar a aplicação, utilize a URL http://localhost:8000/HelloWorld.
+> O caminho do contexto é o nome da aplicação que será chamado pelo navegador (browser) neste caso para acessar a aplicação, utilize a URL `http://localhost:8000/HelloWorld`.
 
 Selecione o framework JavaServer Faces, irá aparecer um painel de configuração do JavaServer Faces, selecione a biblioteca JSF 2.0 e clique em Finalizar.
 
-Após criar o projeto web, clique com o botão direito do mouse sobre ele e escolha o item Executar no menu. Neste momento sua aplicação será compactada gerando um arquivo HelloWorld.war (Web Application Archive), publicada dentro do servidor web Glassfish e o NetBeans automaticamente inicia seu navegador padrão (browser) com a aplicação.
+Após criar o projeto web, clique com o botão direito do mouse sobre ele e escolha o item Executar no menu. Neste momento sua aplicação será compactada gerando um arquivo `HelloWorld.war` (Web Application Archive), publicada dentro do servidor web Glassfish e o NetBeans automaticamente inicia seu navegador padrão (browser) com a aplicação.
 
 <figure>
     <a href="/images/2011-04-13-jsf-introducao-01.png"><img src="/images/2011-04-13-jsf-introducao-01.png" alt="Novo projeto JSF."></a>
 </figure>
 
-O NetBeans criou a aplicação web contendo uma página inicial chamada index.xhtml e o arquivo de configuração da aplicação web.xml dentro da pasta META-INF.
+O NetBeans criou a aplicação web contendo uma página inicial chamada `index.xhtml` e o arquivo de configuração da aplicação `web.xml` dentro da pasta `META-INF`.
 
 <figure>
     <a href="/images/2011-04-13-jsf-introducao-02.png"><img src="/images/2011-04-13-jsf-introducao-02.png" alt="Estrutura projeto JSF."></a>
 </figure>
 
-O arquivo index.xhtml possui uma declaração simples da página com as tags h:head para informar a área de cabeçalho da página (representando a tag <head> do HTML) e h:body para informar a área do corpo da página (representando a tag <body> do HTML).
+O arquivo index.xhtml possui uma declaração simples da página com as tags `h:head` para informar a área de cabeçalho da página (representando a tag <head> do HTML) e `h:body` para informar a área do corpo da página (representando a tag <body> do HTML).
 
 {% highlight xml %}
 <?xml version='1.0' encoding='UTF-8' ?>
@@ -87,12 +87,12 @@ O arquivo index.xhtml possui uma declaração simples da página com as tags h:h
 </html>
 {% endhighlight %}
 
-O arquivo web.xml possui as informações de configuração da aplicação web, note que nele temos:
+O arquivo `web.xml` possui as informações de configuração da aplicação web, note que nele temos:
 
-* Declaração de um parâmetro de contexto da aplicação chamado PROJECT_STAGE usado para informar o estagio do projeto (novo do JSF 2.0);
-* Declaração da FacesServlet que irá tratar todas as requisições da aplicação que possuem o caminho faces/ após o nome da aplicação (ex: http://localhost:8080/HelloWorld/faces/index.xhtml);
+* Declaração de um parâmetro de contexto da aplicação chamado `PROJECT_STAGE` usado para informar o estagio do projeto (novo do JSF 2.0);
+* Declaração da `FacesServlet` que irá tratar todas as requisições da aplicação que possuem o caminho `faces/` após o nome da aplicação (ex: `http://localhost:8080/HelloWorld/faces/index.xhtml`);
 * A configuração de timeout padrão de 30 minutos;
-* Definição da página inicial do projeto faces/index.xhtml.
+* Definição da página inicial do projeto `faces/index.xhtml`.
 
 {% highlight xml %}
 <?xml version="1.0" encoding="UTF-8"?>
@@ -120,3 +120,11 @@ O arquivo web.xml possui as informações de configuração da aplicação web, 
     </welcome-file-list>
 </web-app>
 {% endhighlight %}
+
+
+### Conteúdos relacionados
+
+- [Criando uma tela de login com JSF](http://www.universidadejava.com.br/javaee/jsf-tela-login/)
+- [Criando um template de página com JSF](http://www.universidadejava.com.br/javaee/jsf-template/)
+- [Bibliotecas de tags básicas do JSF](http://www.universidadejava.com.br/javaee/jsf-tags-html/)
+- [Chamando um serviço web REST com JSF](http://www.universidadejava.com.br/javaee/webservice-rest-jsf/)

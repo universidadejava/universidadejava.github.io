@@ -9,11 +9,11 @@ published: true
 excerpt: Neste exemplo vamos criar uma simples tela na qual o usuário pode informar seu login e senha e clicar no botão Entrar para acessar o sistema.
 comments: true
 image:
-  teaser: teaser-jsf.png
+  teaser: 2011-04-13-teaser-jsf-tela-login.png
 ads: false
 ---
 
-Neste exemplo vamos criar uma simples tela na qual o usuário pode informar seu login e senha e clicar no botão Entrar para acessar o sistema, conforme imagem a seguir:
+Neste exemplo vamos criar uma simples tela na qual o usuário pode informar seu `login` e `senha` e clicar no botão `Entrar` para acessar o sistema, conforme imagem a seguir:
 
 <figure>
     <a href="/images/2011-04-13-jsf-tela-login-01.png"><img src="/images/2011-04-13-jsf-tela-login-01.png" alt="Tela de login com JSF."></a>
@@ -25,7 +25,7 @@ Nesse vídeo demonstro como criar a tela de login utilizando JSF e EJB.
 
 ## Crie uma aplicação web Java chamada LoginWeb.
 
-Vamos alterar a página index.xhtml para desenhar a tela, nela vamos usar os seguintes componentes do JSF form (monta um formulário), outputText (representa um texto na tela), inputText (representa um campo de entrada de dados na tela), inputSecret (representa um campo de entrada de dados para informações que não devem ser visivelmente lidas), panelGrid (monta uma tabela para organizar os componentes) e commandButton (representa um botão na tela).
+Vamos alterar a página `index.xhtml` para desenhar a tela, nela vamos usar os seguintes componentes do JSF `form` (monta um formulário), `outputText` (representa um texto na tela), `inputText` (representa um campo de entrada de dados na tela), `inputSecret` (representa um campo de entrada de dados para informações que não devem ser visivelmente lidas), `panelGrid` (monta uma tabela para organizar os componentes) e `commandButton` (representa um botão na tela).
 
 {% highlight xml %}
 <?xml version='1.0' encoding='UTF-8' ?>
@@ -52,9 +52,9 @@ Vamos alterar a página index.xhtml para desenhar a tela, nela vamos usar os seg
 </html>
 {% endhighlight %}
 
-Se você executar a aplicação é possível ver como ficou a tela index.xhtml, mas até o momento não colocamos nenhuma ação nela, note que não tem nenhum código Java nesta tela, apenas tags do JSF.
+Se você executar a aplicação é possível ver como ficou a tela `index.xhtml`, mas até o momento não colocamos nenhuma ação nela, note que não tem nenhum código Java nesta tela, apenas tags do JSF.
 
-Vamos criar uma classe Usuario para representar os dados de login e senha apresentados na tela:
+Vamos criar uma classe `Usuario` para representar os dados de `login` e `senha` apresentados na tela:
 
 {% highlight java %}
 package pbc.jsf.modelo;
@@ -81,9 +81,9 @@ public class Usuario {
 }
 {% endhighlight %}
 
-Vamos criar também uma classe LoginMB que será o ManagedBean responsável pelas ações e atributos da tela de login.
+Vamos criar também uma classe `LoginMB` que será o `ManagedBean` responsável pelas ações e atributos da tela de login.
 
-Esta classe é uma classe Java normal, a unica coisa a mais que colocamos nela é a anotação @ManagedBean que serve para informar para o JSF que agora esta classe é um ManagedBean.
+Esta classe é uma classe Java normal, a unica coisa a mais que colocamos nela é a anotação `@ManagedBean` que serve para informar para o JSF que agora esta classe é um `ManagedBean`.
 
 {% highlight java %}
 package pbc.jsf.managedbean;
@@ -116,7 +116,7 @@ public class LoginMB {
 }
 {% endhighlight %}
 
-Crie uma página principal.xhtml apenas para simular o acesso do usuário dentro da aplicação.
+Crie uma página `principal.xhtml` apenas para simular o acesso do usuário dentro da aplicação.
 
 {% highlight xml %}
 <?xml version="1.0" encoding="UTF-8"?>
@@ -133,7 +133,7 @@ Crie uma página principal.xhtml apenas para simular o acesso do usuário dentro
 </html>
 {% endhighlight %}
 
-Agora que criamos o ManagedBean vamos alterar a página index.xhtml para adicionar os atributos login e senha, também vamos colocar a ação do botão:
+Agora que criamos o ManagedBean vamos alterar a página `index.xhtml` para adicionar os atributos `login` e `senha`, também vamos colocar a ação do botão:
 
 {% highlight xml %}
 <?xml version='1.0' encoding='UTF-8' ?>
@@ -160,9 +160,9 @@ Agora que criamos o ManagedBean vamos alterar a página index.xhtml para adicion
 </html>
 {% endhighlight %}
 
-Agora se executar a aplicação novamente, ela já está funcionando, os valores digitados nos campos login e senha, são colocados dentro dos atributos do objeto Usuario e o ação de clicar no botão de Entrar vai chamar o método doEfetuarLogin do ManagedBean, se os dados forem digitados corretamente a aplicação irá redirecionar o usuário para a página principal.xhtml.
+Agora se executar a aplicação novamente, ela já está funcionando, os valores digitados nos campos login e senha, são colocados dentro dos atributos do objeto `Usuario` e o ação de clicar no botão de `Entrar` vai chamar o método `doEfetuarLogin` do `ManagedBean`, se os dados forem digitados corretamente a aplicação irá redirecionar o usuário para a página `principal.xhtml`.
 
-Para melhorar um pouco mais vamos definir que os campos login e senha são obrigatórios, para isso altere na página index.xhtml os h:inputText e coloque um label para especificar o nome do campo que aparece na tela e defina como true a propriedade required, também vamos adicionar um componente do faces h:messages que irá apresentar todas as mensagens na tela:
+Para melhorar um pouco mais vamos definir que os campos login e senha são obrigatórios, para isso altere na página `index.xhtml` os `h:inputText` e coloque um label para especificar o nome do campo que aparece na tela e defina como `true` a propriedade `required`, também vamos adicionar um componente do faces `h:messages` que irá apresentar todas as mensagens na tela:
 
 {% highlight xml %}
 <?xml version='1.0' encoding='UTF-8' ?>
@@ -192,13 +192,13 @@ Para melhorar um pouco mais vamos definir que os campos login e senha são obrig
 </html>
 {% endhighlight %}
 
-Ao clicar no botão Entrar da tela será apresentado a seguinte mensagem:
+Ao clicar no botão `Entrar` da tela será apresentado a seguinte mensagem:
 
 <figure>
     <a href="/images/2011-04-13-jsf-tela-login-02.png"><img src="/images/2011-04-13-jsf-tela-login-02.png" alt="Tela de login com JSF."></a>
 </figure>
 
-Também podemos adicionar uma validação de login ou senha inválido. Vamos enviar uma mensagem de erro caso o login ou senha digitado são inválidos, para isto vamos utilizar um objeto javax.faces.application.FacesMessage e adicionar a mensagem no FacesContext (contexto atual do JSF), esta mensagem será apresentada depois na tela através do componente h:messages.
+Também podemos adicionar uma validação de login ou senha inválido. Vamos enviar uma mensagem de erro caso o login ou senha digitado são inválidos, para isto vamos utilizar um objeto `javax.faces.application.FacesMessage` e adicionar a mensagem no `FacesContext` (contexto atual do JSF), esta mensagem será apresentada depois na tela através do componente `h:messages`.
 
 {% highlight java %}
 package pbc.jsf.managedbean;
@@ -240,3 +240,10 @@ Ao digitar um usuário ou senha inválido será apresentado a seguinte mensagem.
 <figure>
     <a href="/images/2011-04-13-jsf-tela-login-03.png"><img src="/images/2011-04-13-jsf-tela-login-03.png" alt="Tela de login com JSF."></a>
 </figure>
+
+### Conteúdos relacionados
+
+- [Criando uma aplicação com EJB e JPA](http://www.universidadejava.com.br/javaee/criando-aplicacao-ejb-jpa/)
+- [Criando um template de página com JSF](http://www.universidadejava.com.br/javaee/jsf-template/)
+- [Bibliotecas de tags básicas do JSF](http://www.universidadejava.com.br/javaee/jsf-tags-html/)
+- [Chamando um serviço web REST com JSF](http://www.universidadejava.com.br/javaee/webservice-rest-jsf/)

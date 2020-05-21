@@ -9,13 +9,13 @@ published: true
 excerpt: Templates são layouts de páginas que podem ser reaproveitadas.
 comments: true
 image:
-  teaser: teaser-jsf.png
+  teaser: 2011-05-02-teaser-jsf-template.png
 ads: false
 ---
 
 ## Introdução ao Facelets
 
-Templates são layouts de páginas que podem ser reaproveitadas, podemos criar uma página padrão (template) para o sistema e depois apenas alterar as áreas dessa página que for necessária, por exemplo: podemos criar um template com um cabeçalho, menu e conteúdo (como imagem abaixo) e podemos definir que estas três áreas podem ser alteradas por qualquer outra página que siga este template.
+Templates são layouts de páginas que podem ser reaproveitadas, podemos criar uma página padrão (template) para o sistema e depois apenas alterar as áreas dessa página que for necessária, por exemplo: podemos criar um template com um cabeçalho, menu e conteúdo (como imagem a seguir) e podemos definir que estas três áreas podem ser alteradas por qualquer outra página que siga este template.
 
 <figure>
     <a href="/images/2011-05-02-jsf-template-01.png"><img src="/images/2011-05-02-jsf-template-01.png" alt="Template."></a>
@@ -31,11 +31,11 @@ Na versão 2.0 do JSF foi incorporado o projeto Facelets que possui tags para cr
 </html>
 {% endhighlight %}
 
-Normalmente a tag do facelets ganha um alias (apelido) chamado ui, para através dele usar as tags desta biblioteca. O facelets possui as seguintes bibliotecas: component, composition, debug, decorate, define, fragment, include, insert, param, remove e repeat.
+Normalmente a tag do facelets ganha um alias (apelido) chamado `ui`, para através dele usar as tags desta biblioteca. O facelets possui as seguintes bibliotecas: `component`, `composition`, `debug`, `decorate`, `define`, `fragment`, `include`, `insert`, `param`, `remove` e `repeat`.
 
 ## ui:insert
 
-Para delimitar uma área do template que pode ser alterada pelas páginas que utilizarem este template iremos utilizar a tag insert, exemplo:
+Para delimitar uma área do template que pode ser alterada pelas páginas que utilizarem este template iremos utilizar a tag `insert`, exemplo:
 
 {% highlight xml %}
 <html xmlns="http://www.w3.org/1999/xhtml"
@@ -58,11 +58,11 @@ Para delimitar uma área do template que pode ser alterada pelas páginas que ut
 </html>
 {% endhighlight %}
 
-Neste exemplo criamos uma página com três áreas que podem ser alteradas, para cada área que definimos com a tag insert precisamos definir também um nome para que possamos informar na página que irá usar este template qual a parte da página deve ser alterada.
+Neste exemplo criamos uma página com três áreas que podem ser alteradas, para cada área que definimos com a tag `insert` precisamos definir também um nome para que possamos informar na página que irá usar este template qual a parte da página deve ser alterada.
 
 ## ui:composition
 
-Quando criamos uma página que irá seguir um template precisamos especificar qual será o arquivo que possui o template, para isto iremos utilizar a tag composition, exemplo:
+Quando criamos uma página que irá seguir um template precisamos especificar qual será o arquivo que possui o template, para isto iremos utilizar a tag `composition`, exemplo:
 
 {% highlight xml %}
 <html xmlns="http://www.w3.org/1999/xhtml"
@@ -74,11 +74,11 @@ Quando criamos uma página que irá seguir um template precisamos especificar qu
 </html>
 {% endhighlight %}
 
-Quando utilizamos um template não há necessidade de especificar novamente as tags h:head, h:body ou qualquer outra tag que já tem no template, pois está página agora terá as mesmas tags para montar seu layout.
+Quando utilizamos um template não há necessidade de especificar novamente as tags `h:head`, `h:body` ou qualquer outra tag que já tem no template, pois está página agora terá as mesmas tags para montar seu layout.
 
 ## ui:define
 
-Dentro da página que segue o template podemos alterar qualquer área especificada pelas tags insert, para isto iremos utilizar a tag define e informar qual o nome da tag insert deve ser alterado, exemplo:
+Dentro da página que segue o template podemos alterar qualquer área especificada pelas tags `insert`, para isto iremos utilizar a tag `define` e informar qual o nome da tag `insert` deve ser alterado, exemplo:
 
 {% highlight xml %}
 <html xmlns="http://www.w3.org/1999/xhtml"
@@ -106,9 +106,9 @@ E também vamos criar uma página que possui o cadastro de usuário e um menu pa
     <a href="/images/2011-05-02-jsf-template-03.png"><img src="/images/2011-05-02-jsf-template-03.png" alt="Exemplo de aplicação web com template."></a>
 </figure>
 
-Crie uma aplicação web chamada TemplateWeb e utilize o framework JavaServer Faces 2.0.
+Crie uma aplicação web chamada `TemplateWeb` e utilize o framework JavaServer Faces 2.0.
 
-Na página index.xhtml vamos criar o template (modelo) que será seguido depois pela página usuario.xhtml:
+Na página `index.xhtml` vamos criar o template (modelo) que será seguido depois pela página `usuario.xhtml`:
 
 {% highlight xml %}
 <?xml version='1.0' encoding='UTF-8' ?>
@@ -152,7 +152,7 @@ Na página index.xhtml vamos criar o template (modelo) que será seguido depois 
 
 Note que importamos a biblioteca do facelets e definimos as áreas que podem ser alteradas.
 
-Agora vamos criar a página que seguirá o template e terá o cadastro de usuário, para isto primeiro vamos criar uma classe para representar o Usuário:
+Agora vamos criar a página que seguirá o template e terá o cadastro de usuário, para isto primeiro vamos criar uma classe para representar o `Usuário`:
 
 {% highlight xml %}
 package br.universidadejava.jsf.modelo;
@@ -200,7 +200,7 @@ public class Usuario implements Serializable {
 }
 {% endhighlight %}
 
-E também vamos criar uma classe que será o ManagedBean que controlara as ações da página de cadastro do usuário.
+E também vamos criar uma classe que será o `ManagedBean` que controlara as ações da página de cadastro do usuário.
 
 {% highlight xml %}
 package br.universidadejava.jsf.managedbean;
@@ -250,7 +250,7 @@ public class UsuarioMB implements Serializable {
 }
 {% endhighlight %}
 
-Agora vamos criar a página de cadastro chamada usuario.xhtml:
+Agora vamos criar a página de cadastro chamada `usuario.xhtml`:
 
 {% highlight xml %}
 <?xml version='1.0' encoding='UTF-8' ?>
@@ -315,10 +315,18 @@ Agora vamos criar a página de cadastro chamada usuario.xhtml:
 </html>
 {% endhighlight %}
 
-Note que alteramos o conteúdo das áreas menu e conteudo através da tag define.
+Note que alteramos o conteúdo das áreas menu e conteudo através da tag `define`.
 
 ### Para se divertir um pouco:
 
 * Se for necessário alterar o titulo da página que aparece no navegador, de acordo com a página atual como seria? Altere esta aplicação e teste.
-* Qual a vantagem de ter usado o h:form no template?
-* Será que se os campos do formulário na página de cadastrado fossem obrigatórios (required=true) o link para a página inicial iria funcionar???
+* Qual a vantagem de ter usado o `h:form` no template?
+* Será que se os campos do formulário na página de cadastrado fossem obrigatórios (`required=true`) o link para a página inicial iria funcionar?
+
+
+### Conteúdos relacionados
+
+- [Bibliotecas de tags básicas do JSF](http://www.universidadejava.com.br/javaee/jsf-tags-html/)
+- [Chamando um serviço web REST com JSF](http://www.universidadejava.com.br/javaee/webservice-rest-jsf/)
+- [Criando uma aplicação com EJB e JPA](http://www.universidadejava.com.br/javaee/criando-aplicacao-ejb-jpa/)
+- [Criando um Web Service SOAP com EJB](http://www.universidadejava.com.br/javaee/criando-webservice-com-ejb/)
