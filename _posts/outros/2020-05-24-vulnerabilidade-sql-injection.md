@@ -3,7 +3,7 @@ layout: article
 title: "Conhecendo e previnindo a vulnerabilidade SQL Injection"
 categories: outros
 author: sakurai
-date: 2020-05-24 22:50:00
+date: 2020-05-24 10:15:00
 tags: [java, vulnerabilidade, sql, injection]
 published: true
 excerpt: 
