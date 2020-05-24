@@ -24,7 +24,7 @@ A criptografia usando uma chave privada tem como objetivo utilizar uma chave que
 
 ## Implementando criptografia com AES
 
-> O código de implementação do uso da criptografia simetrica usando [AES](https://pt.wikipedia.org/wiki/Data_Encryption_Standard), apresentado a seguir é uma adaptação do código disponível no livro de DASWANI, N.; KERN, C.; KESAVAN, A. página 211.
+> O código de implementação do uso da criptografia simétrica usando [AES](https://pt.wikipedia.org/wiki/Data_Encryption_Standard), apresentado a seguir é uma adaptação do código disponível no livro de DASWANI, N.; KERN, C.; KESAVAN, A. página 211.
 
 Vamos começar declarando os atributos que vamos utilizar na classe e o construtor:
 
@@ -104,7 +104,7 @@ public static SecretKeySpec lerChave(String nomeArquivo) throws Exception {
 }
 {% endhighlight %}
 
-O método `public void criptografar(InputStream in, OutputStream out) throws Exception` recebe um arquivo de entrada com o conteúdo original e um arquivo de saida no qual será gravado o conteúdo criptografado do arquivo de entrada usando o AES.
+O método `public void criptografar(InputStream in, OutputStream out) throws Exception` recebe um arquivo de entrada com o conteúdo original e um arquivo de saída no qual será gravado o conteúdo criptografado do arquivo de entrada usando o AES.
 
 {% highlight java %}
 public void criptografar(InputStream in, OutputStream out) throws Exception {
@@ -176,3 +176,4 @@ public void descriptografar(InputStream in, OutputStream out) throws Exception {
 
 - [Introdução a criptografia](http://www.universidadejava.com.br/outros/introducao-criptografia/)
 - [Criptografia assimétrica utilizando um par de chaves pública/privada](http://www.universidadejava.com.br/outros/criptografia-assimetrica/)
+- [Aprenda a aplicar a função de hash em um texto e como é usado na assinatura digital](http://www.universidadejava.com.br/outros/criptografia-funcao-hash/)

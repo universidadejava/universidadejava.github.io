@@ -38,7 +38,7 @@ public static String criptografar(String msg, int chave) {
 }
 {% endhighlight %}
 
-O método `public static String descriptografar(String msgCript, int chave)` é similar ao método `criptografar`, a única diferença é que subtraimos o valor da chave. Lembrando que o mesmo número de chave usado para criptografar deve ser usado também para descriptografar.
+O método `public static String descriptografar(String msgCript, int chave)` é similar ao método `criptografar`, a única diferença é que subtraímos o valor da chave. Lembrando que o mesmo número de chave usado para criptografar deve ser usado também para descriptografar.
 
 {% highlight java %}
 public static String descriptografar(String msgCript, int chave) {
@@ -73,5 +73,6 @@ Mensagem descriptografada: Olá, tudo bom?
 
 ## Conteúdos relacionados
 
-- [Criptografia simetrica usando chave privada](http://www.universidadejava.com.br/outros/criptografia-simetrica/)
+- [Criptografia simétrica usando chave privada](http://www.universidadejava.com.br/outros/criptografia-simetrica/)
 - [Criptografia assimétrica utilizando um par de chaves publica/privada](http://www.universidadejava.com.br/outros/criptografia-assimetrica/)
+- [Aprenda a aplicar a função de hash em um texto e como é usado na assinatura digital](http://www.universidadejava.com.br/outros/criptografia-funcao-hash/)

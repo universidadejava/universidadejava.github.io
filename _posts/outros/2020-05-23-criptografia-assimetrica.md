@@ -3,7 +3,7 @@ layout: article
 title: "Criptografia de chave pública ou assimétrica"
 categories: outros
 author: sakurai
-date: 2020-05-23 23:07:00
+date: 2020-05-23 15:01:00
 tags: [java, criptografia, assimetrica, AES]
 published: true
 excerpt: 
@@ -153,3 +153,4 @@ Uma solução para esse problema é combinar o uso da criptografia simétrica e 
 
 - [Introdução a criptografia](http://www.universidadejava.com.br/outros/introducao-criptografia/)
 - [Criptografia simétrica utilizando chave privada](http://www.universidadejava.com.br/outros/criptografia-simetrica/)
+- [Aprenda a aplicar a função de hash em um texto e como é usado na assinatura digital](http://www.universidadejava.com.br/outros/criptografia-funcao-hash/)
