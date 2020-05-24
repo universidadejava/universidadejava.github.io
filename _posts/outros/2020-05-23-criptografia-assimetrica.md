@@ -154,3 +154,4 @@ Uma solução para esse problema é combinar o uso da criptografia simétrica e 
 - [Introdução a criptografia](http://www.universidadejava.com.br/outros/introducao-criptografia/)
 - [Criptografia simétrica utilizando chave privada](http://www.universidadejava.com.br/outros/criptografia-simetrica/)
 - [Aprenda a aplicar a função de hash em um texto e como é usado na assinatura digital](http://www.universidadejava.com.br/outros/criptografia-funcao-hash/)
+- [Conhecendo e previnindo a vulnerabilidade SQL Injection](http://www.universidadejava.com.br/outros/vulnerabilidade-sql-injection)

@@ -93,3 +93,4 @@ Agora um ponto importante, nesse processo criptografamos o hash do arquivo e env
 - [Introdução a criptografia](http://www.universidadejava.com.br/outros/introducao-criptografia/)
 - [Criptografia simétrica utilizando chave privada](http://www.universidadejava.com.br/outros/criptografia-simetrica/)
 - [Criptografia assimétrica utilizando um par de chaves pública/privada](http://www.universidadejava.com.br/outros/criptografia-assimetrica/)
+- [Conhecendo e previnindo a vulnerabilidade SQL Injection](http://www.universidadejava.com.br/outros/vulnerabilidade-sql-injection)

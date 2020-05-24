@@ -6,7 +6,7 @@ author: sakurai
 date: 2020-05-24 10:15:00
 tags: [java, vulnerabilidade, sql, injection]
 published: true
-excerpt: 
+excerpt: SQL Injection é uma vulnerabilidade que permite ao atacante manipular códigos SQL passados da aplicação para o banco de dados, com objetivo de extrair, alterar ou até mesmo causar danos.
 comments: true
 image:
   teaser: 2020-05-24-teaser-vulnerabilidade-sql-injection.png
@@ -147,6 +147,7 @@ List<Usuario> usuarios = (List<Usuario>) q.getResultList();
 
 ## Conteúdos relacionados
 
+- [Conhecendo e previnindo a vulnerabilidade Cross-site scripting](http://www.universidadejava.com.br/outros/vulnerabilidade-xss)
 - [Introdução a criptografia](http://www.universidadejava.com.br/outros/introducao-criptografia/)
 - [Criptografia simétrica utilizando chave privada](http://www.universidadejava.com.br/outros/criptografia-simetrica/)
 - [Criptografia assimétrica utilizando um par de chaves pública/privada](http://www.universidadejava.com.br/outros/criptografia-assimetrica/)

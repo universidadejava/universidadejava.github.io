@@ -76,3 +76,4 @@ Mensagem descriptografada: Olá, tudo bom?
 - [Criptografia simétrica usando chave privada](http://www.universidadejava.com.br/outros/criptografia-simetrica/)
 - [Criptografia assimétrica utilizando um par de chaves publica/privada](http://www.universidadejava.com.br/outros/criptografia-assimetrica/)
 - [Aprenda a aplicar a função de hash em um texto e como é usado na assinatura digital](http://www.universidadejava.com.br/outros/criptografia-funcao-hash/)
+- [Conhecendo e previnindo a vulnerabilidade SQL Injection](http://www.universidadejava.com.br/outros/vulnerabilidade-sql-injection)
