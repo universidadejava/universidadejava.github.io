@@ -431,4 +431,12 @@ public class CadastroCliente extends javax.swing.JFrame {
 ##Exercício 2
 
 Neste exercício vamos desenvolver uma aplicação Swing ou Console para implementar o seguinte requisito de sistema:
-“Precisamos controlar as vendas de instrumentos musicais, desenvolva uma aplicação para cadastrar, alterar, consultar pelo código e remover os instrumentos musicais (marca, modelo e preço). Também devemos cadastrar as vendas feitas para um cliente, onde o cliente (nome, cpf e telefone) pode comprar diversos instrumentos musicais. Não temos a necessidade de controlar o estoque dos produtos, pois apenas será vendido os itens que estão nas prateleiras.”
+"Precisamos controlar as vendas de instrumentos musicais, desenvolva uma aplicação para cadastrar, alterar, consultar pelo código e remover os instrumentos musicais (marca, modelo e preço). Também devemos cadastrar as vendas feitas para um cliente, onde o cliente (nome, cpf e telefone) pode comprar diversos instrumentos musicais. Não temos a necessidade de controlar o estoque dos produtos, pois apenas será vendido os itens que estão nas prateleiras."
+
+
+## Conteúdos relacionados
+
+- [Mais exercícios com JPA](http://www.universidadejava.com.br/jee/jpa-exercicios-03/)
+- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/jee/jpa-exemplo-crud/)
+- [Usando Query do JPA](http://www.universidadejava.com.br/jee/jpa-query/)
+- [Criando uma aplicação com EJB + JPA](http://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)

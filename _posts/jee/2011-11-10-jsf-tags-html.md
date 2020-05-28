@@ -589,7 +589,7 @@ Ao clicar no botão `Agendar`, apresentar uma tela com a seguinte informação:
 
 ### Conteúdos relacionados
 
-- [Criando uma tela de login com JSF](http://www.universidadejava.com.br/javaee/jsf-tela-login/)
-- [Criando um template de página com JSF](http://www.universidadejava.com.br/javaee/jsf-template/)
-- [Chamando um serviço web REST com JSF](http://www.universidadejava.com.br/javaee/webservice-rest-jsf/)
-- [Criando uma aplicação com EJB e JPA](http://www.universidadejava.com.br/javaee/criando-aplicacao-ejb-jpa/)
+- [Criando uma tela de login com JSF](http://www.universidadejava.com.br/jee/jsf-tela-login/)
+- [Criando um template de página com JSF](http://www.universidadejava.com.br/jee/jsf-template/)
+- [Chamando um serviço web REST com JSF](http://www.universidadejava.com.br/jee/webservice-rest-jsf/)
+- [Criando uma aplicação com EJB e JPA](http://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)

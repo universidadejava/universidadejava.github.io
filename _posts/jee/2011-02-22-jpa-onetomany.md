@@ -172,7 +172,7 @@ public class Tarefa implements Serializable {
 
 ### Conteúdos relacionados
 
-- [Utilizando relacionamento de Um para Um com JPA](http://www.universidadejava.com.br/javaee/jpa-onetoone/)
-- [Utilizando relacionamento de Muitos para Um com JPA](http://www.universidadejava.com.br/javaee/jpa-manytoone/)
-- [Utilizando relacionamento de Muitos para Muitos com JPA](http://www.universidadejava.com.br/javaee/jpa-manytomany/)
-- [Criando consultas com JPA](http://www.universidadejava.com.br/javaee/jpa-query/)
+- [Utilizando relacionamento de Um para Um com JPA](http://www.universidadejava.com.br/jee/jpa-onetoone/)
+- [Utilizando relacionamento de Muitos para Um com JPA](http://www.universidadejava.com.br/jee/jpa-manytoone/)
+- [Utilizando relacionamento de Muitos para Muitos com JPA](http://www.universidadejava.com.br/jee/jpa-manytomany/)
+- [Criando consultas com JPA](http://www.universidadejava.com.br/jee/jpa-query/)

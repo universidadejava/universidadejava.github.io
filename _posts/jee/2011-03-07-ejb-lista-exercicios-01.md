@@ -32,3 +32,11 @@ Crie um projeto EJB chamado **LivrariaEjb**, dentro dele crie o seguinte compone
 Crie um projeto chamado Livraria para testar o EJB criado, este projeto pode ser Console, Swing ou Web (utilizando Servlet).
 
 OBS: Se a aplicação de teste for Console ou Desktop, utilize o Service Locator para separar a lógica que busca os EJBs.
+
+
+## Conteúdos relacionados
+
+- [Mais exercícios com EJB](http://www.universidadejava.com.br/jee/ejb-lista-exercicios-02/)
+- [Criando um HelloWorld com EJB 3.0 na IDE NetBeans](http://www.universidadejava.com.br/jee/ejb-helloworld-netbeans/)
+- [Criando uma aplicação com EJB + JPA](http://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
+- [Interceptando os EJBs para criar objetos DAOs](http://www.universidadejava.com.br/jee/ejb-interceptando/)

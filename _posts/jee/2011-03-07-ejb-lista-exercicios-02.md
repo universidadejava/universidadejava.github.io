@@ -28,3 +28,11 @@ Crie as classes de negocio para representar o pedido com os itens do cardápio, 
 Crie uma classe DAO onde temos as operações de fazer pedido ou cancelamento.
 
 Crie um EJB que possui a lógica de negocio para fazer o pedido ou cancelamento de algum item.
+
+
+## Conteúdos relacionados
+
+- [Interceptando os EJBs para criar objetos DAOs](http://www.universidadejava.com.br/jee/ejb-interceptando/)
+- [Criando um HelloWorld com EJB 3.0 na IDE NetBeans](http://www.universidadejava.com.br/jee/ejb-helloworld-netbeans/)
+- [Criando uma aplicação com EJB + JPA](http://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
+- [Web Services com EJB 3.0](http://www.universidadejava.com.br/jee/webservice-com-ejb/)

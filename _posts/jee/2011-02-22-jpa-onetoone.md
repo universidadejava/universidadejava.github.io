@@ -333,7 +333,7 @@ updatable | Informa se a coluna é incluída no SQL de UPDATE.
 
 ### Conteúdos relacionados
 
-- [Utilizando relacionamento de Um para Muitos com JPA](http://www.universidadejava.com.br/javaee/jpa-onetomany/)
-- [Utilizando relacionamento de Muitos para Um com JPA](http://www.universidadejava.com.br/javaee/jpa-manytoone/)
-- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/javaee/jpa-exemplo-crud/)
-- [Criando consultas com JPA](http://www.universidadejava.com.br/javaee/jpa-query/)
+- [Utilizando relacionamento de Um para Muitos com JPA](http://www.universidadejava.com.br/jee/jpa-onetomany/)
+- [Utilizando relacionamento de Muitos para Um com JPA](http://www.universidadejava.com.br/jee/jpa-manytoone/)
+- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/jee/jpa-exemplo-crud/)
+- [Criando consultas com JPA](http://www.universidadejava.com.br/jee/jpa-query/)

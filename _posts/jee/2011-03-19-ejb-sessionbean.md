@@ -119,3 +119,11 @@ public class ServicoBean implements ServicoRemote {
 ## Referências
 
 [BROSE, G.; SILVERMAN, M.; SRIGANESH, R. P.] Mastering Enterprise Java Beans 3.0 – Rima Pastel Sriganesh, Gerald Brose, Micah Silverman – 2006 – Wiley.
+
+
+## Conteúdos relacionados
+
+- [Criando um HelloWorld com EJB 3.0 na IDE NetBeans](http://www.universidadejava.com.br/jee/ejb-helloworld-netbeans/)
+- [Criando uma aplicação com EJB + JPA](http://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
+- [Web Services com EJB 3.0](http://www.universidadejava.com.br/jee/webservice-com-ejb/)
+- [Introdução ao JavaServer Faces 2.0](http://www.universidadejava.com.br/jee/jsf-introducao/)

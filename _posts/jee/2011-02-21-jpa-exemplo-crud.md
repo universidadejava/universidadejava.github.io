@@ -263,3 +263,11 @@ public class PessoaDAOTeste {
 {% endhighlight %}
 
 Neste teste vamos criar um objeto pessoa e salva-lo, depois vamos altera o nome da pessoa, vamos consultar a pessoa pelo id e no final vamos apagar o registro da pessoa.
+
+
+## Conteúdos relacionados
+
+- [Relacionamento Um-para-Um entre entidades no JPA](http://www.universidadejava.com.br/jee/jpa-onetoone/)
+- [Criando uma aplicação com EJB + JPA](http://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
+- [Usando Query do JPA](http://www.universidadejava.com.br/jee/jpa-query/)
+- [Estratégia de SEQUENCE para gerar ID](http://www.universidadejava.com.br/jee/jpa-sequence/)

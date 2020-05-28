@@ -15,9 +15,9 @@ ads: false
 
 Para melhorarmos a forma de fazer lookup, vamos utilizar um padrão de projeto chamado **Service Locator**, que consiste em deixar genérica a forma como é feito o lookup do EJB.
 
-O padrão Service Locator serve para separar a lógica envolvida no lookup das classes que precisam utilizar o EJB.
+O padrão **Service Locator** serve para separar a lógica envolvida no lookup das classes que precisam utilizar o EJB.
 
-Abaixo criamos uma classe chamada **ServiceLocator**, está classe será responsável por fazer um lookup de forma genérica, note que a natureza desta classe é altamente coesa, ou seja seu objetivo é bem definido: Fazer o lookup do EJB.
+A seguir criamos uma classe chamada `ServiceLocator`, está classe será responsável por fazer um `lookup` de forma genérica, note que a natureza desta classe é altamente coesa, ou seja seu objetivo é bem definido: fazer o lookup do EJB.
 
 {% highlight java %}
 package br.universidadejava.util;
@@ -68,7 +68,7 @@ public class ServiceLocator {
 }
 {% endhighlight %}
 
-Agora nossa classe que utiliza o EJB, não precisa mais saber como fazer o lookup do EJB, precisa apenas chamar o método **buscarEJB** da classe **ServiceLocator** passando como parâmetro a **Class** da interface do EJB.
+Agora nossa classe que utiliza o EJB, não precisa mais saber como fazer o lookup do EJB, precisa apenas chamar o método `public static <T> T buscarEJB(Class<T> clazz) throws Exception` da classe `ServiceLocator` passando como parâmetro a `Class` da interface do EJB.
 
 {% highlight java %}
 package br.universidadejava.teste;
@@ -95,3 +95,11 @@ public class TesteEJB {
 {% endhighlight %}
 
 Outra vantagem de utilizar o Service Locator para separar a lógica do lookup, é que podemos criar, por exemplo um Proxy para caso precisemos gravar algum log quando criar o EJB ou quando seus métodos são chamados.
+
+
+## Conteúdos relacionados
+
+- [Interceptando os EJBs para criar objetos DAOs](http://www.universidadejava.com.br/jee/ejb-interceptando/)
+- [Web Services com EJB 3.0](http://www.universidadejava.com.br/jee/webservice-com-ejb/)
+- [JAX-WS - Criando Web Service com EJB 3.0](http://www.universidadejava.com.br/jee/criando-webservice-com-ejb/)
+- [Chamando um web service REST com JSF](http://www.universidadejava.com.br/jee/webservice-rest-jsf/)

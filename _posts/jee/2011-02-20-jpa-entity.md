@@ -383,7 +383,7 @@ Utilizamos a anotação **@Entity** para informar que a classe Usuario é uma En
 
 ### Conteúdos relacionados
 
-- [Configurando o EntityManager do JPA](http://www.universidadejava.com.br/javaee/jpa-entitymanager/)
-- [Criando uma entidade com uma chave primaria](http://www.universidadejava.com.br/javaee/jpa-chavecomposta/)
-- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/javaee/jpa-exemplo-crud/)
-- [Criando consultas com JPA](http://www.universidadejava.com.br/javaee/jpa-query/)
+- [Configurando o EntityManager do JPA](http://www.universidadejava.com.br/jee/jpa-entitymanager/)
+- [Criando uma entidade com uma chave primaria](http://www.universidadejava.com.br/jee/jpa-chavecomposta/)
+- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/jee/jpa-exemplo-crud/)
+- [Criando consultas com JPA](http://www.universidadejava.com.br/jee/jpa-query/)

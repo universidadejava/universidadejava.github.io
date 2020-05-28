@@ -326,7 +326,7 @@ Note que alteramos o conteúdo das áreas menu e conteudo através da tag `defin
 
 ### Conteúdos relacionados
 
-- [Bibliotecas de tags básicas do JSF](http://www.universidadejava.com.br/javaee/jsf-tags-html/)
-- [Chamando um serviço web REST com JSF](http://www.universidadejava.com.br/javaee/webservice-rest-jsf/)
-- [Criando uma aplicação com EJB e JPA](http://www.universidadejava.com.br/javaee/criando-aplicacao-ejb-jpa/)
-- [Criando um Web Service SOAP com EJB](http://www.universidadejava.com.br/javaee/criando-webservice-com-ejb/)
+- [Bibliotecas de tags básicas do JSF](http://www.universidadejava.com.br/jee/jsf-tags-html/)
+- [Chamando um serviço web REST com JSF](http://www.universidadejava.com.br/jee/webservice-rest-jsf/)
+- [Criando uma aplicação com EJB e JPA](http://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
+- [Criando um Web Service SOAP com EJB](http://www.universidadejava.com.br/jee/criando-webservice-com-ejb/)

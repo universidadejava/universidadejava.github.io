@@ -223,3 +223,11 @@ CREATE TABLE Produto (
   primary key(id)
 );
 {% endhighlight %}
+
+
+## Conteúdos relacionados
+
+- [Mais exercícios com JPA](http://www.universidadejava.com.br/jee/jpa-exercicios-02/)
+- [Definindo relacionamento de Um-para-Muitos entre entidades no JPA](http://www.universidadejava.com.br/jee/jpa-onetomany/)
+- [Usando Query do JPA](http://www.universidadejava.com.br/jee/jpa-query/)
+- [Criando um HelloWorld com EJB 3.0 na IDE NetBeans](http://www.universidadejava.com.br/jee/ejb-helloworld-netbeans/)

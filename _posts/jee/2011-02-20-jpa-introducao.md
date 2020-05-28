@@ -46,7 +46,7 @@ O JPA cria uma instância da classe Produto para cada linha da tabela Produto, c
 
 ### Conteúdos relacionados
 
-- [Criando entidades com JPA](http://www.universidadejava.com.br/javaee/jpa-entity/)
-- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/javaee/jpa-exemplo-crud/)
-- [Criando consultas com JPA](http://www.universidadejava.com.br/javaee/jpa-query/)
-- [Adicionando relaciomento de Um para Um entre entidades](http://www.universidadejava.com.br/javaee/jpa-onetoone/)
+- [Criando entidades com JPA](http://www.universidadejava.com.br/jee/jpa-entity/)
+- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/jee/jpa-exemplo-crud/)
+- [Criando consultas com JPA](http://www.universidadejava.com.br/jee/jpa-query/)
+- [Adicionando relaciomento de Um para Um entre entidades](http://www.universidadejava.com.br/jee/jpa-onetoone/)

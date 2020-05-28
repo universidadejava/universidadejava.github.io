@@ -31,3 +31,11 @@ Quando houver atualização no banco de dados na Entidade A, todas as entidades 
 
 ### ALL
 Corresponde a todas as operações acima (MERGE, PERSIST, REFRESH e REMOVE).
+
+
+## Conteúdos relacionados
+
+- [Definindo o FetchType do relacionamento entre entidades](http://www.universidadejava.com.br/jee/jpa-fetchtype/)
+- [Exercícios com JPA](http://www.universidadejava.com.br/jee/jpa-exercicios-03/)
+- [Relacionamento de Um-para-Muitos entre entidades](http://www.universidadejava.com.br/jee/jpa-onetomany/)
+- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/jee/jpa-exemplo-crud/)

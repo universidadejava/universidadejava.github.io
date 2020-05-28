@@ -158,7 +158,7 @@ Altere as propriedades referentes ao banco de dados, como usuário, senha, nome 
 
 ### Conteúdos relacionados
 
-- [Alguns exercícios para você praticar com JPA](http://www.universidadejava.com.br/javaee/jpa-exercicios-01/)
-- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/javaee/jpa-exemplo-crud/)
-- [Criando entidades com JPA](http://www.universidadejava.com.br/javaee/jpa-entity/)
-- [Criando consultas com JPA](http://www.universidadejava.com.br/javaee/jpa-query/)
+- [Alguns exercícios para você praticar com JPA](http://www.universidadejava.com.br/jee/jpa-exercicios-01/)
+- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/jee/jpa-exemplo-crud/)
+- [Criando entidades com JPA](http://www.universidadejava.com.br/jee/jpa-entity/)
+- [Criando consultas com JPA](http://www.universidadejava.com.br/jee/jpa-query/)

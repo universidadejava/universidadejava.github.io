@@ -794,3 +794,11 @@ Feito isto nossa aplicação EmprestimoEJB já está pronta, com a seguinte estr
 Agora para publicar a aplicação EmprestimoEJB no Glassfish, clique com o botão direito do mouse em cima do projeto e clique em Implantar.
 
 Está pronto!
+
+
+## Conteúdos relacionados
+
+- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/jee/jpa-exemplo-crud/)
+- [Criando um HelloWorld com EJB 3.0 na IDE NetBeans](http://www.universidadejava.com.br/jee/ejb-helloworld-netbeans/)
+- [Web Services com EJB 3.0](http://www.universidadejava.com.br/jee/webservice-com-ejb/)
+- [Chamando um web service REST com JSF](http://www.universidadejava.com.br/jee/webservice-rest-jsf/)
