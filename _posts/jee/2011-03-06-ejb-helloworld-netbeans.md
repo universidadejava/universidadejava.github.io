@@ -46,7 +46,7 @@ Clique em **Finalizar**.
 
 ## Criando um EJB Stateless Session Bean
 
-Crie a interface **HelloWorldRemote** e adicione a assinatura do método ola().
+Crie a interface `HelloWorldRemote` e adicione a assinatura do método ola().
 
 {% highlight java %}
 package br.universidadejava.ejb;
@@ -59,9 +59,9 @@ public interface HelloWorldRemote {
 }
 {% endhighlight %}
 
-Nesta interface adicionamos a anotação **@Remote** para informar que ela será acessada remotamente.
+Nesta interface adicionamos a anotação `@Remote` para informar que ela será acessada remotamente.
 
-Agora vamos implementar esta interface, crie uma classe chamada **HelloWorldBean** e implemente o método **ola()**.
+Agora vamos implementar esta interface, crie uma classe chamada `HelloWorldBea`  e implemente o método `public String ola()`.
 
 {% highlight java %}
 package br.universidadejava.ejb;
@@ -76,7 +76,7 @@ public class HelloWorldBean implements HelloWorldRemote {
 }
 {% endhighlight %}
 
-Nesta classe adicionamos a anotação **@Stateless** para informar que ela será um componente EJB do tipo Stateless Session Bean.
+Nesta classe adicionamos a anotação `@Stateless` para informar que ela será um componente EJB do tipo Stateless Session Bean.
 
 ## Publicando o projeto EJB no Glassfish
 
@@ -126,7 +126,7 @@ Agora precisamos adicionar uma referência entre os projetos, clique no botão *
 
 Esta referência entre os projetos serve para podermos referenciar as classes e interfaces, como por exemplo a interface **HelloWorldRemote**.
 
-Na pasta **Pacotes de códigos-fontes**, crie a classe **TesteEJB** no package **br.universidadejava.teste**, iremos utilizar está classe para testar o EJB que criamos.
+Na pasta **Pacotes de códigos-fontes**, crie a classe `TesteEJB` no package **br.universidadejava.teste**, iremos utilizar está classe para testar o EJB que criamos.
 
 {% highlight java %}
 package br.universidadejava.teste;
@@ -209,3 +209,11 @@ public class TesteEJB {
   }
 }
 {% endhighlight %}
+
+
+## Conteúdos relacionados
+
+- []()
+- []()
+- []()
+- [JAX-WS - Criando Web Service com EJB 3.0](http://www.universidadejava.com.br/jee/criando-webservice-com-ejb/)
