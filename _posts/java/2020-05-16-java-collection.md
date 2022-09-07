@@ -53,10 +53,18 @@ A imagem a seguir mostra em azul as principais filhas da classe Collection, com 
 
 A interface `Set` é uma coleção do tipo conjunto de elementos. As características principais deste tipo de coleção são: os elementos não possuem uma ordem de inserção e não é possível ter dois objetos iguais.
 
+No vídeo a seguir mostramos passo a passo como usar o `Set`:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/ceHeCokouew" frameborder="0" allowfullscreen></iframe>
+
 
 ### java.util.Queue
 
 A interface `Queue` é uma coleção do tipo fila. As principais características deste tipo de coleção são: a ordem que os elementos entram na fila é a mesma ordem que os elementos saem da fila (FIFO - First In First Out), podemos também criar filas com prioridades.
+
+No vídeo a seguir mostramos passo a passo como usar o `Queue`:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/RcQt7qL8XPo" frameborder="0" allowfullscreen></iframe>
 
 
 ### java.util.Map
@@ -64,6 +72,10 @@ A interface `Queue` é uma coleção do tipo fila. As principais característica
 A interface `Map` é uma coleção do tipo mapa. As principais características deste tipo de coleção são: os objetos são armazenados na forma de chave / valor, não pode haver chaves duplicadas dentro do mapa.
 
 Para localizar um objeto dentro do mapa é necessário ter sua chave ou percorra o mapa por completo.
+
+No vídeo a seguir mostramos passo a passo como usar o `Map`:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/P8ypy-pCmJI" frameborder="0" allowfullscreen></iframe>
 
 
 ### java.util.List
@@ -121,6 +133,10 @@ public class ExemploLista2 {
 }
 {% endhighlight %}
 
+No vídeo a seguir mostramos passo a passo como usar o `List`:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/uBy9wLv5dto" frameborder="0" allowfullscreen></iframe>
+
 
 ### Um pouco sobre Generics
 
@@ -156,6 +172,11 @@ public class ListaPessoa {
 
 Repare no uso de um parâmetro `< ... >` ao lado do `List` e `ArrayList`. Este parâmetro indica que nossa lista foi criada para trabalhar exclusivamente com objetos de um tipo específico, como em nosso caso a classe `Pessoa`. A utilização deste recurso nos traz uma segurança maior em tempo de compilação de código, pois temos certeza que apenas terá objetos do tipo `Pessoa` dentro da lista.
 
+No vídeo a seguir mostramos passo a passo como generics funciona:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/WtEtU8TXhl4" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/UFVFZrFQw14" frameborder="0" allowfullscreen></iframe>
 
 ### Conteúdos relacionados
 

@@ -15,7 +15,11 @@ ads: false
 
 ## Visibilidade
 
-Em Java, utilizamos alguns modificadores que nos permitem “proteger” o acesso a um atributo, método ou até mesmo uma classe, de outras classes. Basicamente Java possui quatro modificadores básicos de acesso, sendo eles:
+Em Java, utilizamos alguns modificadores que nos permitem “proteger” o acesso a um atributo, método ou até mesmo uma classe, de outras classes. Basicamente Java possui quatro modificadores básicos de acesso: private, protected, default e public.
+
+No vídeo a seguir mostramos passo a passo como funciona os modificadores de visibilidade:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/YGI-YdLnK-k" frameborder="0" allowfullscreen></iframe>
 
 ### Modificador de acesso: private
 

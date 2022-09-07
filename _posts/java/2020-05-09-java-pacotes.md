@@ -99,3 +99,6 @@ Neste exemplo é criado um novo objeto a partir da classe **Livro**, que está d
 
 OBS: Durante o processo de compilação do arquivo **.java** para **.class**, o compilador primeiro importa as classes que estão com o pacote completo e depois procura pelas classes que tiveram o pacote inteiro importado, então normalmente é utilizado o nome inteiro do pacote e da classe, assim as classes são compiladas um pouco mais rápido.
 
+No vídeo a seguir mostramos passo a passo como funciona a organização das classes e uso dos packages:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/qJif-ncDg5A" frameborder="0" allowfullscreen></iframe>

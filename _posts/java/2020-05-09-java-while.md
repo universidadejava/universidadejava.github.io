@@ -60,3 +60,7 @@ C:\>java ExemploWhile
 9
 10
 {% endhighlight %}
+
+No vídeo a seguir mostramos passo a passo como você pode usar a estrutura de repetição **while**:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/gouKsYVnUTI" frameborder="0" allowfullscreen></iframe>

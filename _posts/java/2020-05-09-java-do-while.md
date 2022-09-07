@@ -67,3 +67,7 @@ Escolha uma opcao:
 OPCAO:
 3
 {% endhighlight %}
+
+No vídeo a seguir mostramos passo a passo como você pode usar a estrutura de repetição **do / while**:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/0YpK1hrgc6c" frameborder="0" allowfullscreen></iframe>

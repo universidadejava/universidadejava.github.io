@@ -41,7 +41,11 @@ Cada **case** é um caso no qual os comandos dentro dele são executados se o va
 
 O bloco de comandos **default** representa uma condição geral de execução caso nenhuma das anteriores tenha sido atendida, sendo a sua utilização também opcional.
 
-Segue um exemplo de utilização do comando switch:
+No vídeo a seguir mostramos passo a passo como você pode usar a estrutura de condição switch:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/ao_ngKd5gxU" frameborder="0" allowfullscreen></iframe>
+
+Agora vamos praticar mais um pouco, mais um exemplo de utilização do comando switch:
 
 {% highlight java %}
 /**

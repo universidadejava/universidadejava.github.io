@@ -122,3 +122,7 @@ Recebeu os seguintes parametros:
 	3.5
 	false
 {% endhighlight %}
+
+No vídeo a seguir mostramos passo a passo como criar e usar o construtor da classe:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/JEmvQo9W5l0" frameborder="0" allowfullscreen></iframe>

@@ -98,3 +98,7 @@ Chamou o metodo 1.
 Chamou o metodo 2.
 true
 {% endhighlight %}
+
+No vídeo a seguir mostramos passo a passo como funciona o retorno de valores pelos métodos da classe:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/fzrztXlGpAA" frameborder="0" allowfullscreen></iframe>

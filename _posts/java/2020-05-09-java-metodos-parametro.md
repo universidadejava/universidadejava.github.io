@@ -137,3 +137,7 @@ Chamando o metodo 2.
 
 10 20 30 40 50 60 70 80 90 100
 {% endhighlight %}
+
+No vídeo a seguir mostramos passo a passo como declarar os parâmetros dos métodos da classe:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/_3bypRM3od4" frameborder="0" allowfullscreen></iframe>

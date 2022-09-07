@@ -18,8 +18,12 @@ ads: false
 Em Java, podemos criar classes que herdem atributos e métodos de outras classes, evitando rescrita de código. Este tipo de relacionamento é chamado de **Herança**.
 
 Para representarmos este tipo de relacionamento na linguagem, devemos utilizar a palavra reservada **extends**, de forma a apontar para qual classe a nossa nova classe deve herdar seus atributos e métodos.
+
+No vídeo a seguir mostramos passo a passo como funciona a herança:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/qcR5bnUSJS4" frameborder="0" allowfullscreen></iframe>
 	
-Neste exemplo, demonstraremos a vantagem do reaproveitamento de código utilizando a Herança. Temos as classes Funcionario e Coordenador que possuem o atributo nome e matricula em comum.
+Vamos praticar mais um pouco, neste outro exemplo demonstraremos a vantagem do reaproveitamento de código utilizando a Herança. Temos as classes Funcionario e Coordenador que possuem o atributo nome e matricula em comum.
 
 {% highlight java %}
 package material.heranca;

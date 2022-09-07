@@ -17,7 +17,11 @@ ads: false
 
 Em Java, temos um tipo especial de classe chamado **classe abstrata**. Este tipo de classe possui uma característica muito específica, que é o de não permitir que novos objetos sejam instanciados a partir desta classe. Por este motivo, as classes abstratas possuem o único propósito de servirem como super classes a outras classes do Java.
 
-Em Java definimos uma classe como abstrata utilizando a palavra-chave `abstract` na declaração da classe, por exemplo:
+Em Java definimos uma classe como abstrata utilizando a palavra-chave `abstract` na declaração da classe. No vídeo a seguir mostramos passo a passo como funciona a classe abstrata:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/Vs-2a7I7akU" frameborder="0" allowfullscreen></iframe>
+
+Vamos praticar mais um pouco, veja este outro exemplo do uso de classe abstrata:
 
 {% highlight java %}
 package material.abstrata;

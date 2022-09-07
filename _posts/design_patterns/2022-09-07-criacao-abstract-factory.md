@@ -4,7 +4,7 @@ title: "Padrão de criação - Abstract Factory"
 categories: design_patterns
 author: cristiano
 date: 2021-09-07 02:00:00
-tags: [design patterns, abstract factory]
+tags: [java, design patterns, abstract factory]
 published: true
 excerpt: Vídeo explicativo do padrão de projetos Abstract Factory.
 comments: true

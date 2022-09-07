@@ -402,6 +402,10 @@ Digite um numero inteiro..: 7
 O valor lido foi: 7
 {% endhighlight %}
 
+No vídeo a seguir mostramos passo a passo como funciona exceções no Java:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/9YKeGa9M884" frameborder="0" allowfullscreen></iframe>
+
 ### Errors
 
 Errors são um tipo especial de Exception que representam erros da JVM, tais como estouro de memória, entre outros. Para este tipo de erro normalmente não é feito tratamento, pois sempre quando um `java.lang.Error` ocorre a execução do programa é interrompida.
@@ -437,6 +441,10 @@ public class ExemploMultiplasExcecoes {
 {% endhighlight %}
 
 > As exceções tratadas pelos catchs devem seguir a ordem da mais especifica para a menos especifica.
+
+No vídeo a seguir mostramos passo a passo como tratar múltiplas exceções no Java:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/OQAUAdHsljM" frameborder="0" allowfullscreen></iframe>
 
 ### Criando sua exceção
 

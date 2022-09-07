@@ -55,7 +55,7 @@ No vídeo a seguir mostramos passo a passo como você pode usar a estrutura de c
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/xOz0DvJy2cc" frameborder="0" allowfullscreen></iframe>
 
-Agora vamos praticar mais um pouco, no exemplo a seguir, vamos verifir se o valor da variável **idade** é **maior ou igual a 18**, caso a condição seja **verdadeira** então entra no bloco do **if**, caso contrário entra no bloco do **else**.
+Agora vamos praticar mais um pouco, no exemplo a seguir, vamos verificar se o valor da variável **idade** é **maior ou igual a 18**, caso a condição seja **verdadeira** então entra no bloco do **if**, caso contrário entra no bloco do **else**.
 
 {% highlight java %}
 /**

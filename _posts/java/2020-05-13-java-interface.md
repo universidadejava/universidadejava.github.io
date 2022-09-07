@@ -19,7 +19,11 @@ Interface é um recurso da linguagem Java que apresenta inúmeras vantagens no s
 
 Uma interface é similar a um contrato, através dela podemos especificar quais métodos as classes que implementam esta interface são obrigados a implementar.
 
-Exemplo de interface UML:
+No vídeo a seguir mostramos passo a passo como funciona a interface:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/JDRw-sSlxdE" frameborder="0" allowfullscreen></iframe>
+
+Se for modelar a interface usando UML, temos algo parecido com isso:
 
 <figure>
     <a href="/images/2020-05-13-java-interface-01.png"><img src="/images/2020-05-13-java-interface-01.png" alt="Modelando uma interface com UML."></a>

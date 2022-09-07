@@ -15,6 +15,10 @@ ads: false
 
 ## Polimorfismo
 
+No vídeo a seguir mostramos passo a passo como funciona o polimorfismo:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/2k0gyheVpmQ" frameborder="0" allowfullscreen></iframe>
+
 Quando trabalhamos com herança e dizemos que uma subclasse `PessoaFisica` e `PessoaJuridica` são filhas da super classe `Pessoa`, podemos então dizer que um **PessoaFisica É UMA Pessoa** e **PessoaJuridica É UMA Pessoa**, justamente por ser uma extensão ou tipo mais especificado deste. Essa é a semântica da herança.
 
 <figure>

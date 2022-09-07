@@ -64,3 +64,7 @@ C:\>javac TestePrincipalEnum.java
 C:\>java TestePrincipalEnum
 Conceito..: Aprovado com louvor!
 {% endhighlight %}
+
+No vídeo a seguir mostramos passo a passo como usar enums:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/pZwOQp1cRnk" frameborder="0" allowfullscreen></iframe>

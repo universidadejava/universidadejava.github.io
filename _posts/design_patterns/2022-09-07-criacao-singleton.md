@@ -4,7 +4,7 @@ title: "Padrão de criação - Singleton"
 categories: design_patterns
 author: cristiano
 date: 2021-09-07 02:00:00
-tags: [design patterns, singleton]
+tags: [java, design patterns, singleton]
 published: true
 excerpt: Exemplo do padrão de projeto Singleton em Java.
 comments: true

@@ -53,3 +53,7 @@ C:\>java TesteNovaClasse
 Chamando o metodo 1.
 Chamando o metodo 2.
 {% endhighlight %}
+
+No vídeo a seguir mostramos passo a passo como criar classe e instanciar objetos:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/bK-yHMVai_0" frameborder="0" allowfullscreen></iframe>
