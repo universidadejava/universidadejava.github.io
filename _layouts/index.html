@@ -13,11 +13,11 @@ layout: default
 		</div><!-- /.page-feature -->
 		{% endif %}
 		<div class="page-title">
-			<h2><a href="http://www.universidadejava.com.br/videos/">Vídeos</a></h2>
+			<h2><a href="http://www.universidadejava.com.br/java/">Java</a></h2>
 		</div>
 		<div class="archive-wrap">
 			<div class="page-content">
-				{% for post in site.categories.videos limit: 8 %}
+				{% for post in site.categories.java limit: 8 %}
 					{% include post-grid.html %}
 				{% endfor %}
 			</div><!-- /.page-content -->
@@ -26,12 +26,12 @@ layout: default
 
 	<div class="wrap">
 		<div class="page-title">
-			<h2><a href="http://www.universidadejava.com.br/java/">Java</a></h2>
+			<h2><a href="http://www.universidadejava.com.br/jee/">Java EE</a></h2>
 		</div>
 		<div class="archive-wrap">
 			<div class="page-content">
 				<div class="tiles">
-				{% for post in site.categories.java limit: 8 %}
+				{% for post in site.categories.jee limit: 8 %}
 					{% include post-grid.html %}
 				{% endfor %}
 				</div><!-- /.tiles -->
@@ -54,6 +54,22 @@ layout: default
 		</div class="archive-wrap"><!-- /.archive-wrap -->
 	</div><!-- /.wrap -->
 
+
+	<div class="wrap">
+		<div class="page-title">
+			<h2><a href="http://www.universidadejava.com.br/design_patterns/">Design Patterns</a></h2>
+		</div>
+		<div class="archive-wrap">
+			<div class="page-content">
+				<div class="tiles">
+				{% for post in site.categories.design_patterns limit: 8 %}
+					{% include post-grid.html %}
+				{% endfor %}
+				</div><!-- /.tiles -->
+			</div><!-- /.page-content -->
+		</div class="archive-wrap"><!-- /.archive-wrap -->
+	</div><!-- /.wrap -->
+
 	<div class="wrap">
 		<div class="page-title">
 			<h2><a href="http://www.universidadejava.com.br/tdd/">Desenvolvimento Guiado por Testes</a></h2>
@@ -62,36 +78,6 @@ layout: default
 			<div class="page-content">
 				<div class="tiles">
 				{% for post in site.categories.tdd limit: 8 %}
-					{% include post-grid.html %}
-				{% endfor %}
-				</div><!-- /.tiles -->
-			</div><!-- /.page-content -->
-		</div class="archive-wrap"><!-- /.archive-wrap -->
-	</div><!-- /.wrap -->
-
-	<div class="wrap">
-		<div class="page-title">
-			<h2><a href="http://www.universidadejava.com.br/jee/">Java EE</a></h2>
-		</div>
-		<div class="archive-wrap">
-			<div class="page-content">
-				<div class="tiles">
-				{% for post in site.categories.jee limit: 8 %}
-					{% include post-grid.html %}
-				{% endfor %}
-				</div><!-- /.tiles -->
-			</div><!-- /.page-content -->
-		</div class="archive-wrap"><!-- /.archive-wrap -->
-	</div><!-- /.wrap -->
-
-	<div class="wrap">
-		<div class="page-title">
-			<h2><a href="http://www.universidadejava.com.br/apresentacoes/">Apresentações</a></h2>
-		</div>
-		<div class="archive-wrap">
-			<div class="page-content">
-				<div class="tiles">
-				{% for post in site.categories.apresentacoes limit: 8 %}
 					{% include post-grid.html %}
 				{% endfor %}
 				</div><!-- /.tiles -->
@@ -113,4 +99,34 @@ layout: default
 			</div><!-- /.page-content -->
 		</div class="archive-wrap"><!-- /.archive-wrap -->
 	</div><!-- /.wrap -->
+
+	<div class="wrap">
+		<div class="page-title">
+			<h2><a href="http://www.universidadejava.com.br/apresentacoes/">Apresentações</a></h2>
+		</div>
+		<div class="archive-wrap">
+			<div class="page-content">
+				<div class="tiles">
+				{% for post in site.categories.apresentacoes limit: 8 %}
+					{% include post-grid.html %}
+				{% endfor %}
+				</div><!-- /.tiles -->
+			</div><!-- /.page-content -->
+		</div class="archive-wrap"><!-- /.archive-wrap -->
+	</div><!-- /.wrap -->
+
+	<div class="wrap">
+		<div class="page-title">
+			<h2><a href="http://www.universidadejava.com.br/videos/">Vídeos</a></h2>
+		</div>
+		<div class="archive-wrap">
+			<div class="page-content">
+				{% for post in site.categories.videos limit: 8 %}
+					{% include post-grid.html %}
+				{% endfor %}
+				</div><!-- /.tiles -->
+			</div><!-- /.page-content -->
+		</div class="archive-wrap"><!-- /.archive-wrap -->
+	</div><!-- /.wrap -->
+
 </div><!-- /#main -->
