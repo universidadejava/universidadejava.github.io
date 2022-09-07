@@ -15,6 +15,11 @@
   excerpt: Algoritmos de pesquisa e ordenação de dados.
   image: pesquisa_ordenacao.jpg
 
+- title: Design Patterns
+  url: /design_patterns/
+  excerpt: Materiais sobre padrões de projeto.
+  image: design_patterns.jpg
+
 - title: TDD
   url: /tdd/
   excerpt: Desenvolvimento Guiado por Testes.

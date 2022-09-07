@@ -13,7 +13,7 @@ image:
 ads: false
 ---
 
-Em Java temos a classe `java.util.Scanner` que neste momento utilizaremos para receber entradas do usuário via console, mas esta classe também é pode ser utilizada para outros fins, como [leitura de arquivos](http://www.universidadejava.com.br/java/java-leitura-arquivo/).
+Em Java temos a classe `java.util.Scanner` que neste momento utilizaremos para receber entradas do usuário via console, mas esta classe também pode ser utilizada para outros fins, como [leitura de arquivos](http://www.universidadejava.com.br/java/java-leitura-arquivo/).
 
 No exemplo a seguir vamos utilizar a classe Scanner para pedir que o usuário digite sua idade, depois iremos imprimir qual foi o número lido:
 
@@ -56,7 +56,11 @@ Rafael tem 1.78 de altura.
 
 Fazendo uma comparação com a linguagem C++ os métodos da classe `Scanner` `nextInt()` (lê um número [inteiro](http://www.universidadejava.com.br/java/java-tipo-numerico-inteiro/)), `nextDouble()` (lê um número com casa decimal do tipo [double](http://www.universidadejava.com.br/java/java-tipo-numerico-ponto-flutuante/)), `nextLine()` (lê um texto [String](http://www.universidadejava.com.br/java/java-string/)), etc. podem ser comparados a função `cin`, e o método `System.out.println()` pode ser comparado a função `cout`.
 
-> Quando queremos ler um [número com casa decimal](http://www.universidadejava.com.br/java/java-tipo-numerico-ponto-flutuante/) via console, precisamos digitar o numero utilizando vírgula ( , ), exemplo: `10,50`. Quando criamos uma variável dentro do programa e definimos seu valor com casa decimal, precisamos utilizar o ponto ( . ) como separador, exemplo: `10.50`.
+> Observação: quando queremos ler um [número com casa decimal](http://www.universidadejava.com.br/java/java-tipo-numerico-ponto-flutuante/) via console, precisamos digitar o numero utilizando vírgula ( , ), exemplo: `10,50`. Quando criamos uma variável dentro do programa e definimos seu valor com casa decimal, precisamos utilizar o ponto ( . ) como separador, exemplo: `10.50`.
+
+Quer praticar mais um pouco? No vídeo a seguir mostramos mais um exemplo passo a passo de como podemos usar a classe `Scanner`:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/nXJnc5kP1EM" frameborder="0" allowfullscreen></iframe>
 
 
 ### Conteúdos relacionados

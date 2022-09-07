@@ -2,7 +2,7 @@
 layout: media
 permalink: /professores/
 title: Professores
-ads: true
+ads: false
 ---
 
 <h2>Cristiano Camilo dos Santos de Almeida</h2>
@@ -38,7 +38,7 @@ Atualmente sou gerente na equipe de engenharia do <a href="https://www.itau.com.
 	<img src="/images/rafaelsakurai.png">
 </figure>
 
-Atualmente sou líder técnico na equipe de engenheria de Big Data da <a href="https://www.tail.digital/">Tail</a> e também editor no site <a href="http://www.infoq.com/br">InfoQ Brasil</a>.
+Atualmente sou líder técnico na equipe de engenheria de Big Data da <a href="https://www.tail.digital/">Tail</a>.
 
 ## Educação
 * **Universidade Federal do ABC** Mestrado em Ciências da Computação (2014 - 2017);

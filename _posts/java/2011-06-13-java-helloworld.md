@@ -13,9 +13,13 @@ image:
 ads: false
 ---
 
-Durante o desenvolvimento de aplicações utilizando a linguagem Java, precisamos criar arquivos com a extensão .java.
+Durante o desenvolvimento de aplicações utilizando a linguagem Java, precisamos criar arquivos com a extensão .java, compilar este arquivo para depois poder executá-lo.
 
-Vamos utilizar o seguinte exemplo, pertencente a um arquivo chamado `PrimeiraClasse.java`:
+No vídeo a seguir mostramos passo a passo como você pode criar sua primeira classe Java, compilar e executar ela:
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/xOz0DvJy2cc" frameborder="0" allowfullscreen></iframe>
+
+Vamos praticar mais um pouco? Agora que você já viu como funciona a compilação e execução de uma classe Java, vamos fazer um novo exemplo. Crie um arquivo chamado `PrimeiraClasse.java` com o seguinte conteúdo:
 
 {% gist f803e0476fb09204b28d %}
 
