@@ -6,7 +6,7 @@ author: sakurai
 date: 2020-05-16 18:43:00
 tags: [java, collection, list, set, queue, map]
 published: true
-excerpt: Uma coleção (collection) é um objeto que serve para agrupar muitos elementos em uma única unidade.
+excerpt: Uma coleção (collection) é uma estrutura de dados que serve para agrupar muitos elementos em uma única unidade.
 comments: true
 image:
   teaser: teaser-java.png
@@ -15,7 +15,7 @@ ads: false
 
 ## Collection
 
-Uma coleção (collection) é um objeto que serve para agrupar muitos elementos em uma única unidade, estes elementos precisão ser Objetos, pode ter coleções homogêneas e heterogêneas, normalmente utilizamos coleções heterogêneas de um tipo especifico.
+Uma coleção (collection) é uma estrutura de dados que serve para agrupar muitos elementos em uma única unidade, estes elementos precisão ser Objetos, pode ter coleções homogêneas e heterogêneas, normalmente utilizamos coleções heterogêneas de um tipo especifico.
 
 O núcleo principal das coleções é formado pelas interfaces da figura a abaixo, essas interfaces permitem manipular a coleção independente do nível de detalhe que elas representam.
 

@@ -6,7 +6,7 @@ author: sakurai
 date: 2020-05-16 23:27:00
 tags: [java, recursividade, fibonacci]
 published: true
-excerpt: Exemplo de método recursivo que calcular fibonacci.
+excerpt: Exemplo de método recursivo que calcular Fibonacci.
 comments: true
 image:
   teaser: 2020-05-16-teaser-java-fibonacci.png
