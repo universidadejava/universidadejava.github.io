@@ -66,7 +66,7 @@ Dentro do método **getEntityManager()** criamos um **EntityManagerFactory** da 
 
 ### EntityManager gerenciado pelo Container
 
-Quando trabalhamos com aplicações Java EE, podemos deixar o container EJB injetar a [unidade de persistência](http://www.universidadejava.com.br/javaee/jpa-unidade-persistencia/) através da anotação **javax.persistence.PersistenceContext**.
+Quando trabalhamos com aplicações Java EE, podemos deixar o container EJB injetar a [unidade de persistência](http://www.universidadejava.com.br/jee/jpa-unidade-persistencia/) através da anotação **javax.persistence.PersistenceContext**.
 
 {% highlight java %}
 package br.universidadejava.jpa.exemplo.ejb;

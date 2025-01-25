@@ -1,23 +1,27 @@
 # Site wide configuration
 
-title: Universidade Java
-description: Material das aulas, palestras e vídeos sobre desenvolvimento de software.
+title: "Universidade Java"
+description: "Material das aulas, palestras e vídeos sobre desenvolvimento de software."
 logo: logo.jpg
 teaser: teaser.jpg
 locale: pt_BR
 url: http://www.universidadejava.com.br
+feed:
+  path: atom.xml
 
 # Jekyll configuration
 
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 permalink: /:categories/:title/
 kramdown:
   toc_levels: 1..2
 highlighter: rouge
-gems:
+plugins:
   - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
 
 
 # Site owner
@@ -26,11 +30,35 @@ owner:
   email: rafasakurai@gmail.com
   twitter:
   google:
-    ad-client: 
-    ad-slot: 
-    analytics: 
+    ad-client:
+    ad-slot:
   bio:
   avatar: bio-photo.jpg # 160x160 px image for author byline
-  disqus-shortname: 
+  disqus-shortname:
 
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+
+include:
+  - .htaccess
+exclude:
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp

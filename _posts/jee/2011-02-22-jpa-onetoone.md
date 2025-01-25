@@ -15,7 +15,7 @@ ads: false
 
 ## Relacionamento Um-para-Um (OneToOne)
 
-Este relacionamento informa que há apenas um registro da [entidade](http://www.universidadejava.com.br/javaee/jpa-entity/) relacionado com um registro de outra entidade.
+Este relacionamento informa que há apenas um registro da [entidade](http://www.universidadejava.com.br/jee/jpa-entity/) relacionado com um registro de outra entidade.
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/Sh-Y-beMxns" frameborder="0" allowfullscreen></iframe>
 

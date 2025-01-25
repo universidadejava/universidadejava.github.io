@@ -15,7 +15,7 @@ ads: false
 
 ## Relacionamento Um-para-Um (OneToOne)
 
-Este relacionamento informa que há apenas um registro da [entidade](http://www.universidadejava.com.br/javaee/jpa-entity/) relacionado com um registro de outra entidade.
+Este relacionamento informa que há apenas um registro da [entidade](http://www.universidadejava.com.br/jee/jpa-entity/) relacionado com um registro de outra entidade.
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/Sh-Y-beMxns" frameborder="0" allowfullscreen></iframe>
 
@@ -333,7 +333,7 @@ updatable | Informa se a coluna é incluída no SQL de UPDATE.
 
 ### Conteúdos relacionados
 
-- [Utilizando relacionamento de Um para Muitos com JPA](http://www.universidadejava.com.br/javaee/jpa-onetomany/)
-- [Utilizando relacionamento de Muitos para Um com JPA](http://www.universidadejava.com.br/javaee/jpa-manytoone/)
-- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/javaee/jpa-exemplo-crud/)
-- [Criando consultas com JPA](http://www.universidadejava.com.br/javaee/jpa-query/)
+- [Utilizando relacionamento de Um para Muitos com JPA](http://www.universidadejava.com.br/jee/jpa-onetomany/)
+- [Utilizando relacionamento de Muitos para Um com JPA](http://www.universidadejava.com.br/jee/jpa-manytoone/)
+- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/jee/jpa-exemplo-crud/)
+- [Criando consultas com JPA](http://www.universidadejava.com.br/jee/jpa-query/)

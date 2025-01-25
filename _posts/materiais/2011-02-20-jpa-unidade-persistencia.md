@@ -43,7 +43,7 @@ Exemplo de unidade de persistência mapeado para um banco de dados MySQL:
 </persistence>
 {% endhighlight %}
 
-Neste arquivo **persistence.xml** utilizamos a tag **\<persistence-unit\>** para definir uma unidade de persistência, onde podemos informar através da propriedade name qual seu nome (utilizado quando criamos um [EntityManager](http://www.universidadejava.com.br/javaee/jpa-entitymanager/) através de um EntityManagerFactory ou quando utilizamos injeção de dependência através da anotação **javax.persistence.PersistenceContext** quando estamos no contexto Java EE) e através da propriedade **transaction-type** qual seu tipo de transação (RESOURCE_LOCAL ou JTA). Se a aplicação é Java SE utilizamos o tipo de transação **RESOURCE_LOCAL** onde programaticamente criamos as transações com o banco de dados ou utilizamos **JTA** quando acessamos um pool de conexões em um servidor web.
+Neste arquivo **persistence.xml** utilizamos a tag **\<persistence-unit\>** para definir uma unidade de persistência, onde podemos informar através da propriedade name qual seu nome (utilizado quando criamos um [EntityManager](http://www.universidadejava.com.br/jee/jpa-entitymanager/) através de um EntityManagerFactory ou quando utilizamos injeção de dependência através da anotação **javax.persistence.PersistenceContext** quando estamos no contexto Java EE) e através da propriedade **transaction-type** qual seu tipo de transação (RESOURCE_LOCAL ou JTA). Se a aplicação é Java SE utilizamos o tipo de transação **RESOURCE_LOCAL** onde programaticamente criamos as transações com o banco de dados ou utilizamos **JTA** quando acessamos um pool de conexões em um servidor web.
 
 Dentro de uma unidade de persistência podemos utilizar a tag **\<provider\>** para informar qual a API irá fornecer uma implementação do JPA.
 
@@ -158,7 +158,7 @@ Altere as propriedades referentes ao banco de dados, como usuário, senha, nome 
 
 ### Conteúdos relacionados
 
-- [Alguns exercícios para você praticar com JPA](http://www.universidadejava.com.br/javaee/jpa-exercicios-01/)
-- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/javaee/jpa-exemplo-crud/)
-- [Criando entidades com JPA](http://www.universidadejava.com.br/javaee/jpa-entity/)
-- [Criando consultas com JPA](http://www.universidadejava.com.br/javaee/jpa-query/)
+- [Alguns exercícios para você praticar com JPA](http://www.universidadejava.com.br/jee/jpa-exercicios-01/)
+- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/jee/jpa-exemplo-crud/)
+- [Criando entidades com JPA](http://www.universidadejava.com.br/jee/jpa-entity/)
+- [Criando consultas com JPA](http://www.universidadejava.com.br/jee/jpa-query/)

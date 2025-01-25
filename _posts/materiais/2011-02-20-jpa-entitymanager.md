@@ -66,7 +66,7 @@ Dentro do método **getEntityManager()** criamos um **EntityManagerFactory** da 
 
 ### EntityManager gerenciado pelo Container
 
-Quando trabalhamos com aplicações Java EE, podemos deixar o container EJB injetar a [unidade de persistência](http://www.universidadejava.com.br/javaee/jpa-unidade-persistencia/) através da anotação **javax.persistence.PersistenceContext**.
+Quando trabalhamos com aplicações Java EE, podemos deixar o container EJB injetar a [unidade de persistência](http://www.universidadejava.com.br/jee/jpa-unidade-persistencia/) através da anotação **javax.persistence.PersistenceContext**.
 
 {% highlight java %}
 package br.universidadejava.jpa.exemplo.ejb;
@@ -213,7 +213,7 @@ A Entity foi persistida no banco de dados, mas encontra-se em um estado que não
 
 ### Conteúdos relacionados
 
-- [Alguns exercícios para você praticar com JPA](http://www.universidadejava.com.br/javaee/jpa-exercicios-01/)
-- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/javaee/jpa-exemplo-crud/)
-- [Utilizando relacionamento de Um para Muitos com JPA](http://www.universidadejava.com.br/javaee/jpa-onetomany/)
-- [Criando consultas com JPA](http://www.universidadejava.com.br/javaee/jpa-query/)
+- [Alguns exercícios para você praticar com JPA](http://www.universidadejava.com.br/jee/jpa-exercicios-01/)
+- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/jee/jpa-exemplo-crud/)
+- [Utilizando relacionamento de Um para Muitos com JPA](http://www.universidadejava.com.br/jee/jpa-onetomany/)
+- [Criando consultas com JPA](http://www.universidadejava.com.br/jee/jpa-query/)
