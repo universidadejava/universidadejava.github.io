@@ -219,7 +219,7 @@ A tela ficará com a seguinte aparência:
 
 ### Conteúdos relacionados
 
-- [Criando uma tela de login com JSF](http://www.universidadejava.com.br/jee/jsf-tela-login/)
-- [Criando um template de página com JSF](http://www.universidadejava.com.br/jee/jsf-template/)
-- [Criando um Web Service SOAP com EJB](http://www.universidadejava.com.br/jee/criando-webservice-com-ejb/)
-- [Criando uma aplicação com EJB e JPA](http://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
+- [Criando uma tela de login com JSF](https://www.universidadejava.com.br/jee/jsf-tela-login/)
+- [Criando um template de página com JSF](https://www.universidadejava.com.br/jee/jsf-template/)
+- [Criando um Web Service SOAP com EJB](https://www.universidadejava.com.br/jee/criando-webservice-com-ejb/)
+- [Criando uma aplicação com EJB e JPA](https://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)

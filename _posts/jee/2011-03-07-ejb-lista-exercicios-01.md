@@ -36,7 +36,7 @@ OBS: Se a aplicação de teste for Console ou Desktop, utilize o Service Locator
 
 ## Conteúdos relacionados
 
-- [Mais exercícios com EJB](http://www.universidadejava.com.br/jee/ejb-lista-exercicios-02/)
-- [Criando um HelloWorld com EJB 3.0 na IDE NetBeans](http://www.universidadejava.com.br/jee/ejb-helloworld-netbeans/)
-- [Criando uma aplicação com EJB + JPA](http://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
-- [Interceptando os EJBs para criar objetos DAOs](http://www.universidadejava.com.br/jee/ejb-interceptando/)
+- [Mais exercícios com EJB](https://www.universidadejava.com.br/jee/ejb-lista-exercicios-02/)
+- [Criando um HelloWorld com EJB 3.0 na IDE NetBeans](https://www.universidadejava.com.br/jee/ejb-helloworld-netbeans/)
+- [Criando uma aplicação com EJB + JPA](https://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
+- [Interceptando os EJBs para criar objetos DAOs](https://www.universidadejava.com.br/jee/ejb-interceptando/)

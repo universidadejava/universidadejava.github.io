@@ -21,7 +21,7 @@ Templates são layouts de páginas que podem ser reaproveitadas, podemos criar u
     <a href="/images/2011-05-02-jsf-template-01.png"><img src="/images/2011-05-02-jsf-template-01.png" alt="Template."></a>
 </figure>
 
-Na versão 2.0 do JSF foi incorporado o projeto Facelets que possui tags para criação de templates, para utilizá-lo basta importar a biblioteca de tags http://java.sun.com/jsf/facelets, exemplo:
+Na versão 2.0 do JSF foi incorporado o projeto Facelets que possui tags para criação de templates, para utilizá-lo basta importar a biblioteca de tags https://java.sun.com/jsf/facelets, exemplo:
 
 {% highlight xml %}
 <html xmlns="http://www.w3.org/1999/xhtml"
@@ -326,7 +326,7 @@ Note que alteramos o conteúdo das áreas menu e conteudo através da tag `defin
 
 ### Conteúdos relacionados
 
-- [Bibliotecas de tags básicas do JSF](http://www.universidadejava.com.br/jee/jsf-tags-html/)
-- [Chamando um serviço web REST com JSF](http://www.universidadejava.com.br/jee/webservice-rest-jsf/)
-- [Criando uma aplicação com EJB e JPA](http://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
-- [Criando um Web Service SOAP com EJB](http://www.universidadejava.com.br/jee/criando-webservice-com-ejb/)
+- [Bibliotecas de tags básicas do JSF](https://www.universidadejava.com.br/jee/jsf-tags-html/)
+- [Chamando um serviço web REST com JSF](https://www.universidadejava.com.br/jee/webservice-rest-jsf/)
+- [Criando uma aplicação com EJB e JPA](https://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
+- [Criando um Web Service SOAP com EJB](https://www.universidadejava.com.br/jee/criando-webservice-com-ejb/)

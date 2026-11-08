@@ -243,7 +243,7 @@ Ao digitar um usuário ou senha inválido será apresentado a seguinte mensagem.
 
 ### Conteúdos relacionados
 
-- [Criando uma aplicação com EJB e JPA](http://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
-- [Criando um template de página com JSF](http://www.universidadejava.com.br/jee/jsf-template/)
-- [Bibliotecas de tags básicas do JSF](http://www.universidadejava.com.br/jee/jsf-tags-html/)
-- [Chamando um serviço web REST com JSF](http://www.universidadejava.com.br/jee/webservice-rest-jsf/)
+- [Criando uma aplicação com EJB e JPA](https://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
+- [Criando um template de página com JSF](https://www.universidadejava.com.br/jee/jsf-template/)
+- [Bibliotecas de tags básicas do JSF](https://www.universidadejava.com.br/jee/jsf-tags-html/)
+- [Chamando um serviço web REST com JSF](https://www.universidadejava.com.br/jee/webservice-rest-jsf/)

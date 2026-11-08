@@ -180,7 +180,7 @@ No vídeo a seguir mostramos passo a passo como generics funciona:
 
 ### Conteúdos relacionados
 
-- [Entenda o funcionamento do polimorfismo](http://www.universidadejava.com.br/java/java-polimorfismo/)
-- [Conexão com banco de dados usando JDBC](http://www.universidadejava.com.br/java/java-jdbc/)
-- [Leitura e escrita de arquivos em Java](http://www.universidadejava.com.br/java/java-leitura-arquivo/)
-- [Tratamento de exceções no Java](http://www.universidadejava.com.br/java/java-excecoes/)
+- [Entenda o funcionamento do polimorfismo](https://www.universidadejava.com.br/java/java-polimorfismo/)
+- [Conexão com banco de dados usando JDBC](https://www.universidadejava.com.br/java/java-jdbc/)
+- [Leitura e escrita de arquivos em Java](https://www.universidadejava.com.br/java/java-leitura-arquivo/)
+- [Tratamento de exceções no Java](https://www.universidadejava.com.br/java/java-excecoes/)

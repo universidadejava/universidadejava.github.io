@@ -19,7 +19,7 @@ Atualmente possuímos na linguagem Java os mais diferentes seguimentos, desde o 
 
 <figure>
     <a href="/images/2011-06-13-introducao-java-01.png"><img src="/images/2011-06-13-introducao-java-01.png" alt="Plataforma Java."></a>
-    <figcaption>Plataforma Java (http://www.devmedia.com.br/articles/viewcomp.asp?comp=6484&hl=)</figcaption>
+    <figcaption>Plataforma Java (https://www.devmedia.com.br/articles/viewcomp.asp?comp=6484&hl=)</figcaption>
 </figure>
 
 **Java Standard Edition (Java SE)**
@@ -39,7 +39,7 @@ Este é um pacote mais compacto utilizado para desenvolvimento de aplicações m
 
 <figure>
     <a href="/images/2011-06-13-introducao-java-02.png"><img src="/images/2011-06-13-introducao-java-02.png" alt="APIs utilizadas dentro da plataforma Java SE."></a>
-    <figcaption>APIs utilizadas dentro da plataforma Java SE. (http://www.oracle.com/technetwork/java/javase/tech/index.html)</figcaption>
+    <figcaption>APIs utilizadas dentro da plataforma Java SE. (https://www.oracle.com/technetwork/java/javase/tech/index.html)</figcaption>
 </figure>
 
 Há dois principais produtos dentro da plataforma Java SE: Java Runtime Environment (JRE) e Java Development Kit (JDK).
@@ -50,7 +50,7 @@ Há dois principais produtos dentro da plataforma Java SE: Java Runtime Environm
 
 ### Conteúdos relacionados
 
-- [Introdução a Java Virtual Machine (JVM)](http://www.universidadejava.com.br/java/introducao-jvm/)
-- [Hello World em Java](http://www.universidadejava.com.br/java/java-helloworld/)
-- [Criando uma simples classe Java no estilo POJO](http://www.universidadejava.com.br/java/java-pojo/)
-- [Conhecendo a estrutura array para organizar dados](http://www.universidadejava.com.br/java/java-array/)
+- [Introdução a Java Virtual Machine (JVM)](https://www.universidadejava.com.br/java/introducao-jvm/)
+- [Hello World em Java](https://www.universidadejava.com.br/java/java-helloworld/)
+- [Criando uma simples classe Java no estilo POJO](https://www.universidadejava.com.br/java/java-pojo/)
+- [Conhecendo a estrutura array para organizar dados](https://www.universidadejava.com.br/java/java-array/)

@@ -277,7 +277,7 @@ Dessa vez o valor do cpf e cnpj são impressos, pois foram previamente preenchid
 
 ### Casting (conversão) de objetos
 
-Vimos anteriormente que uma **Pessoa** (super classe) nem sempre **É UMA PessoaFisica** (subclasse), mas quando estamos trabalhando com uma super classe e temos a certeza de qual o tipo de subclasse ele está representando podemos fazer o **casting de objetos**, para guardar o objeto em sua classe, funciona de forma similar ao [casting de atributos primitivos](http://www.universidadejava.com.br/java/java-casting-tipos-primitivos/).
+Vimos anteriormente que uma **Pessoa** (super classe) nem sempre **É UMA PessoaFisica** (subclasse), mas quando estamos trabalhando com uma super classe e temos a certeza de qual o tipo de subclasse ele está representando podemos fazer o **casting de objetos**, para guardar o objeto em sua classe, funciona de forma similar ao [casting de atributos primitivos](https://www.universidadejava.com.br/java/java-casting-tipos-primitivos/).
 
 No exemplo a seguir, vamos criar duas variáveis do tipo `Pessoa` com objetos do tipo `PessoaFisica` e `PessoaJuridica`, depois vamos também criar uma variável do tipo `Object` (que é a super classe de todas as classes) e guardar nela um objeto do tipo `String`.
 
@@ -329,7 +329,7 @@ Programacao Orientada a Objetos
 
 ### Conteúdos relacionados
 
-- [Usando interfaces no Java](http://www.universidadejava.com.br/java/java-interface/)
-- [Trabalhando com classes abstratas](http://www.universidadejava.com.br/java/java-classes-abstratas/)
-- [Usando herança no Java](http://www.universidadejava.com.br/java/java-heranca/)
-- [Encapsulando seu código Java](http://www.universidadejava.com.br/java/java-encapsulamento/)
+- [Usando interfaces no Java](https://www.universidadejava.com.br/java/java-interface/)
+- [Trabalhando com classes abstratas](https://www.universidadejava.com.br/java/java-classes-abstratas/)
+- [Usando herança no Java](https://www.universidadejava.com.br/java/java-heranca/)
+- [Encapsulando seu código Java](https://www.universidadejava.com.br/java/java-encapsulamento/)

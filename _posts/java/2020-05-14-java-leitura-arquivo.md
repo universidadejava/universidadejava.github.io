@@ -496,6 +496,6 @@ O programa gera o `arquivo.txt` com o objeto `Pessoa` no formato que ele entende
 
 ### Conteúdos relacionados
 
-- [Tratamento de exceções no Java](http://www.universidadejava.com.br/java/java-excecoes/)
-- [Conexão com banco de dados usando JDBC](http://www.universidadejava.com.br/java/java-jdbc/)
-- [Conheçendo as classes do pacote de coleções do Java](http://www.universidadejava.com.br/java/java-collection/) 
+- [Tratamento de exceções no Java](https://www.universidadejava.com.br/java/java-excecoes/)
+- [Conexão com banco de dados usando JDBC](https://www.universidadejava.com.br/java/java-jdbc/)
+- [Conheçendo as classes do pacote de coleções do Java](https://www.universidadejava.com.br/java/java-collection/) 

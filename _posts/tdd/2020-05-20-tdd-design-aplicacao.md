@@ -637,7 +637,7 @@ Cada linha deste arquivo possui a informação de um contrato, com as informaç�
 
 ### Conteúdos relacionados
 
-- [Introdução ao TDD](http://www.universidadejava.com.br/tdd/tdd-introducao/)
-- [Começando a criar testes passo a passo](http://www.universidadejava.com.br/tdd/tdd-ola-testes/)
-- [Entendendo o ciclo de desenvolvimento com TDD](http://www.universidadejava.com.br/tdd/tdd-ciclo-desenvolvimento/)
-- [Introdução a refatoração](http://www.universidadejava.com.br/tdd/tdd-refatoracao/)
+- [Introdução ao TDD](https://www.universidadejava.com.br/tdd/tdd-introducao/)
+- [Começando a criar testes passo a passo](https://www.universidadejava.com.br/tdd/tdd-ola-testes/)
+- [Entendendo o ciclo de desenvolvimento com TDD](https://www.universidadejava.com.br/tdd/tdd-ciclo-desenvolvimento/)
+- [Introdução a refatoração](https://www.universidadejava.com.br/tdd/tdd-refatoracao/)

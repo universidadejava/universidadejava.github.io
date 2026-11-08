@@ -31,7 +31,7 @@ Neste exemplo vamos criar uma aplicação Java bem simples com apenas uma classe
 
 ## Criando um repositório no Subversion
 
-Download do Subversion em [http://subversion.apache.org](http://subversion.apache.org)
+Download do Subversion em [https://subversion.apache.org](https://subversion.apache.org)
 
 O Subversion é um sistema de controle de versão centralizado, usando como base um repositório onde todos os códigos-fontes (na verdade você pode guardar tudo que for importante) são versionados gerando históricos de alterações,
 
@@ -49,7 +49,7 @@ Exemplo:
 
 ## Criando um projeto Java no NetBeans com Maven
 
-Download do NetBeans em [http://netbeans.org/](http://netbeans.org/)
+Download do NetBeans em [https://netbeans.org/](https://netbeans.org/)
 
 > Neste exemplo estou usando o NetBeans, mas se preferir pode fazer o projeto em outra IDE ou manualmente.
 
@@ -80,7 +80,7 @@ Alterei o pom.xml para informar a versão 4.8.2 do JUnit que estou usando e info
   <packaging>jar</packaging>
 
   <name>Chassi</name>
-  <url>http://www.universidadejava.com.br</url>
+  <url>https://www.universidadejava.com.br</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -202,7 +202,7 @@ Clique em **Finalizar**.
 
 ### Iniciar o Jenkins CI
 
-Download do Jenkins CI em [http://jenkins-ci.org](http://jenkins-ci.org)
+Download do Jenkins CI em [https://jenkins-ci.org](https://jenkins-ci.org)
 
 O Jenkins CI é uma aplicação de Integração Continua, nela podemos
 
@@ -248,7 +248,7 @@ Criar uma tarefa no Jenkins CI:
 
 ### Instalando o Sonar
 
-Download do Sonar [http://www.sonarsource.org](http://www.sonarsource.org)
+Download do Sonar [https://www.sonarsource.org](https://www.sonarsource.org)
 Descompactar o arquivo sonar-x.x.zip.
 Escolhar dentro do diretório bin a versão de SO.
 
@@ -308,9 +308,9 @@ Se clicar em cima do item Minor o Sonar vai detalhar as violações e as classes
 
 ## Referências
 
-* [FOWLER, M.] **Continuous Integration** - Disponível em: http://martinfowler.com/articles/continuousIntegration.html
+* [FOWLER, M.] **Continuous Integration** - Disponível em: https://martinfowler.com/articles/continuousIntegration.html
 * [FOWLER, M. 04] **Refatoração: Aperfeiçoando o Projeto de Código Existente.** Porto Alegre: Bookman, 2004. 366 p.
 * [FREEMAN, S.; PRYCE, N.] **Growing Object-Oriented Software, Guided By Tests.** Boston: Person, 2010. 358 p.
-* [JENKINS CI] **Jenkins Continuous Integration** - Disponível em: http://jenkins-ci.org/
-* [SONAR] **Sonar** - Disponível em: http://www.sonarsource.org/
-* [SUBVERSION] **Subversion** - Disponível em: http://subversion.apache.org/
+* [JENKINS CI] **Jenkins Continuous Integration** - Disponível em: https://jenkins-ci.org/
+* [SONAR] **Sonar** - Disponível em: https://www.sonarsource.org/
+* [SUBVERSION] **Subversion** - Disponível em: https://subversion.apache.org/

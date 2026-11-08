@@ -26,7 +26,7 @@ Fases da programação Java:
 
 ### Conteúdos relacionados
 
-- [Introdução ao Java](http://www.universidadejava.com.br/java/java-introducao/)
-- [Origem e evolução da linguagem Java](http://www.universidadejava.com.br/java/origem-evolucao-java/)
-- [Exercícios com operadores e tipos primitivos](http://www.universidadejava.com.br/java/java-exercicios-tipos-primitivos/)
-- [Leitura de arquivos em Java](http://www.universidadejava.com.br/java/java-leitura-arquivo/)
+- [Introdução ao Java](https://www.universidadejava.com.br/java/java-introducao/)
+- [Origem e evolução da linguagem Java](https://www.universidadejava.com.br/java/origem-evolucao-java/)
+- [Exercícios com operadores e tipos primitivos](https://www.universidadejava.com.br/java/java-exercicios-tipos-primitivos/)
+- [Leitura de arquivos em Java](https://www.universidadejava.com.br/java/java-leitura-arquivo/)

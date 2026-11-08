@@ -29,7 +29,7 @@ Algumas facilidades que o JPA oferece são:
 
 Também aumenta a produtividade dos desenvolvedores que utilizam o banco de dados, deixando de forma transparente a sua utilização, principalmente por não deixar a programação Java vinculada a um tipo específico de banco de dados.
 
-Para trazer as informações do banco de dados e convertê-las em classes Java, acaba sendo um pouco trabalhoso. Quando é usado [JDBC](http://www.universidadejava.com.br/java/java-jdbc/) puro há a necessidade de realizar o mapeamento entre os atributos e colunas do banco de dados, às vezes é necessário fazer uma conversão do tipo de dado declarado no banco de dados com o tipo de dado utilizado na classe. O mesmo processo ocorre quando os objetos Java são salvos no banco de dados.
+Para trazer as informações do banco de dados e convertê-las em classes Java, acaba sendo um pouco trabalhoso. Quando é usado [JDBC](https://www.universidadejava.com.br/java/java-jdbc/) puro há a necessidade de realizar o mapeamento entre os atributos e colunas do banco de dados, às vezes é necessário fazer uma conversão do tipo de dado declarado no banco de dados com o tipo de dado utilizado na classe. O mesmo processo ocorre quando os objetos Java são salvos no banco de dados.
 
 O JPA utiliza o conceito de **mapeamento objeto / relacional (ORM – Object / Relational Mapping)** para fazer ponte entre a base de dados relacional e os objetos Java. A figura a seguir mostra o próprio framework faz o relacionamento entre os atributos das classes Java com a tabela do banco de dados.
 
@@ -46,7 +46,7 @@ O JPA cria uma instância da classe Produto para cada linha da tabela Produto, c
 
 ### Conteúdos relacionados
 
-- [Criando entidades com JPA](http://www.universidadejava.com.br/jee/jpa-entity/)
-- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/jee/jpa-exemplo-crud/)
-- [Criando consultas com JPA](http://www.universidadejava.com.br/jee/jpa-query/)
-- [Adicionando relaciomento de Um para Um entre entidades](http://www.universidadejava.com.br/jee/jpa-onetoone/)
+- [Criando entidades com JPA](https://www.universidadejava.com.br/jee/jpa-entity/)
+- [Exemplo de CRUD com JPA](https://www.universidadejava.com.br/jee/jpa-exemplo-crud/)
+- [Criando consultas com JPA](https://www.universidadejava.com.br/jee/jpa-query/)
+- [Adicionando relaciomento de Um para Um entre entidades](https://www.universidadejava.com.br/jee/jpa-onetoone/)

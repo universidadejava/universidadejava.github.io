@@ -212,7 +212,7 @@ Essa saída informa que um teste foi executado com sucesso. Note que agora execu
 
 ### Conteúdos relacionados
 
-- [Introdução ao TDD](http://www.universidadejava.com.br/tdd/tdd-introducao/)
-- [Entendendo o ciclo de desenvolvimento com TDD](http://www.universidadejava.com.br/tdd/tdd-ciclo-desenvolvimento/)
-- [Introdução a refatoração](http://www.universidadejava.com.br/tdd/tdd-refatoracao/)
-- [O impacto do TDD no design da aplicação](http://www.universidadejava.com.br/tdd/tdd-design-aplicacao/)
+- [Introdução ao TDD](https://www.universidadejava.com.br/tdd/tdd-introducao/)
+- [Entendendo o ciclo de desenvolvimento com TDD](https://www.universidadejava.com.br/tdd/tdd-ciclo-desenvolvimento/)
+- [Introdução a refatoração](https://www.universidadejava.com.br/tdd/tdd-refatoracao/)
+- [O impacto do TDD no design da aplicação](https://www.universidadejava.com.br/tdd/tdd-design-aplicacao/)

@@ -15,7 +15,7 @@ ads: false
 
 ## Entendendo o ciclo do TDD
 
-No post [Olá testes](http://www.universidadejava.com.br/tdd/tdd-ola-testes/) vimos como criar um teste, mas primeiro desenvolvemos o programa e depois criamos o teste. Agora vamos começar a seguir as três leis do TDD, (1) primeiro vamos criar o teste, (2) depois vamos implementar a funcionalidade e (3) por último vamos refatorar o código.
+No post [Olá testes](https://www.universidadejava.com.br/tdd/tdd-ola-testes/) vimos como criar um teste, mas primeiro desenvolvemos o programa e depois criamos o teste. Agora vamos começar a seguir as três leis do TDD, (1) primeiro vamos criar o teste, (2) depois vamos implementar a funcionalidade e (3) por último vamos refatorar o código.
 
 Nesse exemplos vamos criar um programa para calcular operações matemáticas simples, como: somar, subtrair, multiplicar, dividir e resto da divisão.
 
@@ -639,7 +639,7 @@ O valor que deve ser pago eh R$7,20
 
 ### Conteúdos relacionados
 
-- [Introdução ao TDD](http://www.universidadejava.com.br/tdd/tdd-introducao/)
-- [Começando a criar testes passo a passo](http://www.universidadejava.com.br/tdd/tdd-ola-testes/)
-- [Introdução a refatoração](http://www.universidadejava.com.br/tdd/tdd-refatoracao/)
-- [O impacto do TDD no design da aplicação](http://www.universidadejava.com.br/tdd/tdd-design-aplicacao/)
+- [Introdução ao TDD](https://www.universidadejava.com.br/tdd/tdd-introducao/)
+- [Começando a criar testes passo a passo](https://www.universidadejava.com.br/tdd/tdd-ola-testes/)
+- [Introdução a refatoração](https://www.universidadejava.com.br/tdd/tdd-refatoracao/)
+- [O impacto do TDD no design da aplicação](https://www.universidadejava.com.br/tdd/tdd-design-aplicacao/)

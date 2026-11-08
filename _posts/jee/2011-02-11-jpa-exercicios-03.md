@@ -28,7 +28,7 @@ Utilize a tabela a seguir para modelar o sistema:
 
 ## Conteúdos relacionados
 
-- [Usando Query do JPA](http://www.universidadejava.com.br/jee/jpa-query/)
-- [Mais exercícios com JPA](http://www.universidadejava.com.br/jee/jpa-exercicios-02/)
-- [Criando um HelloWorld com EJB 3.0 na IDE NetBeans](http://www.universidadejava.com.br/jee/ejb-helloworld-netbeans/)
-- [Criando uma aplicação com EJB + JPA](http://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
+- [Usando Query do JPA](https://www.universidadejava.com.br/jee/jpa-query/)
+- [Mais exercícios com JPA](https://www.universidadejava.com.br/jee/jpa-exercicios-02/)
+- [Criando um HelloWorld com EJB 3.0 na IDE NetBeans](https://www.universidadejava.com.br/jee/ejb-helloworld-netbeans/)
+- [Criando uma aplicação com EJB + JPA](https://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)

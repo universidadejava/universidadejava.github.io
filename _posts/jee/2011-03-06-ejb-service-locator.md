@@ -99,7 +99,7 @@ Outra vantagem de utilizar o Service Locator para separar a lógica do lookup, �
 
 ## Conteúdos relacionados
 
-- [Interceptando os EJBs para criar objetos DAOs](http://www.universidadejava.com.br/jee/ejb-interceptando/)
-- [Web Services com EJB 3.0](http://www.universidadejava.com.br/jee/webservice-com-ejb/)
-- [JAX-WS - Criando Web Service com EJB 3.0](http://www.universidadejava.com.br/jee/criando-webservice-com-ejb/)
-- [Chamando um web service REST com JSF](http://www.universidadejava.com.br/jee/webservice-rest-jsf/)
+- [Interceptando os EJBs para criar objetos DAOs](https://www.universidadejava.com.br/jee/ejb-interceptando/)
+- [Web Services com EJB 3.0](https://www.universidadejava.com.br/jee/webservice-com-ejb/)
+- [JAX-WS - Criando Web Service com EJB 3.0](https://www.universidadejava.com.br/jee/criando-webservice-com-ejb/)
+- [Chamando um web service REST com JSF](https://www.universidadejava.com.br/jee/webservice-rest-jsf/)

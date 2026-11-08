@@ -53,7 +53,7 @@ Java também é uma linguagem Open Source e não possui um único dono, todas no
 
 ### Conteúdos relacionados
 
-- [Hello World em Java](http://www.universidadejava.com.br/java/java-helloworld/)
-- [Adicionando comentários no seu código](http://www.universidadejava.com.br/java/java-comentarios/)
-- [Conhecendo as palavras chave do Java](http://www.universidadejava.com.br/images/teaser-java.png)
-- [Introdução a Java Virtual Machine (JVM)](http://www.universidadejava.com.br/java/introducao-jvm/)
+- [Hello World em Java](https://www.universidadejava.com.br/java/java-helloworld/)
+- [Adicionando comentários no seu código](https://www.universidadejava.com.br/java/java-comentarios/)
+- [Conhecendo as palavras chave do Java](https://www.universidadejava.com.br/images/teaser-java.png)
+- [Introdução a Java Virtual Machine (JVM)](https://www.universidadejava.com.br/java/introducao-jvm/)

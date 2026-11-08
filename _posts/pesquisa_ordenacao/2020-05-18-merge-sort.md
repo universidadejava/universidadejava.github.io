@@ -431,7 +431,7 @@ Na linha 55 cria um vetor de objetos Animal, para guardar temporariamente os Ani
 
 ### Conteúdos relacionados
 
-- [Ordenação de dados com Bubble Sort](http://www.universidadejava.com.br/pesquisa_ordenacao/bubble-sort/)
-- [Ordenação de dados com Quick Sort](http://www.universidadejava.com.br/pesquisa_ordenacao/quick-sort/)
-- [Pesquisa sequencial](http://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-sequencial/)
-- [Pesquisa binaria](http://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-binaria/)
+- [Ordenação de dados com Bubble Sort](https://www.universidadejava.com.br/pesquisa_ordenacao/bubble-sort/)
+- [Ordenação de dados com Quick Sort](https://www.universidadejava.com.br/pesquisa_ordenacao/quick-sort/)
+- [Pesquisa sequencial](https://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-sequencial/)
+- [Pesquisa binaria](https://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-binaria/)

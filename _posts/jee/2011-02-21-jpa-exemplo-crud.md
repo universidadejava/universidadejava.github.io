@@ -243,7 +243,7 @@ public class PessoaDAOTeste {
     data.set(Calendar.MONTH, 11);
     data.set(Calendar.DAY_OF_MONTH, 26);
     pessoa.setDataNascimento(data.getTime());
-    pessoa.setEmail("rafael.sakurai@metodista.br");
+    pessoa.setEmail("rafael@sakurai.com.br");
 
     PessoaDAO dao = new PessoaDAO();
     System.out.println("Salvando a pessoa: " + pessoa.getNome());
@@ -267,7 +267,7 @@ Neste teste vamos criar um objeto pessoa e salva-lo, depois vamos altera o nome 
 
 ## Conteúdos relacionados
 
-- [Relacionamento Um-para-Um entre entidades no JPA](http://www.universidadejava.com.br/jee/jpa-onetoone/)
-- [Criando uma aplicação com EJB + JPA](http://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
-- [Usando Query do JPA](http://www.universidadejava.com.br/jee/jpa-query/)
-- [Estratégia de SEQUENCE para gerar ID](http://www.universidadejava.com.br/jee/jpa-sequence/)
+- [Relacionamento Um-para-Um entre entidades no JPA](https://www.universidadejava.com.br/jee/jpa-onetoone/)
+- [Criando uma aplicação com EJB + JPA](https://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
+- [Usando Query do JPA](https://www.universidadejava.com.br/jee/jpa-query/)
+- [Estratégia de SEQUENCE para gerar ID](https://www.universidadejava.com.br/jee/jpa-sequence/)

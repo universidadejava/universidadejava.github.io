@@ -75,7 +75,7 @@ A classe **java.lang.String** tem alguns métodos para se trabalhar com os texto
 - **replaceAll** – Altera cada substring dentro da String com uma nova substring.
 - **split** – Divide uma String em varias substrings a partir de uma dada expressão regular.
 
-Mais métodos da classe **String** podem ser encontrados em: [http://java.sun.com/javase/6/docs/api/java/lang/String.html](http://java.sun.com/javase/6/docs/api/java/lang/String.html).
+Mais métodos da classe **String** podem ser encontrados em: [https://java.sun.com/javase/6/docs/api/java/lang/String.html](https://java.sun.com/javase/6/docs/api/java/lang/String.html).
 
 Cuidado ao utilizar os métodos da **String**, quando não houver uma instancia da classe **String**, no caso **null**. Invocar um método de uma referência nula gera uma exceção **NullPointerException**, um erro que ocorre em tempo de execução, por exemplo:
 

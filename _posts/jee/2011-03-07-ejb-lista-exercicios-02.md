@@ -32,7 +32,7 @@ Crie um EJB que possui a lógica de negocio para fazer o pedido ou cancelamento 
 
 ## Conteúdos relacionados
 
-- [Interceptando os EJBs para criar objetos DAOs](http://www.universidadejava.com.br/jee/ejb-interceptando/)
-- [Criando um HelloWorld com EJB 3.0 na IDE NetBeans](http://www.universidadejava.com.br/jee/ejb-helloworld-netbeans/)
-- [Criando uma aplicação com EJB + JPA](http://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
-- [Web Services com EJB 3.0](http://www.universidadejava.com.br/jee/webservice-com-ejb/)
+- [Interceptando os EJBs para criar objetos DAOs](https://www.universidadejava.com.br/jee/ejb-interceptando/)
+- [Criando um HelloWorld com EJB 3.0 na IDE NetBeans](https://www.universidadejava.com.br/jee/ejb-helloworld-netbeans/)
+- [Criando uma aplicação com EJB + JPA](https://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
+- [Web Services com EJB 3.0](https://www.universidadejava.com.br/jee/webservice-com-ejb/)

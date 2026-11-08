@@ -123,7 +123,7 @@ public class ServicoBean implements ServicoRemote {
 
 ## Conteúdos relacionados
 
-- [Criando um HelloWorld com EJB 3.0 na IDE NetBeans](http://www.universidadejava.com.br/jee/ejb-helloworld-netbeans/)
-- [Criando uma aplicação com EJB + JPA](http://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
-- [Web Services com EJB 3.0](http://www.universidadejava.com.br/jee/webservice-com-ejb/)
-- [Introdução ao JavaServer Faces 2.0](http://www.universidadejava.com.br/jee/jsf-introducao/)
+- [Criando um HelloWorld com EJB 3.0 na IDE NetBeans](https://www.universidadejava.com.br/jee/ejb-helloworld-netbeans/)
+- [Criando uma aplicação com EJB + JPA](https://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
+- [Web Services com EJB 3.0](https://www.universidadejava.com.br/jee/webservice-com-ejb/)
+- [Introdução ao JavaServer Faces 2.0](https://www.universidadejava.com.br/jee/jsf-introducao/)

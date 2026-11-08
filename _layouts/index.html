@@ -13,20 +13,22 @@ layout: default
 		</div><!-- /.page-feature -->
 		{% endif %}
 		<div class="page-title">
-			<h2><a href="http://www.universidadejava.com.br/java/">Java</a></h2>
+			<h2><a href="{{ site.url }}/java/">Java</a></h2>
 		</div>
 		<div class="archive-wrap">
 			<div class="page-content">
+				<div class="tiles">
 				{% for post in site.categories.java limit: 8 %}
 					{% include post-grid.html %}
 				{% endfor %}
+				</div><!-- /.tiles -->
 			</div><!-- /.page-content -->
 		</div class="archive-wrap"><!-- /.archive-wrap -->
 	</div><!-- /.wrap -->
 
 	<div class="wrap">
 		<div class="page-title">
-			<h2><a href="http://www.universidadejava.com.br/jee/">Java EE</a></h2>
+			<h2><a href="{{ site.url }}/jee/">Java EE</a></h2>
 		</div>
 		<div class="archive-wrap">
 			<div class="page-content">
@@ -41,7 +43,7 @@ layout: default
 
 	<div class="wrap">
 		<div class="page-title">
-			<h2><a href="http://www.universidadejava.com.br/pesquisa_ordenacao/">Pesquisa e Ordenação de Dados</a></h2>
+			<h2><a href="{{ site.url }}/pesquisa_ordenacao/">Pesquisa e Ordenação de Dados</a></h2>
 		</div>
 		<div class="archive-wrap">
 			<div class="page-content">
@@ -57,7 +59,7 @@ layout: default
 
 	<div class="wrap">
 		<div class="page-title">
-			<h2><a href="http://www.universidadejava.com.br/design_patterns/">Design Patterns</a></h2>
+			<h2><a href="{{ site.url }}/design_patterns/">Design Patterns</a></h2>
 		</div>
 		<div class="archive-wrap">
 			<div class="page-content">
@@ -72,7 +74,7 @@ layout: default
 
 	<div class="wrap">
 		<div class="page-title">
-			<h2><a href="http://www.universidadejava.com.br/tdd/">Desenvolvimento Guiado por Testes</a></h2>
+			<h2><a href="{{ site.url }}/tdd/">Desenvolvimento Guiado por Testes</a></h2>
 		</div>
 		<div class="archive-wrap">
 			<div class="page-content">
@@ -87,7 +89,7 @@ layout: default
 	
 	<div class="wrap">
 		<div class="page-title">
-			<h2><a href="http://www.universidadejava.com.br/outros/">Outros</a></h2>
+			<h2><a href="{{ site.url }}/outros/">Outros</a></h2>
 		</div>
 		<div class="archive-wrap">
 			<div class="page-content">
@@ -102,7 +104,7 @@ layout: default
 
 	<div class="wrap">
 		<div class="page-title">
-			<h2><a href="http://www.universidadejava.com.br/apresentacoes/">Apresentações</a></h2>
+			<h2><a href="{{ site.url }}/apresentacoes/">Apresentações</a></h2>
 		</div>
 		<div class="archive-wrap">
 			<div class="page-content">
@@ -117,7 +119,7 @@ layout: default
 
 	<div class="wrap">
 		<div class="page-title">
-			<h2><a href="http://www.universidadejava.com.br/videos/">Vídeos</a></h2>
+			<h2><a href="{{ site.url }}/videos/">Vídeos</a></h2>
 		</div>
 		<div class="archive-wrap">
 			<div class="page-content">

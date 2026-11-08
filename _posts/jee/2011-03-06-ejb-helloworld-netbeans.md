@@ -213,7 +213,4 @@ public class TesteEJB {
 
 ## Conteúdos relacionados
 
-- []()
-- []()
-- []()
-- [JAX-WS - Criando Web Service com EJB 3.0](http://www.universidadejava.com.br/jee/criando-webservice-com-ejb/)
+- [JAX-WS - Criando Web Service com EJB 3.0](https://www.universidadejava.com.br/jee/criando-webservice-com-ejb/)

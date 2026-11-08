@@ -46,7 +46,7 @@ Existe três tipos de EJB que podemos utilizar, cada um com sua finalidade:
 
 ## Conteúdos relacionados
 
-- [Criando um HelloWorld com EJB 3.0 na IDE NetBeans](http://www.universidadejava.com.br/jee/ejb-helloworld-netbeans/)
-- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/jee/jpa-exemplo-crud/)
-- [Criando uma aplicação com EJB + JPA](http://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
-- [Introdução ao JavaServer Faces 2.0](http://www.universidadejava.com.br/jee/jsf-introducao/)
+- [Criando um HelloWorld com EJB 3.0 na IDE NetBeans](https://www.universidadejava.com.br/jee/ejb-helloworld-netbeans/)
+- [Exemplo de CRUD com JPA](https://www.universidadejava.com.br/jee/jpa-exemplo-crud/)
+- [Criando uma aplicação com EJB + JPA](https://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
+- [Introdução ao JavaServer Faces 2.0](https://www.universidadejava.com.br/jee/jsf-introducao/)

@@ -76,7 +76,7 @@ Os testes podem ser utilizados como documentação do sistema, dado que podemos 
 
 ### Conteúdos relacionados
 
-- [Começando a criar testes passo a passo](http://www.universidadejava.com.br/tdd/tdd-ola-testes/)
-- [Entendendo o ciclo de desenvolvimento com TDD](http://www.universidadejava.com.br/tdd/tdd-ciclo-desenvolvimento/)
-- [Introdução a refatoração](http://www.universidadejava.com.br/tdd/tdd-refatoracao/)
-- [O impacto do TDD no design da aplicação](http://www.universidadejava.com.br/tdd/tdd-design-aplicacao/)
+- [Começando a criar testes passo a passo](https://www.universidadejava.com.br/tdd/tdd-ola-testes/)
+- [Entendendo o ciclo de desenvolvimento com TDD](https://www.universidadejava.com.br/tdd/tdd-ciclo-desenvolvimento/)
+- [Introdução a refatoração](https://www.universidadejava.com.br/tdd/tdd-refatoracao/)
+- [O impacto do TDD no design da aplicação](https://www.universidadejava.com.br/tdd/tdd-design-aplicacao/)

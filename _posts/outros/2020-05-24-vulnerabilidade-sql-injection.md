@@ -127,7 +127,7 @@ Query q = em.createNativeQuery(query);
 List<Usuario> usuarios = (List<Usuario>) q.getResultList();
 {% endhighlight %}
 
-Porque voltamos ao problema original de concatenar dados com instruções SQL. Prefira usar `NamedQuery` ou `Criteria`, nesse [post](http://www.universidadejava.com.br/javaee/jpa-query) explico como usar queries no JPA.
+Porque voltamos ao problema original de concatenar dados com instruções SQL. Prefira usar `NamedQuery` ou `Criteria`, nesse [post](https://www.universidadejava.com.br/javaee/jpa-query) explico como usar queries no JPA.
 
 Na `NamedQuery` definimos uma consulta usando o JPAQL que é muito similar ao SQL, mas na passagem parâmetros não precisamos concatenar diretamente os valores informados pelo usuário:
 
@@ -147,7 +147,7 @@ List<Usuario> usuarios = (List<Usuario>) q.getResultList();
 
 ## Conteúdos relacionados
 
-- [Conhecendo e previnindo a vulnerabilidade Cross-site scripting](http://www.universidadejava.com.br/outros/vulnerabilidade-xss)
-- [Introdução a criptografia](http://www.universidadejava.com.br/outros/introducao-criptografia/)
-- [Criptografia simétrica utilizando chave privada](http://www.universidadejava.com.br/outros/criptografia-simetrica/)
-- [Criptografia assimétrica utilizando um par de chaves pública/privada](http://www.universidadejava.com.br/outros/criptografia-assimetrica/)
+- [Conhecendo e previnindo a vulnerabilidade Cross-site scripting](https://www.universidadejava.com.br/outros/vulnerabilidade-xss)
+- [Introdução a criptografia](https://www.universidadejava.com.br/outros/introducao-criptografia/)
+- [Criptografia simétrica utilizando chave privada](https://www.universidadejava.com.br/outros/criptografia-simetrica/)
+- [Criptografia assimétrica utilizando um par de chaves pública/privada](https://www.universidadejava.com.br/outros/criptografia-assimetrica/)

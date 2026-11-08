@@ -15,7 +15,7 @@ ads: false
 
 ## Git - controle de versão
 
-> "O Git é um sistema de controle de versão distribuído gratuito e open source desenhado para tratar de projetos pequenos à grandes  com velocidade e eficiência." [http://git-scm.com](http://git-scm.com/)
+> "O Git é um sistema de controle de versão distribuído gratuito e open source desenhado para tratar de projetos pequenos à grandes  com velocidade e eficiência." [https://git-scm.com](https://git-scm.com/)
 
 
 ### init
@@ -159,13 +159,13 @@ Uma outra forma de visualizar os commits utilize `git log --graph`:
 {% highlight java %}
 $git log --graph
 * commit 2fbb41427e4b09e966b1351cb6fbc6a3f299c6fd
-| Author: Rafael Sakurai <rafasakurai@gmail.com>
+| Author: Rafael Sakurai <rafael@sakurai.com.br>
 | Date:   Mon Feb 10 19:04:55 2014 -0200
 |
 | 	teste
 | 
 * commit 75a6d8835fab8094110c0036c38c58e7e605d53d
-  Author: Rafael Sakurai <rafasakurai@gmail.com>
+  Author: Rafael Sakurai <rafael@sakurai.com.br>
   Date:   Mon Feb 10 17:37:22 2014 -0200
  
   	Página inicial do site

@@ -58,7 +58,7 @@ Quando executamos `java PrimeiraClasse` o Java começa a executar os códigos do
 
 ### Conteúdos relacionados
 
-- [Criando uma simples classe Java no estilo POJO](http://www.universidadejava.com.br/java/java-pojo/)
-- [Conhendo a classe String para manipulação de sequência de caracteres](http://www.universidadejava.com.br/java/java-string/)
-- [varargs - Passando uma quantidade variável de parâmetros](http://www.universidadejava.com.br/java/java-varargs/)
-- [Introdução a Java Virtual Machine (JVM)](http://www.universidadejava.com.br/java/introducao-jvm/)
+- [Criando uma simples classe Java no estilo POJO](https://www.universidadejava.com.br/java/java-pojo/)
+- [Conhendo a classe String para manipulação de sequência de caracteres](https://www.universidadejava.com.br/java/java-string/)
+- [varargs - Passando uma quantidade variável de parâmetros](https://www.universidadejava.com.br/java/java-varargs/)
+- [Introdução a Java Virtual Machine (JVM)](https://www.universidadejava.com.br/java/introducao-jvm/)

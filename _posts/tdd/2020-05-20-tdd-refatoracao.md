@@ -33,7 +33,7 @@ Caso você prefira, gravei um vídeo com o exemplo de chassi apresentado nesse p
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hxIbckFHOK8" frameborder="0" allowfullscreen></iframe>
 
-> Observação: A estrutura de formação do chassi é um pouco mais complexa que isso e o código que representa o ano do chassi também pode ser um número, mas para facilitar o exemplo utilizaremos apenas caracteres para representar o ano. Para uma descrição mais detalhada da formação do chassi acesse o [Número de Identificação do Veículo no Wikipedia](http://pt.wikipedia.org/wiki/N%C3%BAmero_de_Identifica%C3%A7%C3%A3o_do_Ve%C3%ADculo).
+> Observação: A estrutura de formação do chassi é um pouco mais complexa que isso e o código que representa o ano do chassi também pode ser um número, mas para facilitar o exemplo utilizaremos apenas caracteres para representar o ano. Para uma descrição mais detalhada da formação do chassi acesse o [Número de Identificação do Veículo no Wikipedia](https://pt.wikipedia.org/wiki/N%C3%BAmero_de_Identifica%C3%A7%C3%A3o_do_Ve%C3%ADculo).
 
 Antes de começar essa funcionalidade, precisamos pensar quais os testes gostaríamos de fazer para que essa funcionalidade seja executada da melhor forma possível.
 
@@ -428,7 +428,7 @@ Vamos parar um pouco com esse ciclo de adicionar um novo caracterer **'D'**, **'
 
 Vamos refatorar esta classe para ao invés de utilizamos diversos **if / else** vamos calcular o ano baseado no caractere.
 
-Em Java todo caractere é representado por um código [Unicode](http://pt.wikipedia.org/wiki/Unicode), o caractere **'A'** equivale ao número **65**, o caractere **'B'** equivale ao número **66** e assim por diante, portanto ao subtrair o caractere do chassi por **'A'** teremos o valor que deve ser adicionado com **2010** para encontrar o ano informado.
+Em Java todo caractere é representado por um código [Unicode](https://pt.wikipedia.org/wiki/Unicode), o caractere **'A'** equivale ao número **65**, o caractere **'B'** equivale ao número **66** e assim por diante, portanto ao subtrair o caractere do chassi por **'A'** teremos o valor que deve ser adicionado com **2010** para encontrar o ano informado.
 
 Então se pegarmos o caracter que está no chassi e converter para maiúsculo:
 
@@ -642,7 +642,7 @@ Que possui um erro de arredondamento de **0.01**, ou se preferir tente usar a cl
 
 ### Conteúdos relacionados
 
-- [Introdução ao TDD](http://www.universidadejava.com.br/tdd/tdd-introducao/)
-- [Começando a criar testes passo a passo](http://www.universidadejava.com.br/tdd/tdd-ola-testes/)
-- [Entendendo o ciclo de desenvolvimento com TDD](http://www.universidadejava.com.br/tdd/tdd-ciclo-desenvolvimento/)
-- [O impacto do TDD no design da aplicação](http://www.universidadejava.com.br/tdd/tdd-design-aplicacao/)
+- [Introdução ao TDD](https://www.universidadejava.com.br/tdd/tdd-introducao/)
+- [Começando a criar testes passo a passo](https://www.universidadejava.com.br/tdd/tdd-ola-testes/)
+- [Entendendo o ciclo de desenvolvimento com TDD](https://www.universidadejava.com.br/tdd/tdd-ciclo-desenvolvimento/)
+- [O impacto do TDD no design da aplicação](https://www.universidadejava.com.br/tdd/tdd-design-aplicacao/)

@@ -302,7 +302,7 @@ public class NomeAnimal {
 
 ### Conteúdos relacionados
 
-- [Ordenação de dados com Merge Sort](http://www.universidadejava.com.br/pesquisa_ordenacao/merge-sort/)
-- [Ordenação de dados com Quick Sort](http://www.universidadejava.com.br/pesquisa_ordenacao/quick-sort/)
-- [Pesquisa sequencial](http://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-sequencial/)
-- [Pesquisa binaria](http://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-binaria/)
+- [Ordenação de dados com Merge Sort](https://www.universidadejava.com.br/pesquisa_ordenacao/merge-sort/)
+- [Ordenação de dados com Quick Sort](https://www.universidadejava.com.br/pesquisa_ordenacao/quick-sort/)
+- [Pesquisa sequencial](https://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-sequencial/)
+- [Pesquisa binaria](https://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-binaria/)

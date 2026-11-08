@@ -203,5 +203,5 @@ Este mesmo algoritmo de busca sequencial pode ser programando de uma outra forma
 
 ### Conteúdos relacionados
 
-- [Pesquisa binária](http://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-binaria/)
-- [Ordenação de dados com Quick Sort](http://www.universidadejava.com.br/pesquisa_ordenacao/quick-sort/)
+- [Pesquisa binária](https://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-binaria/)
+- [Ordenação de dados com Quick Sort](https://www.universidadejava.com.br/pesquisa_ordenacao/quick-sort/)

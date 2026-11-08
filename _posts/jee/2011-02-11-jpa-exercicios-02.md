@@ -436,7 +436,7 @@ Neste exercício vamos desenvolver uma aplicação Swing ou Console para impleme
 
 ## Conteúdos relacionados
 
-- [Mais exercícios com JPA](http://www.universidadejava.com.br/jee/jpa-exercicios-03/)
-- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/jee/jpa-exemplo-crud/)
-- [Usando Query do JPA](http://www.universidadejava.com.br/jee/jpa-query/)
-- [Criando uma aplicação com EJB + JPA](http://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
+- [Mais exercícios com JPA](https://www.universidadejava.com.br/jee/jpa-exercicios-03/)
+- [Exemplo de CRUD com JPA](https://www.universidadejava.com.br/jee/jpa-exemplo-crud/)
+- [Usando Query do JPA](https://www.universidadejava.com.br/jee/jpa-query/)
+- [Criando uma aplicação com EJB + JPA](https://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)

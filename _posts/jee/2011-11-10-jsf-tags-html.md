@@ -13,7 +13,7 @@ image:
 ads: false
 ---
 
-A biblioteca http://java.sun.com/jsf/html possui os componentes básicos para renderização de telas em HTML.
+A biblioteca https://java.sun.com/jsf/html possui os componentes básicos para renderização de telas em HTML.
 
 Para utilizar esta biblioteca dentro da página xhtml, precisamos adicionar ela na propriedade da tag `html` e darmos um apelido (alias) para ela, por padrão é declarado da seguinte forma:
 
@@ -589,7 +589,7 @@ Ao clicar no botão `Agendar`, apresentar uma tela com a seguinte informação:
 
 ### Conteúdos relacionados
 
-- [Criando uma tela de login com JSF](http://www.universidadejava.com.br/jee/jsf-tela-login/)
-- [Criando um template de página com JSF](http://www.universidadejava.com.br/jee/jsf-template/)
-- [Chamando um serviço web REST com JSF](http://www.universidadejava.com.br/jee/webservice-rest-jsf/)
-- [Criando uma aplicação com EJB e JPA](http://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)
+- [Criando uma tela de login com JSF](https://www.universidadejava.com.br/jee/jsf-tela-login/)
+- [Criando um template de página com JSF](https://www.universidadejava.com.br/jee/jsf-template/)
+- [Chamando um serviço web REST com JSF](https://www.universidadejava.com.br/jee/webservice-rest-jsf/)
+- [Criando uma aplicação com EJB e JPA](https://www.universidadejava.com.br/jee/criando-aplicacao-ejb-jpa/)

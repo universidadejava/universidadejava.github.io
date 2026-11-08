@@ -798,7 +798,7 @@ Está pronto!
 
 ## Conteúdos relacionados
 
-- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/jee/jpa-exemplo-crud/)
-- [Criando um HelloWorld com EJB 3.0 na IDE NetBeans](http://www.universidadejava.com.br/jee/ejb-helloworld-netbeans/)
-- [Web Services com EJB 3.0](http://www.universidadejava.com.br/jee/webservice-com-ejb/)
-- [Chamando um web service REST com JSF](http://www.universidadejava.com.br/jee/webservice-rest-jsf/)
+- [Exemplo de CRUD com JPA](https://www.universidadejava.com.br/jee/jpa-exemplo-crud/)
+- [Criando um HelloWorld com EJB 3.0 na IDE NetBeans](https://www.universidadejava.com.br/jee/ejb-helloworld-netbeans/)
+- [Web Services com EJB 3.0](https://www.universidadejava.com.br/jee/webservice-com-ejb/)
+- [Chamando um web service REST com JSF](https://www.universidadejava.com.br/jee/webservice-rest-jsf/)

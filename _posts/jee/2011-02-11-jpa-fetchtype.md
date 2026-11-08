@@ -64,7 +64,7 @@ Nesse exemplo utilizamos a enum FetchType.LAZY no relacionamento um-para-um para
 
 ## Conteúdos relacionados
 
-- [Definindo o CascadeType entre o relacionamento das entidades](http://www.universidadejava.com.br/jee/jpa-cascadetype/)
-- [Exercícios com JPA](http://www.universidadejava.com.br/jee/jpa-exercicios-03/)
-- [Relacionamento de Um-para-Muitos entre entidades](http://www.universidadejava.com.br/jee/jpa-onetomany/)
-- [Exemplo de CRUD com JPA](http://www.universidadejava.com.br/jee/jpa-exemplo-crud/)
+- [Definindo o CascadeType entre o relacionamento das entidades](https://www.universidadejava.com.br/jee/jpa-cascadetype/)
+- [Exercícios com JPA](https://www.universidadejava.com.br/jee/jpa-exercicios-03/)
+- [Relacionamento de Um-para-Muitos entre entidades](https://www.universidadejava.com.br/jee/jpa-onetomany/)
+- [Exemplo de CRUD com JPA](https://www.universidadejava.com.br/jee/jpa-exemplo-crud/)

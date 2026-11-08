@@ -101,7 +101,7 @@ Ficando vulnerável ao ataque de XSS.
 
 ## Conteúdos relacionados
 
-- [Conhecendo e previnindo a vulnerabilidade SQL Injection](http://www.universidadejava.com.br/outros/vulnerabilidade-sql-injection)
-- [Introdução a criptografia](http://www.universidadejava.com.br/outros/introducao-criptografia/)
-- [Criptografia simétrica utilizando chave privada](http://www.universidadejava.com.br/outros/criptografia-simetrica/)
-- [Criptografia assimétrica utilizando um par de chaves pública/privada](http://www.universidadejava.com.br/outros/criptografia-assimetrica/)
+- [Conhecendo e previnindo a vulnerabilidade SQL Injection](https://www.universidadejava.com.br/outros/vulnerabilidade-sql-injection)
+- [Introdução a criptografia](https://www.universidadejava.com.br/outros/introducao-criptografia/)
+- [Criptografia simétrica utilizando chave privada](https://www.universidadejava.com.br/outros/criptografia-simetrica/)
+- [Criptografia assimétrica utilizando um par de chaves pública/privada](https://www.universidadejava.com.br/outros/criptografia-assimetrica/)

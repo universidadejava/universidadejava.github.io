@@ -82,7 +82,7 @@ Explicando o fluxo do programa:
 
 ### Conteúdos relacionados
 
-- [Implementando métodos recursivos no Java](http://www.universidadejava.com.br/java/java-recursividade/)
-- [Implementando Fibonacci de modo recursivo no Java](http://www.universidadejava.com.br/java/java-fibonacci/)
-- [Implementando uma busca binária no Java](http://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-binaria/)
-- [Entendendo como funciona a implementaçãdo do Bubble Sort](http://www.universidadejava.com.br/pesquisa_ordenacao/bubble-sort/)
+- [Implementando métodos recursivos no Java](https://www.universidadejava.com.br/java/java-recursividade/)
+- [Implementando Fibonacci de modo recursivo no Java](https://www.universidadejava.com.br/java/java-fibonacci/)
+- [Implementando uma busca binária no Java](https://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-binaria/)
+- [Entendendo como funciona a implementaçãdo do Bubble Sort](https://www.universidadejava.com.br/pesquisa_ordenacao/bubble-sort/)

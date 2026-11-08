@@ -178,7 +178,7 @@ A próxima vez que o método `imprimirSequencia(int x)` for chamado, o valor de 
 
 ### Conteúdos relacionados
 
-- [Implementando Fibonacci de modo recursivo no Java](http://www.universidadejava.com.br/java/java-fibonacci/)
-- [Calculando o fatorial de um número de forma recursiva no Java](http://www.universidadejava.com.br/java/java-fatorial/)
-- [Entendendo como funciona a implementaçãdo do Quick Sort](http://www.universidadejava.com.br/pesquisa_ordenacao/quick-sort/)
-- [Definindo, instanciando e usando array no Java](http://www.universidadejava.com.br/java/java-array/)
+- [Implementando Fibonacci de modo recursivo no Java](https://www.universidadejava.com.br/java/java-fibonacci/)
+- [Calculando o fatorial de um número de forma recursiva no Java](https://www.universidadejava.com.br/java/java-fatorial/)
+- [Entendendo como funciona a implementaçãdo do Quick Sort](https://www.universidadejava.com.br/pesquisa_ordenacao/quick-sort/)
+- [Definindo, instanciando e usando array no Java](https://www.universidadejava.com.br/java/java-array/)

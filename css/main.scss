@@ -53,3 +53,87 @@ sitemap: false
    ========================================================================== */
 
 @import "layout";
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilo para os blocos de código com botão de cópia */
+div.highlight, pre.highlight {
+  position: relative;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.copy-code-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: rgba(30, 30, 30, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  &:hover, &:focus {
+    background-color: #000;
+    outline: 2px solid #4d90fe;
+  }
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 2rem;
+  margin: 1.5rem 0 3rem;
+
+  // Remove pseudo-elementos de clearfix legados do Bourbon
+  &::before,
+  &::after {
+    display: none !important;
+  }
+
+  .tile {
+    width: 100% !important;
+    float: none !important;
+    margin: 0 !important;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    padding: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .post-teaser img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 4px;
+      margin-bottom: 0.75rem;
+    }
+
+    .post-title {
+      font-size: 1.15rem;
+      line-height: 1.4;
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+
+    .post-excerpt {
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: auto; // Empurra o texto/rodapé do card de forma uniforme
+      margin-bottom: 0;
+    }
+  }
+}

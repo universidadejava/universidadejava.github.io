@@ -1,13 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
-    {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
-    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+    
+    {% if page.excerpt %}
+      <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">
+    {% else %}
+      <meta name="description" content="{{ site.description }}">
+    {% endif %}
+    
+    {% if page.tags %}
+      <meta name="keywords" content="{{ page.tags | join: ', ' }}">
+    {% endif %}
+
     {% if page.author %}
       {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
     {% endif %}
+
+    <!-- Mantém o include existente do repositório para Twitter Cards e Open Graph -->
     {% include open-graph.html %}
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
@@ -17,18 +31,59 @@
 
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="cleartype" content="on">
 
+    <!-- CSS Principal (sem os hacks antigos de IE) -->
     <link rel="stylesheet" href="{{ site.url }}/css/main.css">
-    <!-- HTML5 Shiv and Media Query Support for IE -->
-    <!--[if lt IE 9]>
-      <script src="{{ site.url }}/js/vendor/html5shiv.min.js"></script>
-      <script src="{{ site.url }}/js/vendor/respond.min.js"></script>
-    <![endif]-->
 
+    <!-- Favicons / Ícones -->
+    <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
   </head>
+  <script defer>
+  document.addEventListener('DOMContentLoaded', () => {
+    // 1. Adiciona botão "Copiar" em todos os blocos de código Java/XML/SQL
+    const codeBlocks = document.querySelectorAll('figure.highlight, div.highlight');
+    
+    codeBlocks.forEach((block) => {
+      const button = document.createElement('button');
+      button.className = 'copy-code-btn';
+      button.type = 'button';
+      button.setAttribute('aria-label', 'Copiar código para a área de transferência');
+      button.innerText = 'Copiar';
 
+      button.addEventListener('click', async () => {
+        const codeElement = block.querySelector('code');
+        if (!codeElement) return;
+
+        try {
+          await navigator.clipboard.writeText(codeElement.innerText);
+          button.innerText = 'Copiado!';
+          setTimeout(() => { button.innerText = 'Copiar'; }, 2000);
+        } catch (err) {
+          button.innerText = 'Erro';
+        }
+      });
+
+      block.style.position = 'relative';
+      block.appendChild(button);
+    });
+
+    // 2. Melhora a acessibilidade do botão de Menu Mobile (Aria-Expanded)
+    const menuTrigger = document.getElementById('js-menu-trigger');
+    const menuScreen = document.getElementById('js-menu-screen');
+    const menuNav = document.getElementById('js-menu');
+
+    if (menuTrigger && menuNav) {
+      menuTrigger.setAttribute('aria-expanded', 'false');
+      menuTrigger.setAttribute('aria-controls', 'js-menu');
+      
+      menuTrigger.addEventListener('click', () => {
+        const isExpanded = menuTrigger.getAttribute('aria-expanded') === 'true';
+        menuTrigger.setAttribute('aria-expanded', String(!isExpanded));
+      });
+    }
+  });
+  </script>
   <body id="js-body">
     {% include browser-upgrade.html %}
     {% include header.html %}

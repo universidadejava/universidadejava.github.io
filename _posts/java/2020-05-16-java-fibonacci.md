@@ -88,7 +88,7 @@ Os itens em verde são as sequências em que o método `fibonacci(int x)` será 
 
 ### Conteúdos relacionados
 
-- [Implementando métodos recursivos no Java](http://www.universidadejava.com.br/java/java-recursividade/)
-- [Calculando o fatorial de um número de forma recursiva no Java](http://www.universidadejava.com.br/java/java-fatorial/)
-- [Implementando uma busca binária no Java](http://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-binaria/)
-- [Entendendo como funciona a implementaçãdo do Quick Sort](http://www.universidadejava.com.br/pesquisa_ordenacao/quick-sort/)
+- [Implementando métodos recursivos no Java](https://www.universidadejava.com.br/java/java-recursividade/)
+- [Calculando o fatorial de um número de forma recursiva no Java](https://www.universidadejava.com.br/java/java-fatorial/)
+- [Implementando uma busca binária no Java](https://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-binaria/)
+- [Entendendo como funciona a implementaçãdo do Quick Sort](https://www.universidadejava.com.br/pesquisa_ordenacao/quick-sort/)

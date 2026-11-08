@@ -13,7 +13,7 @@ image:
 ads: false
 ---
 
-Em Java temos a classe `java.util.Scanner` que neste momento utilizaremos para receber entradas do usuário via console, mas esta classe também pode ser utilizada para outros fins, como [leitura de arquivos](http://www.universidadejava.com.br/java/java-leitura-arquivo/).
+Em Java temos a classe `java.util.Scanner` que neste momento utilizaremos para receber entradas do usuário via console, mas esta classe também pode ser utilizada para outros fins, como [leitura de arquivos](https://www.universidadejava.com.br/java/java-leitura-arquivo/).
 
 No exemplo a seguir vamos utilizar a classe Scanner para pedir que o usuário digite sua idade, depois iremos imprimir qual foi o número lido:
 
@@ -54,9 +54,9 @@ Digite sua altura:
 Rafael tem 1.78 de altura.
 {% endhighlight %}
 
-Fazendo uma comparação com a linguagem C++ os métodos da classe `Scanner` `nextInt()` (lê um número [inteiro](http://www.universidadejava.com.br/java/java-tipo-numerico-inteiro/)), `nextDouble()` (lê um número com casa decimal do tipo [double](http://www.universidadejava.com.br/java/java-tipo-numerico-ponto-flutuante/)), `nextLine()` (lê um texto [String](http://www.universidadejava.com.br/java/java-string/)), etc. podem ser comparados a função `cin`, e o método `System.out.println()` pode ser comparado a função `cout`.
+Fazendo uma comparação com a linguagem C++ os métodos da classe `Scanner` `nextInt()` (lê um número [inteiro](https://www.universidadejava.com.br/java/java-tipo-numerico-inteiro/)), `nextDouble()` (lê um número com casa decimal do tipo [double](https://www.universidadejava.com.br/java/java-tipo-numerico-ponto-flutuante/)), `nextLine()` (lê um texto [String](https://www.universidadejava.com.br/java/java-string/)), etc. podem ser comparados a função `cin`, e o método `System.out.println()` pode ser comparado a função `cout`.
 
-> Observação: quando queremos ler um [número com casa decimal](http://www.universidadejava.com.br/java/java-tipo-numerico-ponto-flutuante/) via console, precisamos digitar o numero utilizando vírgula ( , ), exemplo: `10,50`. Quando criamos uma variável dentro do programa e definimos seu valor com casa decimal, precisamos utilizar o ponto ( . ) como separador, exemplo: `10.50`.
+> Observação: quando queremos ler um [número com casa decimal](https://www.universidadejava.com.br/java/java-tipo-numerico-ponto-flutuante/) via console, precisamos digitar o numero utilizando vírgula ( , ), exemplo: `10,50`. Quando criamos uma variável dentro do programa e definimos seu valor com casa decimal, precisamos utilizar o ponto ( . ) como separador, exemplo: `10.50`.
 
 Quer praticar mais um pouco? No vídeo a seguir mostramos mais um exemplo passo a passo de como podemos usar a classe `Scanner`:
 
@@ -65,7 +65,7 @@ Quer praticar mais um pouco? No vídeo a seguir mostramos mais um exemplo passo 
 
 ### Conteúdos relacionados
 
-- [Conversão (casting) de tipos primitivos](http://www.universidadejava.com.br/java/java-casting-tipos-primitivos/)
-- [Exercícios com operadores e tipos primitivos](http://www.universidadejava.com.br/java/java-exercicios-tipos-primitivos/)
-- [Leitura de arquivos em Java](http://www.universidadejava.com.br/java/java-leitura-arquivo/)
-- [Tratando exceções no programa Java](http://www.universidadejava.com.br/java/java-excecoes/)
+- [Conversão (casting) de tipos primitivos](https://www.universidadejava.com.br/java/java-casting-tipos-primitivos/)
+- [Exercícios com operadores e tipos primitivos](https://www.universidadejava.com.br/java/java-exercicios-tipos-primitivos/)
+- [Leitura de arquivos em Java](https://www.universidadejava.com.br/java/java-leitura-arquivo/)
+- [Tratando exceções no programa Java](https://www.universidadejava.com.br/java/java-excecoes/)

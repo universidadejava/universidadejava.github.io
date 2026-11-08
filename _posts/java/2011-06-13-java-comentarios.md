@@ -144,7 +144,7 @@ Feito isso, basta clicar em **Finish** e sua documentação estará disponível 
 
 ### Conteúdos relacionados
 
-- [Organizando seu código Java em pacotes](http://www.universidadejava.com.br/java/java-pacotes/)
-- [Introdução a Java Virtual Machine (JVM)](http://www.universidadejava.com.br/java/introducao-jvm/)
-- [Criando classes no Java](http://www.universidadejava.com.br/java/java-classe/)
-- [Entendendo como funciona um método recursivo](http://www.universidadejava.com.br/java/java-recursividade/)
+- [Organizando seu código Java em pacotes](https://www.universidadejava.com.br/java/java-pacotes/)
+- [Introdução a Java Virtual Machine (JVM)](https://www.universidadejava.com.br/java/introducao-jvm/)
+- [Criando classes no Java](https://www.universidadejava.com.br/java/java-classe/)
+- [Entendendo como funciona um método recursivo](https://www.universidadejava.com.br/java/java-recursividade/)

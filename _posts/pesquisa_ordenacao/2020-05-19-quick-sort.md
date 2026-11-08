@@ -17,7 +17,7 @@ ads: false
 
 Conceitos do QuickSort
 
-O próximo algoritmo de ordenação de dados que falaremos é o Quick Sort. Assim como o [Merge Sort](http://www.universidadejava.com.br/pesquisa_ordenacao/java-merge-sort/), o Quick Sort é um algoritmo que se baseia no princípio da **divisão e conquista**, porem ele trabalha de maneira contrária uma vez que a parte mais pesada do algoritmo acontece antes da recursão e não nela.
+O próximo algoritmo de ordenação de dados que falaremos é o Quick Sort. Assim como o [Merge Sort](https://www.universidadejava.com.br/pesquisa_ordenacao/java-merge-sort/), o Quick Sort é um algoritmo que se baseia no princípio da **divisão e conquista**, porem ele trabalha de maneira contrária uma vez que a parte mais pesada do algoritmo acontece antes da recursão e não nela.
 
 O algoritmo Quick Sort trabalha ordenando uma sequência qualquer de valores dividindo-a em subsequências menores, aplicando recursão para ordenar cada uma destas subsequências e por fim, concatenando-as novamente em uma sequência idêntica a original, porem, já ordenada.
 
@@ -290,7 +290,7 @@ public class TesteQuickSort {
 
 ### Conteúdos relacionados
 
-- [Ordenação de dados com Bubble Sort](http://www.universidadejava.com.br/pesquisa_ordenacao/bubble-sort/)
-- [Ordenação de dados com Merge Sort](http://www.universidadejava.com.br/pesquisa_ordenacao/merge-sort/)
-- [Pesquisa sequencial](http://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-sequencial/)
-- [Pesquisa binaria](http://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-binaria/)
+- [Ordenação de dados com Bubble Sort](https://www.universidadejava.com.br/pesquisa_ordenacao/bubble-sort/)
+- [Ordenação de dados com Merge Sort](https://www.universidadejava.com.br/pesquisa_ordenacao/merge-sort/)
+- [Pesquisa sequencial](https://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-sequencial/)
+- [Pesquisa binaria](https://www.universidadejava.com.br/pesquisa_ordenacao/pesquisa-binaria/)

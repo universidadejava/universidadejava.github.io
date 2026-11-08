@@ -5,7 +5,7 @@ description: "Material das aulas, palestras e vídeos sobre desenvolvimento de s
 logo: logo.jpg
 teaser: teaser.jpg
 locale: pt_BR
-url: http://www.universidadejava.com.br
+url: https://www.universidadejava.com.br
 feed:
   path: atom.xml
 
